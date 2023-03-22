@@ -1,0 +1,1253 @@
+#Query	#lca rank	#lca taxon	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV2	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV3	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV4	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV5	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV6	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV7	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV8	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV9	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV10	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV11	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV12	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV13	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV14	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV15	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV16	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV17	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV18	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV19	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV20	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV21	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV22	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV23	species	Coryphaenoides acrolepis	Eukaryota	Chordata	Actinopteri	Gadiformes	Macrouridae	Coryphaenoides	Coryphaenoides acrolepis	best hit
+ASV24	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV25	species	Cottus cognatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV26	species	Hemilepidotus hemilepidotus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus hemilepidotus	best hit
+ASV27	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV28	species	Pholis ornata	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis ornata	best hit
+ASV29	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV30	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV31	species	Myoxocephalus jaok	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	Myoxocephalus jaok	best hit
+ASV32	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV33	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV34	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV35	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV36	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV37	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV38	species	Embiotoca lateralis	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Embiotoca	Embiotoca lateralis	best hit
+ASV39	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV40	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV41	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV42	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV43	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV44	species	Ascelichthys rhodorus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV45	species	Cottus hangiongensis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus hangiongensis	best hit
+ASV46	species	Pseudobathylagus milleri	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Pseudobathylagus	Pseudobathylagus milleri	best hit
+ASV48	species	Jordania zonope	Eukaryota	Chordata	Actinopteri	Perciformes	Jordaniidae	Jordania	Jordania zonope	best hit
+ASV49	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV50	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV51	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV52	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV53	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV54	species	Bathylagus pacificus	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Bathylagus	Bathylagus pacificus	best hit
+ASV55	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV56	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV57	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV58	species	Lumpenus sagitta	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Lumpenus	Lumpenus sagitta	best hit
+ASV59	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV60	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV61	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV62	species	Artedius lateralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius lateralis	best hit
+ASV63	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV64	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV65	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV66	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV67	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV68	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV69	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV70	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV71	species	Bryozoichthys lysimus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Bryozoichthys	Bryozoichthys lysimus	best hit
+ASV72	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV73	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV74	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV75	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV76	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV77	species	Sebastes nebulosus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes nebulosus	best hit
+ASV78	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV79	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV80	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV81	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV82	species	Chitonotus pugetensis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Chitonotus	Chitonotus pugetensis	best hit
+ASV83	species	Liparis cyclopus	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis cyclopus	best hit
+ASV84	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV85	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV86	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV87	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV88	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV89	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV90	species	Brachyistius frenatus	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Brachyistius	Brachyistius frenatus	best hit
+ASV91	species	Hippoglossus hippoglossus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus hippoglossus	best hit
+ASV92	species	Trichodon trichodon	Eukaryota	Chordata	Actinopteri	Perciformes	Trichodontidae	Trichodon	Trichodon trichodon	best hit
+ASV93	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV94	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV95	species	Glyptocephalus zachirus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Glyptocephalus	Glyptocephalus zachirus	best hit
+ASV96	species	Poromitra curilensis	Eukaryota	Chordata	Actinopteri	Beryciformes	Melamphaidae	Poromitra	Poromitra curilensis	best hit
+ASV97	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV98	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV99	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV100	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV101	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV102	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV103	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV104	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV105	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV106	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV107	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV108	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV109	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV110	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV111	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	best hit
+ASV112	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV113	species	Embiotoca lateralis	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Embiotoca	Embiotoca lateralis	best hit
+ASV114	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV115	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV116	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV117	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV118	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV119	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV120	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV121	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV122	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV123	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV124	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV125	species	Liparis florae	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis florae	best hit
+ASV126	species	Gibbonsia montereyensis	Eukaryota	Chordata	Actinopteri	Blenniiformes	Clinidae	Gibbonsia	Gibbonsia montereyensis	best hit
+ASV128	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV129	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV130	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV131	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV132	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV133	species	Brosmophycis marginata	Eukaryota	Chordata	Actinopteri	Ophidiiformes	Bythitidae	Brosmophycis	Brosmophycis marginata	best hit
+ASV134	species	Stenobrachius leucopsarus	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	Stenobrachius	Stenobrachius leucopsarus	best hit
+ASV135	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV136	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV137	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV138	species	Liparis cyclopus	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis cyclopus	best hit
+ASV139	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV140	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV141	species	Artedius lateralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius lateralis	best hit
+ASV142	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV143	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV144	genus	Megaptera	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	no identification	lca
+ASV145	species	Liparis florae	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis florae	best hit
+ASV146	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV147	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV148	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV149	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV150	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV151	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV152	species	Sardinops melanostictus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sardinops	Sardinops melanostictus	best hit
+ASV153	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV154	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV155	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV156	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV157	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV158	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV159	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV160	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV161	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV162	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV163	species	Sardinops melanostictus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sardinops	Sardinops melanostictus	best hit
+ASV164	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV165	species	Atheresthes evermanni	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	Atheresthes evermanni	best hit
+ASV166	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV167	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV168	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV169	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV170	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV171	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV172	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV173	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV174	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV175	species	Salvelinus malma	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salvelinus	Salvelinus malma	best hit
+ASV176	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV177	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV178	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV179	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV180	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV181	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV182	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV183	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV184	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV185	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV186	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV187	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV188	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV189	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV190	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV191	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV192	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV193	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV194	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV195	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV196	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV197	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV198	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV199	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV200	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV201	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV202	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV203	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV204	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV205	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV206	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV207	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV208	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV209	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV210	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV211	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV212	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV213	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV214	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV215	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV216	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV217	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV218	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV219	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV220	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV221	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV222	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV223	family	Melamphaidae	Eukaryota	Chordata	Actinopteri	Beryciformes	Melamphaidae	no identification	no identification	lca
+ASV224	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	best hit
+ASV225	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV227	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV228	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV229	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV230	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV231	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV232	species	Phytichthys chirus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Phytichthys	Phytichthys chirus	best hit
+ASV233	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV234	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV235	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV236	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV237	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV238	species	Syngnathus leptorhynchus	Eukaryota	Chordata	Actinopteri	Syngnathiformes	Syngnathidae	Syngnathus	Syngnathus leptorhynchus	best hit
+ASV239	species	Sprattus sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV240	species	Stenobrachius nannochir	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	Stenobrachius	Stenobrachius nannochir	best hit
+ASV241	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV242	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV243	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV244	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV245	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV246	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV247	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV248	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV249	species	Synchirus gilli	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Synchirus	Synchirus gilli	best hit
+ASV250	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV251	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV252	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV253	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV254	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV255	species	Cottus cognatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV256	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV257	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV258	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV259	genus	Bathylagus	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Bathylagus	no identification	lca
+ASV260	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV261	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV262	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV263	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV264	species	Blepsias cirrhosus	Eukaryota	Chordata	Actinopteri	Perciformes	Agonidae	Blepsias	Blepsias cirrhosus	best hit
+ASV266	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV267	species	Enophrys bison	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Enophrys	Enophrys bison	best hit
+ASV268	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV269	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV270	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV271	species	Melamphaes lugubris	Eukaryota	Chordata	Actinopteri	Beryciformes	Melamphaidae	Melamphaes	Melamphaes lugubris	best hit
+ASV272	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV273	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV274	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV275	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV276	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV277	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV278	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV279	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV280	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV281	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV282	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV283	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV284	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV285	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV286	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV287	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV288	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV289	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV290	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV291	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV292	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV293	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV294	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV295	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV296	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV297	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV298	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV299	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV300	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV301	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV302	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV303	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV304	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV305	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV306	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV307	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV308	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV309	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV310	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV311	species	Oncorhynchus nerka	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV312	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV313	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV314	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV315	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV316	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV317	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV318	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV319	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV321	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV322	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV323	species	Clupea harengus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV324	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV325	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV326	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV327	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV328	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV330	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV331	species	Liparis pulchellus	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis pulchellus	best hit
+ASV333	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV334	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV335	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV336	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV337	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV338	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV339	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV340	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV341	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV342	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV343	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV344	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV345	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV346	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV347	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV349	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV350	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV351	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV352	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV353	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV354	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV355	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV356	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV357	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV358	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV359	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV360	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV361	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV362	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV363	species	Myoxocephalus jaok	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	Myoxocephalus jaok	best hit
+ASV364	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV365	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV366	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV367	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV368	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV369	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV370	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV371	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV372	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV373	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV374	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV375	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV376	species	Nautichthys oculofasciatus	Eukaryota	Chordata	Actinopteri	Perciformes	Agonidae	Nautichthys	Nautichthys oculofasciatus	best hit
+ASV377	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV378	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV379	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV380	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV381	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV382	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV383	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV384	species	Oncorhynchus nerka	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV385	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV386	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV387	species	Oncorhynchus nerka	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV388	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV389	species	Thaleichthys pacificus	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	Thaleichthys	Thaleichthys pacificus	best hit
+ASV390	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV391	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV392	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV393	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV394	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV395	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV396	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV397	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV398	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV399	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV400	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV401	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV402	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV403	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV404	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV405	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV406	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV407	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV408	species	Oncorhynchus nerka	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV409	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV410	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV411	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV412	species	Sebastes crameri	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes crameri	best hit
+ASV413	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV415	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV416	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV417	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV418	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV419	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV420	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV421	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV422	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV423	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV424	genus	Sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	no identification	lca
+ASV425	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV426	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV427	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV428	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV429	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV430	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV431	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV432	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV433	species	Icosteus aenigmaticus	Eukaryota	Chordata	Actinopteri	Scombriformes	Icosteidae	Icosteus	Icosteus aenigmaticus	best hit
+ASV434	species	Cottus hangiongensis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus hangiongensis	best hit
+ASV435	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV436	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV437	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV438	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV439	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV440	species	Hydrolagus colliei	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV441	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV442	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV443	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV444	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV445	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV446	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV447	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV448	species	Myoxocephalus jaok	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	Myoxocephalus jaok	best hit
+ASV449	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV450	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV451	genus	Hemilepidotus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	no identification	lca
+ASV452	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV453	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV454	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV455	species	Coryphaenoides acrolepis	Eukaryota	Chordata	Actinopteri	Gadiformes	Macrouridae	Coryphaenoides	Coryphaenoides acrolepis	best hit
+ASV457	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV458	species	Rhizosolenia setigera	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Rhizosolenia	Rhizosolenia setigera	best hit
+ASV459	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV460	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV461	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV462	species	Cyclothone atraria	Eukaryota	Chordata	Actinopteri	Stomiiformes	Gonostomatidae	Cyclothone	Cyclothone atraria	best hit
+ASV463	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV464	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV465	genus	Leptocottus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	no identification	lca
+ASV466	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV467	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV468	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV469	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV470	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV471	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV472	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV473	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV474	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV475	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV476	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV477	genus	Scomber	Eukaryota	Chordata	Actinopteri	Scombriformes	Scombridae	Scomber	no identification	lca
+ASV478	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV479	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV480	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV481	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV482	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV483	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV484	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV485	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV486	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV487	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV488	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV489	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV490	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV491	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV492	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV493	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV494	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV495	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV496	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV497	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV498	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV499	species	Hydrolagus colliei	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV500	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV501	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV502	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV503	species	Clinocottus globiceps	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Clinocottus	Clinocottus globiceps	best hit
+ASV504	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV505	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV506	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV507	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV508	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV509	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV510	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV511	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV512	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV513	species	Cottus rhenanus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus rhenanus	best hit
+ASV514	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV515	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV516	species	Clinocottus acuticeps	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Clinocottus	Clinocottus acuticeps	best hit
+ASV517	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV518	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV519	species	Sardinops melanostictus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sardinops	Sardinops melanostictus	best hit
+ASV520	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV521	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV522	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV523	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV524	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV525	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV526	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV527	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV528	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV529	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV530	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV531	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV532	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV533	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV534	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV535	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV536	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV537	species	Lumpenus sagitta	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Lumpenus	Lumpenus sagitta	best hit
+ASV538	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV539	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV540	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV541	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV542	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV543	species	Pholis ornata	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis ornata	best hit
+ASV544	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV545	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV546	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV548	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV549	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV550	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV551	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV552	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV553	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV554	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV555	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV556	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV557	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV558	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV559	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV560	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV561	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV562	species	Brosmophycis marginata	Eukaryota	Chordata	Actinopteri	Ophidiiformes	Bythitidae	Brosmophycis	Brosmophycis marginata	best hit
+ASV563	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV564	species	Pholis ornata	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis ornata	best hit
+ASV565	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV566	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV567	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV568	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV569	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	best hit
+ASV570	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV571	species	Oncorhynchus nerka	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV572	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV573	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV574	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV575	species	Pleuronichthys coenosus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Pleuronichthys	Pleuronichthys coenosus	best hit
+ASV576	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV577	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV578	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV579	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV580	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV581	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV582	species	Myoxocephalus jaok	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	Myoxocephalus jaok	best hit
+ASV583	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV584	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV585	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV586	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV587	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV588	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV589	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV590	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV591	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV592	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV593	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV594	species	Clinocottus acuticeps	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Clinocottus	Clinocottus acuticeps	best hit
+ASV595	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV596	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV597	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV598	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV599	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV600	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV601	species	Oxylebius pictus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Oxylebius	Oxylebius pictus	best hit
+ASV602	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV603	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV604	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV605	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV606	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV607	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV608	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV609	species	Cottus cognatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV610	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV611	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV612	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV613	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV614	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV615	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV616	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV617	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV618	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV619	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV620	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV621	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV622	species	Sprattus sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV623	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV624	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV625	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV626	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV627	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV628	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV630	species	Cottus cognatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV631	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV632	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV633	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV634	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV635	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV636	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV637	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV638	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV639	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV640	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV641	species	Stenobrachius leucopsarus	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	Stenobrachius	Stenobrachius leucopsarus	best hit
+ASV642	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV643	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV644	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV645	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV647	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV648	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV649	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV650	species	Rimicola muscarum	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Rimicola	Rimicola muscarum	best hit
+ASV651	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV652	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV653	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV654	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV655	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV656	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV657	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV658	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	best hit
+ASV659	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV660	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV661	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV662	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV663	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV664	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV665	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV666	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV667	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV668	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV669	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV670	species	Brachyistius frenatus	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Brachyistius	Brachyistius frenatus	best hit
+ASV671	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV672	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV673	species	Lumpenus sagitta	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Lumpenus	Lumpenus sagitta	best hit
+ASV674	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV675	species	Embiotoca lateralis	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Embiotoca	Embiotoca lateralis	best hit
+ASV677	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV678	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV679	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV680	species	Jordania zonope	Eukaryota	Chordata	Actinopteri	Perciformes	Jordaniidae	Jordania	Jordania zonope	best hit
+ASV681	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV682	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV683	species	Sebastes nebulosus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes nebulosus	best hit
+ASV684	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV685	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV686	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV687	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV688	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV689	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV690	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV691	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV692	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV693	species	Pholis ornata	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis ornata	best hit
+ASV694	species	Phytichthys chirus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Phytichthys	Phytichthys chirus	best hit
+ASV695	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV696	species	Hippoglossus hippoglossus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus hippoglossus	best hit
+ASV697	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV698	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV699	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV700	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV701	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV702	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV703	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV704	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV705	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV706	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV707	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV708	species	Lepidogobius lepidus	Eukaryota	Chordata	Actinopteri	Gobiiformes	Gobiidae	Lepidogobius	Lepidogobius lepidus	best hit
+ASV710	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV711	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV712	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV713	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV715	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV716	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV717	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV718	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV719	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV720	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV721	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV722	species	uncultured Gammaproteobacteria bacterium	Bacteria	Proteobacteria	Gammaproteobacteria	unknown order	unknown family	unknown genus	uncultured Gammaproteobacteria bacterium	best hit
+ASV723	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV724	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV725	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV727	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV728	species	Sardinops melanostictus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sardinops	Sardinops melanostictus	best hit
+ASV729	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV730	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV731	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV732	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV733	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV734	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV735	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV736	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV737	species	Anoplopoma fimbria	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV738	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV739	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV740	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV741	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV742	species	uncultured Thalassobacter sp.	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Roseobacteraceae	Thalassobacter	uncultured Thalassobacter sp.	best hit
+ASV743	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV744	genus	Anoplarchus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	no identification	lca
+ASV745	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV746	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV747	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV748	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV749	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV750	species	Hemilepidotus hemilepidotus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus hemilepidotus	best hit
+ASV751	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV752	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV753	species	Cyclothone acclinidens	Eukaryota	Chordata	Actinopteri	Stomiiformes	Gonostomatidae	Cyclothone	Cyclothone acclinidens	best hit
+ASV754	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV755	species	Hemilepidotus hemilepidotus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus hemilepidotus	best hit
+ASV756	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV757	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV758	species	Stenobrachius leucopsarus	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	Stenobrachius	Stenobrachius leucopsarus	best hit
+ASV759	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV760	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV761	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV762	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV763	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV764	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV765	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV766	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV767	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV768	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV769	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV770	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV771	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV772	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV773	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV774	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV775	species	Myoxocephalus jaok	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	Myoxocephalus jaok	best hit
+ASV776	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV777	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV778	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV779	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV780	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV781	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV782	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV783	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV784	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV785	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV786	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV787	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV788	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV789	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV790	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV791	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV792	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV793	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV794	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV795	species	Odontopyxis trispinosa	Eukaryota	Chordata	Actinopteri	Perciformes	Agonidae	Odontopyxis	Odontopyxis trispinosa	best hit
+ASV796	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV797	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV798	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV799	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV800	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV801	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV802	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV803	species	Cottus hangiongensis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus hangiongensis	best hit
+ASV804	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV805	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV806	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV807	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV808	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV809	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV810	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV811	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV812	species	Poromitra curilensis	Eukaryota	Chordata	Actinopteri	Beryciformes	Melamphaidae	Poromitra	Poromitra curilensis	best hit
+ASV813	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV814	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV815	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV816	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV817	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV818	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV820	species	Sprattus sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV821	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV822	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV823	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV824	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV825	species	Lumpenus sagitta	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Lumpenus	Lumpenus sagitta	best hit
+ASV826	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV827	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV828	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV829	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV830	species	Salvelinus taranetzi	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salvelinus	Salvelinus taranetzi	best hit
+ASV831	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV832	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV833	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV834	species	Pseudobathylagus milleri	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Pseudobathylagus	Pseudobathylagus milleri	best hit
+ASV835	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV836	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV837	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV838	species	Oncorhynchus keta	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV839	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV840	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV841	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV842	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV843	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV844	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV845	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV846	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV847	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV848	species	Liparis florae	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis florae	best hit
+ASV849	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV850	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV851	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV852	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV853	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV854	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV855	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV856	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV857	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV858	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV859	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV860	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV861	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV862	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV863	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV864	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV865	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV866	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV867	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV868	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV869	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV870	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV871	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV872	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV873	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV874	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV875	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV876	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV877	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV878	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV879	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV880	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV881	species	Gibbonsia montereyensis	Eukaryota	Chordata	Actinopteri	Blenniiformes	Clinidae	Gibbonsia	Gibbonsia montereyensis	best hit
+ASV882	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV883	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV885	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV886	species	Anoplopoma fimbria	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV887	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV888	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV890	species	Pseudo-nitzschia sp. RCC2619	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia sp. RCC2619	best hit
+ASV891	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV892	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV893	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV894	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV895	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV896	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV897	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV898	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV899	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV900	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV901	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV902	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV903	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV904	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV905	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV906	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV907	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV908	species	Scomber japonicus	Eukaryota	Chordata	Actinopteri	Scombriformes	Scombridae	Scomber	Scomber japonicus	best hit
+ASV909	species	Pholis ornata	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis ornata	best hit
+ASV910	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV911	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV912	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV913	species	Sebastes paucispinis	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes paucispinis	best hit
+ASV914	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV915	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV916	genus	Anoplarchus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	no identification	lca
+ASV918	species	Chitonotus pugetensis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Chitonotus	Chitonotus pugetensis	best hit
+ASV919	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV920	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV921	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV922	species	Salvelinus malma	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salvelinus	Salvelinus malma	best hit
+ASV923	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV924	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV925	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV926	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV927	species	Brosmophycis marginata	Eukaryota	Chordata	Actinopteri	Ophidiiformes	Bythitidae	Brosmophycis	Brosmophycis marginata	best hit
+ASV928	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV929	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV930	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV931	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV932	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV933	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV934	species	Phytichthys chirus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Phytichthys	Phytichthys chirus	best hit
+ASV935	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV936	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV937	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV938	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV939	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV940	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV941	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV942	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV943	species	Ascelichthys rhodorus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV944	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV945	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV946	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV947	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV948	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV949	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV950	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV951	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV952	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV953	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV954	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV955	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV956	species	Embiotoca lateralis	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Embiotoca	Embiotoca lateralis	best hit
+ASV957	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV958	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV959	genus	Cymatogaster	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV960	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV961	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV962	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV963	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV964	species	Synchirus gilli	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Synchirus	Synchirus gilli	best hit
+ASV965	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV966	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV967	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV968	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV969	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV970	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV971	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV972	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV973	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV974	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV975	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV976	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV977	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV978	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV979	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV980	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV981	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV982	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV983	species	Lepidogobius lepidus	Eukaryota	Chordata	Actinopteri	Gobiiformes	Gobiidae	Lepidogobius	Lepidogobius lepidus	best hit
+ASV984	species	Lepidogobius lepidus	Eukaryota	Chordata	Actinopteri	Gobiiformes	Gobiidae	Lepidogobius	Lepidogobius lepidus	best hit
+ASV985	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV986	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV987	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV988	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV989	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV990	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV991	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV992	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV993	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV994	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV995	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV996	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV997	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV998	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV999	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1000	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV1001	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1002	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV1003	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV1004	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1005	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1006	species	Syngnathus leptorhynchus	Eukaryota	Chordata	Actinopteri	Syngnathiformes	Syngnathidae	Syngnathus	Syngnathus leptorhynchus	best hit
+ASV1007	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV1008	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV1009	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1010	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV1011	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1012	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV1013	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1014	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1015	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1016	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1018	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1019	species	Hemilepidotus spinosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus spinosus	best hit
+ASV1020	species	Oncorhynchus clarkii lewisi	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus clarkii lewisi	best hit
+ASV1021	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1022	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1023	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1024	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1025	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1026	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV1027	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1028	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV1029	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV1030	species	Heterosigma akashiwo	Eukaryota	unknown phylum	Raphidophyceae	Chattonellales	Chattonellaceae	Heterosigma	Heterosigma akashiwo	best hit
+ASV1031	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1032	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1033	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV1034	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1036	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1037	species	Glyptocephalus zachirus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Glyptocephalus	Glyptocephalus zachirus	best hit
+ASV1038	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1039	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1040	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV1041	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1042	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV1043	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV1044	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV1045	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1046	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1047	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1048	species	Amphistichus rhodoterus	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Amphistichus	Amphistichus rhodoterus	best hit
+ASV1049	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV1050	species	Lyopsetta exilis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lyopsetta	Lyopsetta exilis	best hit
+ASV1051	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1052	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV1053	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1054	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1055	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1056	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1057	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1058	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1059	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1060	species	Sprattus sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV1061	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1062	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1063	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV1064	species	Synchirus gilli	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Synchirus	Synchirus gilli	best hit
+ASV1065	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV1066	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1067	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1068	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1069	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV1070	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1071	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1072	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV1073	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV1074	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV1075	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1076	species	Poromitra curilensis	Eukaryota	Chordata	Actinopteri	Beryciformes	Melamphaidae	Poromitra	Poromitra curilensis	best hit
+ASV1077	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1078	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1079	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV1080	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1081	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV1082	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1083	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1084	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1085	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV1086	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV1087	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1088	species	Balaena mysticetus	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenidae	Balaena	Balaena mysticetus	best hit
+ASV1089	species	Liparis pulchellus	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis pulchellus	best hit
+ASV1090	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1091	species	Oncorhynchus mykiss	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus mykiss	best hit
+ASV1092	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV1093	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV1094	species	Atheresthes evermanni	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	Atheresthes evermanni	best hit
+ASV1095	species	Artedius lateralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius lateralis	best hit
+ASV1096	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1097	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1098	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV1099	genus	Megaptera	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	no identification	lca
+ASV1100	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV1101	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV1102	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1103	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1104	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1105	species	Clinocottus globiceps	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Clinocottus	Clinocottus globiceps	best hit
+ASV1106	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1107	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1108	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1109	species	Chitonotus pugetensis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Chitonotus	Chitonotus pugetensis	best hit
+ASV1110	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV1111	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1112	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV1113	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1114	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1115	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1116	species	Cottus cognatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV1117	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV1118	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV1119	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV1120	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV1121	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1122	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1123	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV1124	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1125	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV1126	species	Gibbonsia montereyensis	Eukaryota	Chordata	Actinopteri	Blenniiformes	Clinidae	Gibbonsia	Gibbonsia montereyensis	best hit
+ASV1127	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV1128	species	Oxylebius pictus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Oxylebius	Oxylebius pictus	best hit
+ASV1129	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1130	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV1131	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1132	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1133	species	Sebastes mystinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes mystinus	best hit
+ASV1134	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV1135	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV1136	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV1137	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV1138	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1139	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1140	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV1141	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1142	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV1143	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV1144	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1145	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1146	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1147	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV1148	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV1149	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV1150	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV1151	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV1152	species	Sebastes auriculatus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes auriculatus	best hit
+ASV1153	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV1154	genus	Leptocottus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	no identification	lca
+ASV1155	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV1156	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1157	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV1158	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1159	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1160	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1161	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1162	species	Hemilepidotus hemilepidotus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus hemilepidotus	best hit
+ASV1163	species	Cryptacanthodes giganteus	Eukaryota	Chordata	Actinopteri	Perciformes	Cryptacanthodidae	Cryptacanthodes	Cryptacanthodes giganteus	best hit
+ASV1164	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV1165	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1166	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV1167	species	Artedius lateralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius lateralis	best hit
+ASV1168	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1169	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1170	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1171	genus	Artedius	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	no identification	lca
+ASV1172	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1173	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1174	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV1175	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV1176	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1177	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1178	species	Myoxocephalus jaok	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	Myoxocephalus jaok	best hit
+ASV1179	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1181	species	Nautichthys oculofasciatus	Eukaryota	Chordata	Actinopteri	Perciformes	Agonidae	Nautichthys	Nautichthys oculofasciatus	best hit
+ASV1182	species	Rhacochilus vacca	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Rhacochilus	Rhacochilus vacca	best hit
+ASV1183	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1185	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV1186	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV1187	species	Jordania zonope	Eukaryota	Chordata	Actinopteri	Perciformes	Jordaniidae	Jordania	Jordania zonope	best hit
+ASV1188	species	Gadus ogac	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus ogac	best hit
+ASV1189	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1190	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV1191	species	Cottus ricei	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus ricei	best hit
+ASV1192	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1193	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1194	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1195	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1196	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1197	species	Liparis mucosus	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis mucosus	best hit
+ASV1198	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV1199	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV1200	species	Lumpenus sagitta	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Lumpenus	Lumpenus sagitta	best hit
+ASV1201	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV1202	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV1203	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1204	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1205	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1206	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1207	species	Embiotoca lateralis	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Embiotoca	Embiotoca lateralis	best hit
+ASV1208	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1209	species	Brachyistius frenatus	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Brachyistius	Brachyistius frenatus	best hit
+ASV1210	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1211	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV1212	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1213	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1214	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV1215	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV1216	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1217	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV1218	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1219	species	Isopsetta isolepis	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Isopsetta	Isopsetta isolepis	best hit
+ASV1220	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV1221	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV1222	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1223	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV1224	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1225	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1226	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1227	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1228	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV1229	species	Ascelichthys rhodorus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV1230	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1231	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV1233	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1234	genus	Artedius	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	no identification	lca
+ASV1235	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1236	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV1237	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1238	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1239	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1240	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1241	species	Merluccius productus	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV1242	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	best hit
+ASV1243	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV1244	species	Microgadus proximus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Microgadus	Microgadus proximus	best hit
+ASV1245	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1246	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1247	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV1248	genus	Artedius	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	no identification	lca
+ASV1249	species	Hippoglossus hippoglossus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus hippoglossus	best hit
+ASV1250	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1251	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1252	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1253	species	Leptocottus armatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV1254	species	Platichthys stellatus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Platichthys	Platichthys stellatus	best hit
+ASV1255	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV1256	species	Ammodytes marinus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes marinus	best hit
+ASV1257	species	Pholis crassispina	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis crassispina	best hit
+ASV1258	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1259	species	Gadus macrocephalus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus macrocephalus	best hit
+ASV1260	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV1261	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV1262	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1263	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV1264	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV1265	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1266	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV1267	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1268	species	Oncorhynchus clarkii lewisi	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus clarkii lewisi	best hit
+ASV1269	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV1270	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV1271	species	Odontopyxis trispinosa	Eukaryota	Chordata	Actinopteri	Perciformes	Agonidae	Odontopyxis	Odontopyxis trispinosa	best hit
+ASV1272	species	Apodichthys flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Apodichthys	Apodichthys flavidus	best hit
+ASV1273	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV1274	species	Citharichthys sordidus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys sordidus	best hit
+ASV1275	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV1276	species	Synchirus gilli	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Synchirus	Synchirus gilli	best hit
+ASV1277	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV1278	species	Oncorhynchus clarkii lewisi	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus clarkii lewisi	best hit

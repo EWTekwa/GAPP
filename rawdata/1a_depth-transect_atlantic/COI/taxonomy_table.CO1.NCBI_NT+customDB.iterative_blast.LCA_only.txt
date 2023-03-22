@@ -1,0 +1,686 @@
+#Query	#lca rank	#lca taxon	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV10	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV101	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV1010	class	Demospongiae	Eukaryota	Porifera	Demospongiae	no identification	no identification	no identification	no identification	lca
+ASV1011	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	lca
+ASV1012	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV1020	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV103	family	Ulmaridae	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	no identification	no identification	lca
+ASV1032	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV1058	species	Bolinopsis infundibulum	Eukaryota	Ctenophora	Tentaculata	Lobata	Bolinopsidae	Bolinopsis	Bolinopsis infundibulum	lca
+ASV1059	species	Guinardia delicatula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Guinardia	Guinardia delicatula	lca
+ASV1061	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV1062	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV1088	species	Asterias rubens	Eukaryota	Echinodermata	Asteroidea	Forcipulatida	Asteriidae	Asterias	Asterias rubens	lca
+ASV1091	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1097	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1104	species	Ophiopholis aculeata	Eukaryota	Echinodermata	Ophiuroidea	Amphilepidida	Ophiactidae	Ophiopholis	Ophiopholis aculeata	lca
+ASV111	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV112	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV1131	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV1135	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV1137	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV114	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV1147	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	lca
+ASV1156	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV1175	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV1185	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1189	family	Monodopsidaceae	Eukaryota	unknown phylum	Eustigmatophyceae	Eustigmatales	Monodopsidaceae	no identification	no identification	lca
+ASV119	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV1193	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV1199	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV12	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV1204	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV1236	class	Hexanauplia	Eukaryota	Arthropoda	Hexanauplia	no identification	no identification	no identification	no identification	lca
+ASV1239	genus	Penicillium	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	no identification	lca
+ASV1240	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV1242	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1251	order	Nudibranchia	Eukaryota	Mollusca	Gastropoda	Nudibranchia	no identification	no identification	no identification	lca
+ASV1257	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV126	species	Guinardia delicatula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Guinardia	Guinardia delicatula	lca
+ASV1267	species	Tortanus discaudatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Tortanidae	Tortanus	Tortanus discaudatus	lca
+ASV1273	species	Metridia lucens	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Metridinidae	Metridia	Metridia lucens	lca
+ASV1283	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV130	genus	Evadne	Eukaryota	Arthropoda	Branchiopoda	Diplostraca	Podonidae	Evadne	no identification	lca
+ASV1304	species	Bos mutus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos mutus	lca
+ASV1316	species	Crepidula fornicata	Eukaryota	Mollusca	Gastropoda	Littorinimorpha	Calyptraeidae	Crepidula	Crepidula fornicata	lca
+ASV1328	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV1353	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV1354	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1364	species	Membranipora membranacea	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Membraniporidae	Membranipora	Membranipora membranacea	lca
+ASV1370	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV1386	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV1389	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV1394	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV1397	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV1431	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1436	species	Chaetoceros sp. 19 LG-2014	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros sp. 19 LG-2014	lca
+ASV1438	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV1439	species	Cylindrotheca closterium	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	lca
+ASV1440	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV1449	species	Guinardia delicatula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Guinardia	Guinardia delicatula	lca
+ASV1467	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1471	species	Ctenolepisma longicaudata	Eukaryota	Arthropoda	Insecta	Zygentoma	Lepismatidae	Ctenolepisma	Ctenolepisma longicaudata	lca
+ASV1473	species	Tergipes tergipes	Eukaryota	Mollusca	Gastropoda	Nudibranchia	Tergipedidae	Tergipes	Tergipes tergipes	lca
+ASV1478	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV148	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1484	species	Centropages hamatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Centropagidae	Centropages	Centropages hamatus	lca
+ASV1487	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV150	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV1501	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV1512	species	Ctenolepisma longicaudata	Eukaryota	Arthropoda	Insecta	Zygentoma	Lepismatidae	Ctenolepisma	Ctenolepisma longicaudata	lca
+ASV1528	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV153	species	Aureococcus anophagefferens	Eukaryota	Pelagophyceae	Pelagophyceae	Pelagomonadales	unknown family	Aureococcus	Aureococcus anophagefferens	lca
+ASV1530	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV1531	species	Thalassiosira rotula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira rotula	lca
+ASV1538	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV1540	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV1558	class	Malacostraca	Eukaryota	Arthropoda	Malacostraca	no identification	no identification	no identification	no identification	lca
+ASV1560	species	Ophiopholis aculeata	Eukaryota	Echinodermata	Ophiuroidea	Amphilepidida	Ophiactidae	Ophiopholis	Ophiopholis aculeata	lca
+ASV1564	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV157	family	Aspergillaceae	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	no identification	no identification	lca
+ASV1571	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1581	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1587	species	Synchaeta triophthalma	Eukaryota	Rotifera	Eurotatoria	Ploima	Synchaetidae	Synchaeta	Synchaeta triophthalma	lca
+ASV1598	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV16	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV1602	species	Phyllodoce groenlandica CMC01	Eukaryota	Annelida	Polychaeta	Phyllodocida	Phyllodocidae	Phyllodoce	Phyllodoce groenlandica CMC01	lca
+ASV164	genus	Phaeocystis	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	no identification	lca
+ASV1651	family	Paramoebidae	Eukaryota	Discosea	Flabellinia	Dactylopodida	Paramoebidae	no identification	no identification	lca
+ASV1654	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV1659	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV1666	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV1670	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV1672	species	Guinardia delicatula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Guinardia	Guinardia delicatula	lca
+ASV1682	species	Metridia lucens	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Metridinidae	Metridia	Metridia lucens	lca
+ASV1688	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV1697	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV170	genus	Micromonas	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	no identification	lca
+ASV1708	species	Picochlorum sp. 'soloecismus'	Viridiplantae	Chlorophyta	Trebouxiophyceae	unknown order	unknown family	Picochlorum	Picochlorum sp. 'soloecismus'	lca
+ASV1714	species	Lizzia blondina	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Bougainvilliidae	Lizzia	Lizzia blondina	lca
+ASV1725	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV1731	species	Thalassiosira nordenskioeldii	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira nordenskioeldii	lca
+ASV1733	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV174	genus	Micromonas	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	no identification	lca
+ASV1740	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV1741	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV1750	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV1751	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV1752	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV1764	genus	Spiophanes	Eukaryota	Annelida	Polychaeta	Spionida	Spionidae	Spiophanes	no identification	lca
+ASV1778	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV1802	species	Eubranchus exiguus	Eukaryota	Mollusca	Gastropoda	Nudibranchia	Eubranchidae	Eubranchus	Eubranchus exiguus	lca
+ASV1805	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV1808	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV181	genus	Penicillium	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	no identification	lca
+ASV1833	species	Tortanus discaudatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Tortanidae	Tortanus	Tortanus discaudatus	lca
+ASV1844	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV1852	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV1860	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV1884	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV1887	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV1892	genus	unknown genus	Eukaryota	Porifera	Demospongiae	Poecilosclerida	unknown family	unknown genus	no identification	lca
+ASV1896	species	Minutocellus polymorphus	Eukaryota	Bacillariophyta	Mediophyceae	Cymatosirales	Cymatosiraceae	Minutocellus	Minutocellus polymorphus	lca
+ASV193	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV1931	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV1934	genus	Rhodotorula	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula	no identification	lca
+ASV1940	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV1943	family	Aspergillaceae	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	no identification	no identification	lca
+ASV1949	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	lca
+ASV1953	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV1955	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV1969	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV1975	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV1976	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV1995	phylum	Nemertea	Eukaryota	Nemertea	no identification	no identification	no identification	no identification	no identification	lca
+ASV2	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2010	species	Membranipora membranacea	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Membraniporidae	Membranipora	Membranipora membranacea	lca
+ASV2011	family	Ammodytidae	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	no identification	no identification	lca
+ASV2012	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV2018	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV202	species	Metridia longa	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Metridinidae	Metridia	Metridia longa	lca
+ASV203	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2043	species	Bos mutus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos mutus	lca
+ASV205	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV2057	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV2060	species	Chaetoceros sp. 19 LG-2014	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros sp. 19 LG-2014	lca
+ASV2066	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2078	species	Picobiliphyte sp. MS584-11	Eukaryota	Picozoa	unknown class	unknown order	unknown family	unknown genus	Picobiliphyte sp. MS584-11	lca
+ASV2079	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2081	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2085	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV2086	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2090	species	Pichia kudriavzevii	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Pichiaceae	Pichia	Pichia kudriavzevii	lca
+ASV2098	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2109	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV211	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV2112	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2119	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV2132	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV214	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV2143	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV2145	phylum	Nemertea	Eukaryota	Nemertea	no identification	no identification	no identification	no identification	no identification	lca
+ASV215	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV2155	genus	Myroides	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Myroides	no identification	lca
+ASV216	genus	Penicillium	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	no identification	lca
+ASV2177	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV218	order	Ploima	Eukaryota	Rotifera	Eurotatoria	Ploima	no identification	no identification	no identification	lca
+ASV2180	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV2184	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV2192	species	Polarella glacialis	Eukaryota	Dinophyceae	Dinophyceae	Suessiales	Suessiaceae	Polarella	Polarella glacialis	lca
+ASV2195	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV2197	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2199	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV220	family	Cordycipitaceae	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Cordycipitaceae	no identification	no identification	lca
+ASV2203	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV2207	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2226	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2228	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2236	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV2248	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV225	family	Ulmaridae	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	no identification	no identification	lca
+ASV2253	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV2256	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV2261	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV228	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV2282	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2288	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV2291	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2298	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2301	species	Lithothamnion glaciale	Eukaryota	Rhodophyta	Florideophyceae	Hapalidiales	Hapalidiaceae	Lithothamnion	Lithothamnion glaciale	lca
+ASV2302	species	Pseudocalanus sp. PsAkkeshi1	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	Pseudocalanus	Pseudocalanus sp. PsAkkeshi1	lca
+ASV2307	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV232	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV2324	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	lca
+ASV2327	species	Guinardia delicatula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Guinardia	Guinardia delicatula	lca
+ASV2333	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2337	class	Hydrozoa	Eukaryota	Cnidaria	Hydrozoa	no identification	no identification	no identification	no identification	lca
+ASV2338	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV2343	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2345	family	Ulmaridae	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	no identification	no identification	lca
+ASV2349	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV235	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV236	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2367	family	Mopaliidae	Eukaryota	Mollusca	Polyplacophora	Chitonida	Mopaliidae	no identification	no identification	lca
+ASV238	species	Pseudo-nitzschia delicatissima	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia delicatissima	lca
+ASV2397	species	Membranipora membranacea	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Membraniporidae	Membranipora	Membranipora membranacea	lca
+ASV24	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV240	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV2402	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV2404	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2405	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV2428	genus	Nereis	Eukaryota	Annelida	Polychaeta	Phyllodocida	Nereididae	Nereis	no identification	lca
+ASV2432	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2437	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2444	species	Cyclopoida	Eukaryota	Arthropoda	Hexanauplia	unknown order	unknown family	unknown genus	Cyclopoida	lca
+ASV2448	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV246	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV2471	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV25	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2500	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV251	species	Cyclopoida	Eukaryota	Arthropoda	Hexanauplia	unknown order	unknown family	unknown genus	Cyclopoida	lca
+ASV2515	species	Candidatus Pelagibacter giovannonii	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter giovannonii	lca
+ASV2529	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV253	genus	Aspergillus	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	no identification	lca
+ASV2533	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV2546	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV2548	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV2550	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2581	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV2582	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV2595	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV26	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV2605	species	Nannochloropsis granulata	Eukaryota	unknown phylum	Eustigmatophyceae	Eustigmatales	Monodopsidaceae	Nannochloropsis	Nannochloropsis granulata	lca
+ASV2606	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV2615	species	Amphiporus sp. AMNH1	Eukaryota	Nemertea	Enopla	Monostilifera	Amphiporidae	Amphiporus	Amphiporus sp. AMNH1	lca
+ASV2618	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV2628	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV2632	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2641	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2645	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2646	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV2649	species	Dasybranchus sp. DH1	Eukaryota	Annelida	Polychaeta	unknown order	Capitellidae	Dasybranchus	Dasybranchus sp. DH1	lca
+ASV2652	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV2655	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV2656	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV2657	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2662	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV2669	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV2674	species	Ahnfeltia plicata	Eukaryota	Rhodophyta	Florideophyceae	Ahnfeltiales	Ahnfeltiaceae	Ahnfeltia	Ahnfeltia plicata	lca
+ASV2676	species	Melicertum octocostatum	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Melicertidae	Melicertum	Melicertum octocostatum	lca
+ASV2688	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	lca
+ASV269	genus	Phaeocystis	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	no identification	lca
+ASV2694	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2699	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV2701	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV2703	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV2708	family	Ulmaridae	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	no identification	no identification	lca
+ASV2713	species	Cyclotella cryptica	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Stephanodiscaceae	Cyclotella	Cyclotella cryptica	lca
+ASV2714	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2723	species	Hemiaulus sinensis	Eukaryota	Bacillariophyta	Mediophyceae	Hemiaulales	Hemiaulaceae	Hemiaulus	Hemiaulus sinensis	lca
+ASV2734	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2739	species	Candidatus Pelagibacter sp. FZCC0015	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	lca
+ASV2741	genus	Micromonas	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	no identification	lca
+ASV2752	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2758	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV276	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2761	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2770	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV2771	genus	Paracalanus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Paracalanidae	Paracalanus	no identification	lca
+ASV2775	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV278	genus	Pseudo-nitzschia	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	no identification	lca
+ASV2784	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2805	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV2806	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV2809	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV2820	species	Mytilus edulis	Eukaryota	Mollusca	Bivalvia	Mytiloida	Mytilidae	Mytilus	Mytilus edulis	lca
+ASV2822	class	Hydrozoa	Eukaryota	Cnidaria	Hydrozoa	no identification	no identification	no identification	no identification	lca
+ASV2826	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV2841	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2844	species	Candidatus Pelagibacter sp. FZCC0015	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	lca
+ASV2845	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV2847	species	Pylaiella washingtoniensis	Eukaryota	Phaeophyceae	Phaeophyceae	Ectocarpales	Acinetosporaceae	Pylaiella	Pylaiella washingtoniensis	lca
+ASV2848	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV2854	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV2859	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2870	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV2871	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2876	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV2880	species	Formosa sp. Hel3_A1_48	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Formosa	Formosa sp. Hel3_A1_48	lca
+ASV2883	species	Ctenolepisma longicaudata	Eukaryota	Arthropoda	Insecta	Zygentoma	Lepismatidae	Ctenolepisma	Ctenolepisma longicaudata	lca
+ASV2884	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV2885	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV2897	class	Florideophyceae	Eukaryota	Rhodophyta	Florideophyceae	no identification	no identification	no identification	no identification	lca
+ASV2898	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV29	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV2904	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2911	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV2914	phylum	Nemertea	Eukaryota	Nemertea	no identification	no identification	no identification	no identification	no identification	lca
+ASV2915	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2917	order	Leptothecata	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	no identification	no identification	no identification	lca
+ASV2918	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV2919	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV2924	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV2930	family	Monodopsidaceae	Eukaryota	unknown phylum	Eustigmatophyceae	Eustigmatales	Monodopsidaceae	no identification	no identification	lca
+ASV2941	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV2950	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV2954	order	Thalassiosirales	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	no identification	no identification	no identification	lca
+ASV2974	species	Metridia lucens	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Metridinidae	Metridia	Metridia lucens	lca
+ASV2979	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV2984	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV2988	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV2992	species	Bolinopsis infundibulum	Eukaryota	Ctenophora	Tentaculata	Lobata	Bolinopsidae	Bolinopsis	Bolinopsis infundibulum	lca
+ASV2993	species	Cyclotella cryptica	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Stephanodiscaceae	Cyclotella	Cyclotella cryptica	lca
+ASV2999	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV300	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV3002	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3012	species	Tergipes tergipes	Eukaryota	Mollusca	Gastropoda	Nudibranchia	Tergipedidae	Tergipes	Tergipes tergipes	lca
+ASV3014	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV302	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV3024	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3026	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV3027	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV3035	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV304	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3041	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV3048	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV3055	species	Trieres chinensis	Eukaryota	Bacillariophyta	Mediophyceae	Triceratiales	Triceratiaceae	Trieres	Trieres chinensis	lca
+ASV3060	order	Nudibranchia	Eukaryota	Mollusca	Gastropoda	Nudibranchia	no identification	no identification	no identification	lca
+ASV3070	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3075	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV3084	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3086	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV3088	species	Pleopis polyphemoides	Eukaryota	Arthropoda	Branchiopoda	Diplostraca	Podonidae	Pleopis	Pleopis polyphemoides	lca
+ASV31	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3105	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV3108	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3113	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV3117	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV314	species	Metridia lucens	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Metridinidae	Metridia	Metridia lucens	lca
+ASV3150	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV3158	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV3161	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3167	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3169	family	Ulmaridae	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	no identification	no identification	lca
+ASV3181	species	Arctica islandica	Eukaryota	Mollusca	Bivalvia	Venerida	Arcticidae	Arctica	Arctica islandica	lca
+ASV3188	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV3211	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV3228	genus	Penicillium	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	no identification	lca
+ASV323	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV324	species	Cyclopoida	Eukaryota	Arthropoda	Hexanauplia	unknown order	unknown family	unknown genus	Cyclopoida	lca
+ASV3243	species	Candidatus Pelagibacter giovannonii	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter giovannonii	lca
+ASV325	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV3251	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV3252	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3254	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3258	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV3275	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV3282	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV3289	species	Membranipora membranacea	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Membraniporidae	Membranipora	Membranipora membranacea	lca
+ASV3295	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV3314	order	Nudibranchia	Eukaryota	Mollusca	Gastropoda	Nudibranchia	no identification	no identification	no identification	lca
+ASV3324	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV3329	genus	Cyanea	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	no identification	lca
+ASV3337	order	Nudibranchia	Eukaryota	Mollusca	Gastropoda	Nudibranchia	no identification	no identification	no identification	lca
+ASV3339	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV3347	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV336	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV3361	species	Cylindrotheca closterium	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	lca
+ASV3368	species	Chaetoceros socialis	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros socialis	lca
+ASV3382	species	Mytilus edulis	Eukaryota	Mollusca	Bivalvia	Mytiloida	Mytilidae	Mytilus	Mytilus edulis	lca
+ASV3396	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV34	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3410	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV3414	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV3416	species	Mytilus edulis	Eukaryota	Mollusca	Bivalvia	Mytiloida	Mytilidae	Mytilus	Mytilus edulis	lca
+ASV3427	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV3428	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV3457	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3464	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3465	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3477	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3478	phylum	Mollusca	Eukaryota	Mollusca	no identification	no identification	no identification	no identification	no identification	lca
+ASV3498	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV3502	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV3503	species	Lizzia blondina	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Bougainvilliidae	Lizzia	Lizzia blondina	lca
+ASV3507	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3529	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3533	genus	Pseudo-nitzschia	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	no identification	lca
+ASV3543	species	Heterocapsa triquetra	Eukaryota	Dinophyceae	Dinophyceae	Peridiniales	Heterocapsaceae	Heterocapsa	Heterocapsa triquetra	lca
+ASV3550	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3556	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV3557	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3565	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV3569	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV357	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV3572	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3577	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3602	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV3604	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV3626	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3633	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV3635	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV3640	genus	Cuspidaria	Eukaryota	Mollusca	Bivalvia	unknown order	Cuspidariidae	Cuspidaria	no identification	lca
+ASV3645	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3649	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3650	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV3665	species	Asterias rubens	Eukaryota	Echinodermata	Asteroidea	Forcipulatida	Asteriidae	Asterias	Asterias rubens	lca
+ASV3666	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV3672	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	lca
+ASV3690	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3696	genus	Maldane	Eukaryota	Annelida	Polychaeta	unknown order	Maldanidae	Maldane	no identification	lca
+ASV3697	order	Nudibranchia	Eukaryota	Mollusca	Gastropoda	Nudibranchia	no identification	no identification	no identification	lca
+ASV3698	genus	Citrobacter	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	no identification	lca
+ASV37	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV3712	family	Nephtyidae	Eukaryota	Annelida	Polychaeta	Phyllodocida	Nephtyidae	no identification	no identification	lca
+ASV3720	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV3730	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV3735	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3737	species	Cyclopoida	Eukaryota	Arthropoda	Hexanauplia	unknown order	unknown family	unknown genus	Cyclopoida	lca
+ASV3751	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3756	species	Clymenella torquata	Eukaryota	Annelida	Polychaeta	unknown order	Maldanidae	Clymenella	Clymenella torquata	lca
+ASV3757	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV3758	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV3764	species	Pseudocalanus sp. PsAkkeshi1	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	Pseudocalanus	Pseudocalanus sp. PsAkkeshi1	lca
+ASV377	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3772	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV3794	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV3798	species	Michthyops parvus	Eukaryota	Arthropoda	Malacostraca	Mysida	Mysidae	Michthyops	Michthyops parvus	lca
+ASV3802	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3804	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3805	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3811	species	Minutocellus polymorphus	Eukaryota	Bacillariophyta	Mediophyceae	Cymatosirales	Cymatosiraceae	Minutocellus	Minutocellus polymorphus	lca
+ASV3817	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV3828	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV383	class	Malacostraca	Eukaryota	Arthropoda	Malacostraca	no identification	no identification	no identification	no identification	lca
+ASV3839	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	lca
+ASV3840	species	Membranipora membranacea	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Membraniporidae	Membranipora	Membranipora membranacea	lca
+ASV3845	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3853	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV3865	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	lca
+ASV3880	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV3883	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3887	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV3922	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV3923	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV3935	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV3956	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	lca
+ASV3959	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV3963	species	Pelagomonas calceolata	Eukaryota	Pelagophyceae	Pelagophyceae	Pelagomonadales	unknown family	Pelagomonas	Pelagomonas calceolata	lca
+ASV3969	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV3976	species	Mytilus edulis	Eukaryota	Mollusca	Bivalvia	Mytiloida	Mytilidae	Mytilus	Mytilus edulis	lca
+ASV3978	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV3997	phylum	Ascomycota	Fungi	Ascomycota	no identification	no identification	no identification	no identification	no identification	lca
+ASV4	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV40	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV4002	species	Aureococcus anophagefferens	Eukaryota	Pelagophyceae	Pelagophyceae	Pelagomonadales	unknown family	Aureococcus	Aureococcus anophagefferens	lca
+ASV4017	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV4031	species	Synchaeta triophthalma	Eukaryota	Rotifera	Eurotatoria	Ploima	Synchaetidae	Synchaeta	Synchaeta triophthalma	lca
+ASV4038	class	Polychaeta	Eukaryota	Annelida	Polychaeta	no identification	no identification	no identification	no identification	lca
+ASV4039	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV4040	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV4042	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV4051	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV4052	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4056	order	Mytiloida	Eukaryota	Mollusca	Bivalvia	Mytiloida	no identification	no identification	no identification	lca
+ASV4065	class	Hexanauplia	Eukaryota	Arthropoda	Hexanauplia	no identification	no identification	no identification	no identification	lca
+ASV4067	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV4072	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV4076	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV409	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV411	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV413	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV4133	species	Tortanus discaudatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Tortanidae	Tortanus	Tortanus discaudatus	lca
+ASV4134	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV4137	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV4148	species	Hypogymnia vittata	Fungi	Ascomycota	Lecanoromycetes	Lecanorales	Parmeliaceae	Hypogymnia	Hypogymnia vittata	lca
+ASV415	species	Proclea malmgreni	Eukaryota	Annelida	Polychaeta	Terebellida	Terebellidae	Proclea	Proclea malmgreni	lca
+ASV4156	species	Thalassiosira rotula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira rotula	lca
+ASV4173	genus	Polaribacter	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Polaribacter	no identification	lca
+ASV4187	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV4190	genus	Pseudochattonella	Eukaryota	Dictyochophyceae	Dictyochophyceae	Florenciellales	unknown family	Pseudochattonella	no identification	lca
+ASV4191	genus	Skeletonema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	no identification	lca
+ASV4193	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV4195	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4197	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV4203	species	Formosa sp. Hel3_A1_48	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Formosa	Formosa sp. Hel3_A1_48	lca
+ASV4210	species	Laminaria digitata	Eukaryota	Phaeophyceae	Phaeophyceae	Laminariales	Laminariaceae	Laminaria	Laminaria digitata	lca
+ASV4220	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4230	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV4231	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV4239	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV424	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4278	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV4292	class	Demospongiae	Eukaryota	Porifera	Demospongiae	no identification	no identification	no identification	no identification	lca
+ASV4298	species	Hexanchus griseus	Eukaryota	Chordata	Chondrichthyes	Hexanchiformes	Hexanchidae	Hexanchus	Hexanchus griseus	lca
+ASV43	species	Podon intermedius	Eukaryota	Arthropoda	Branchiopoda	Diplostraca	Podonidae	Podon	Podon intermedius	lca
+ASV4304	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV4310	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4314	species	Cylindrotheca closterium	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	lca
+ASV4343	species	Mytilus edulis	Eukaryota	Mollusca	Bivalvia	Mytiloida	Mytilidae	Mytilus	Mytilus edulis	lca
+ASV4361	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV4362	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV4400	species	Membranipora membranacea	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Membraniporidae	Membranipora	Membranipora membranacea	lca
+ASV4408	species	Michthyops parvus	Eukaryota	Arthropoda	Malacostraca	Mysida	Mysidae	Michthyops	Michthyops parvus	lca
+ASV4414	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4415	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV4428	class	Florideophyceae	Eukaryota	Rhodophyta	Florideophyceae	no identification	no identification	no identification	no identification	lca
+ASV4431	species	Tortanus discaudatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Tortanidae	Tortanus	Tortanus discaudatus	lca
+ASV4444	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV445	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV4458	species	Cyclopoida	Eukaryota	Arthropoda	Hexanauplia	unknown order	unknown family	unknown genus	Cyclopoida	lca
+ASV446	order	Littorinimorpha	Eukaryota	Mollusca	Gastropoda	Littorinimorpha	no identification	no identification	no identification	lca
+ASV4462	species	Strongylocentrotus droebachiensis	Eukaryota	Echinodermata	Echinoidea	Camarodonta	Strongylocentrotidae	Strongylocentrotus	Strongylocentrotus droebachiensis	lca
+ASV4468	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV4469	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV4481	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV4483	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV4484	species	Lizzia blondina	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Bougainvilliidae	Lizzia	Lizzia blondina	lca
+ASV4490	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4496	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4497	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4498	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	lca
+ASV4500	species	Lepidogobius lepidus	Eukaryota	Chordata	Actinopteri	Gobiiformes	Gobiidae	Lepidogobius	Lepidogobius lepidus	lca
+ASV4501	species	Electra pilosa	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Electridae	Electra	Electra pilosa	lca
+ASV4522	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV454	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4541	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV4565	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV4569	species	Heterocapsa rotundata	Eukaryota	Dinophyceae	Dinophyceae	Peridiniales	Heterocapsaceae	Heterocapsa	Heterocapsa rotundata	lca
+ASV4580	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV4589	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV4599	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV4600	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4608	species	Cyclotella cryptica	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Stephanodiscaceae	Cyclotella	Cyclotella cryptica	lca
+ASV4614	species	Candidatus Pelagibacter sp. FZCC0015	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	lca
+ASV4620	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4636	species	Paraphysomonas sp.	Eukaryota	Chrysophyceae	Chrysophyceae	Chromulinales	Paraphysomonadaceae	Paraphysomonas	Paraphysomonas sp.	lca
+ASV4637	order	Ploima	Eukaryota	Rotifera	Eurotatoria	Ploima	no identification	no identification	no identification	lca
+ASV4639	species	Heterocapsa rotundata	Eukaryota	Dinophyceae	Dinophyceae	Peridiniales	Heterocapsaceae	Heterocapsa	Heterocapsa rotundata	lca
+ASV4648	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV4665	species	Electra pilosa	Eukaryota	Bryozoa	Gymnolaemata	Cheilostomatida	Electridae	Electra	Electra pilosa	lca
+ASV4669	family	Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	no identification	no identification	lca
+ASV4673	species	Hiatella sp. L HML-2015	Eukaryota	Mollusca	Bivalvia	Myida	Hiatellidae	Hiatella	Hiatella sp. L HML-2015	lca
+ASV4674	species	Eubranchus sp. A DS-2016	Eukaryota	Mollusca	Gastropoda	Nudibranchia	Eubranchidae	Eubranchus	Eubranchus sp. A DS-2016	lca
+ASV4676	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV4682	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4686	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV4694	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV470	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV4712	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV4719	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV4723	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4729	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV4731	species	Rhizosolenia setigera	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Rhizosolenia	Rhizosolenia setigera	lca
+ASV4732	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV4758	genus	Micromonas	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	no identification	lca
+ASV4766	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV4777	species	Centropages hamatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Centropagidae	Centropages	Centropages hamatus	lca
+ASV4778	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV4787	species	Dolichomastix tenuilepis	Viridiplantae	Chlorophyta	Mamiellophyceae	Dolichomastigales	Dolichomastigaceae	Dolichomastix	Dolichomastix tenuilepis	lca
+ASV4789	genus	Synechococcus	Bacteria	Cyanobacteria	unknown class	Synechococcales	Synechococcaceae	Synechococcus	no identification	lca
+ASV4790	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV4796	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV4802	genus	Penicillium	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	no identification	lca
+ASV4803	species	Leucocryptos marina	Eukaryota	Cryptophyceae	Cryptophyceae	Kathablepharidacea	Katablepharidaceae	Leucocryptos	Leucocryptos marina	lca
+ASV4814	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV4827	species	Aureococcus anophagefferens	Eukaryota	Pelagophyceae	Pelagophyceae	Pelagomonadales	unknown family	Aureococcus	Aureococcus anophagefferens	lca
+ASV4836	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV4850	family	Chordariaceae	Eukaryota	Phaeophyceae	Phaeophyceae	Ectocarpales	Chordariaceae	no identification	no identification	lca
+ASV4852	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV4856	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV4863	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV49	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4914	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV492	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV4941	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV4958	species	Leucocryptos marina	Eukaryota	Cryptophyceae	Cryptophyceae	Kathablepharidacea	Katablepharidaceae	Leucocryptos	Leucocryptos marina	lca
+ASV496	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV4972	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV4980	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV4988	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV4992	species	Crisiidae	Eukaryota	Bryozoa	Stenolaemata	Cyclostomatida	unknown family	unknown genus	Crisiidae	lca
+ASV4997	species	Asterias rubens	Eukaryota	Echinodermata	Asteroidea	Forcipulatida	Asteriidae	Asterias	Asterias rubens	lca
+ASV5000	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV5007	species	Cyclotella cryptica	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Stephanodiscaceae	Cyclotella	Cyclotella cryptica	lca
+ASV5008	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV5009	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV5053	species	Hematodinium sp.	Eukaryota	Dinophyceae	Dinophyceae	Syndiniales	Syndiniaceae	Hematodinium	Hematodinium sp.	lca
+ASV5073	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV5081	species	Sus scrofa	Eukaryota	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	lca
+ASV5082	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV5086	genus	Pseudocalanus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	Pseudocalanus	no identification	lca
+ASV5088	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV509	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV5093	species	Telonemida sp.	Eukaryota	Telonemida	Telonemida	Telonemida	unknown family	unknown genus	Telonemida sp.	lca
+ASV5111	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV5113	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV5114	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV512	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV5120	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV5122	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV5125	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV513	order	Ploima	Eukaryota	Rotifera	Eurotatoria	Ploima	no identification	no identification	no identification	lca
+ASV5137	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV5138	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV5139	species	Hematodinium sp.	Eukaryota	Dinophyceae	Dinophyceae	Syndiniales	Syndiniaceae	Hematodinium	Hematodinium sp.	lca
+ASV5145	species	uncultured marine bacterium 582	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium 582	lca
+ASV5149	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV5180	species	Squamamoeba japonica	Eukaryota	Evosea	unknown class	unknown order	unknown family	Squamamoeba	Squamamoeba japonica	lca
+ASV5199	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV5203	species	Picobiliphyte sp. MS584-11	Eukaryota	Picozoa	unknown class	unknown order	unknown family	unknown genus	Picobiliphyte sp. MS584-11	lca
+ASV5225	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV523	order	Ploima	Eukaryota	Rotifera	Eurotatoria	Ploima	no identification	no identification	no identification	lca
+ASV5245	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV5248	order	Ceramiales	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	no identification	no identification	no identification	lca
+ASV5269	family	Cottidae	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	no identification	no identification	lca
+ASV5283	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV5298	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV5331	species	Cystoclonium purpureum	Eukaryota	Rhodophyta	Florideophyceae	Gigartinales	Cystocloniaceae	Cystoclonium	Cystoclonium purpureum	lca
+ASV534	family	Ulmaridae	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	no identification	no identification	lca
+ASV537	order	Mytiloida	Eukaryota	Mollusca	Bivalvia	Mytiloida	no identification	no identification	no identification	lca
+ASV544	family	Aspergillaceae	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	no identification	no identification	lca
+ASV550	species	Oithona similis	Eukaryota	Arthropoda	Hexanauplia	Cyclopoida	Oithonidae	Oithona	Oithona similis	lca
+ASV557	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV558	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV56	class	Hexanauplia	Eukaryota	Arthropoda	Hexanauplia	no identification	no identification	no identification	no identification	lca
+ASV586	species	Ophiopholis aculeata	Eukaryota	Echinodermata	Ophiuroidea	Amphilepidida	Ophiactidae	Ophiopholis	Ophiopholis aculeata	lca
+ASV588	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV591	species	Alcyonidium mamillatum	Eukaryota	Bryozoa	Gymnolaemata	Ctenostomatida	Alcyonidiidae	Alcyonidium	Alcyonidium mamillatum	lca
+ASV600	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV606	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV61	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV610	species	Cladosporium herbarum	Fungi	Ascomycota	Dothideomycetes	Cladosporiales	Cladosporiaceae	Cladosporium	Cladosporium herbarum	lca
+ASV613	phylum	Ascomycota	Fungi	Ascomycota	no identification	no identification	no identification	no identification	no identification	lca
+ASV615	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV621	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV631	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV642	species	Phaeocystis antarctica	Eukaryota	Haptista	Haptophyta	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis antarctica	lca
+ASV644	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV645	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV647	species	Dasybranchus sp. DH1	Eukaryota	Annelida	Polychaeta	unknown order	Capitellidae	Dasybranchus	Dasybranchus sp. DH1	lca
+ASV651	order	Littorinimorpha	Eukaryota	Mollusca	Gastropoda	Littorinimorpha	no identification	no identification	no identification	lca
+ASV653	species	Echinarachnius parma	Eukaryota	Echinodermata	Echinoidea	Clypeasteroida	Echinarachniidae	Echinarachnius	Echinarachnius parma	lca
+ASV665	species	Thalassionema nitzschioides	Eukaryota	Bacillariophyta	Fragilariophyceae	Thalassionemales	Thalassionemataceae	Thalassionema	Thalassionema nitzschioides	lca
+ASV671	species	Dictyocha speculum	Eukaryota	Dictyochophyceae	Dictyochophyceae	Dictyochales	unknown family	Dictyocha	Dictyocha speculum	lca
+ASV7	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV70	species	Synchaeta triophthalma	Eukaryota	Rotifera	Eurotatoria	Ploima	Synchaetidae	Synchaeta	Synchaeta triophthalma	lca
+ASV733	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV745	species	Metridia longa	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Metridinidae	Metridia	Metridia longa	lca
+ASV750	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV754	class	Dinophyceae	Eukaryota	Dinophyceae	Dinophyceae	no identification	no identification	no identification	no identification	lca
+ASV758	genus	Paracalanus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Paracalanidae	Paracalanus	no identification	lca
+ASV782	species	Micromonas pusilla	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	lca
+ASV787	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV79	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV790	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV8	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV805	family	Cordycipitaceae	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Cordycipitaceae	no identification	no identification	lca
+ASV811	genus	Acartia	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	no identification	lca
+ASV832	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV844	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV847	species	Polygordius jouinae	Eukaryota	Annelida	Polychaeta	unknown order	Polygordiidae	Polygordius	Polygordius jouinae	lca
+ASV857	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV865	species	Tortanus discaudatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Tortanidae	Tortanus	Tortanus discaudatus	lca
+ASV873	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV874	genus	Dinophysis	Eukaryota	Dinophyceae	Dinophyceae	Dinophysiales	Dinophysiaceae	Dinophysis	no identification	lca
+ASV880	species	Eubranchus exiguus	Eukaryota	Mollusca	Gastropoda	Nudibranchia	Eubranchidae	Eubranchus	Eubranchus exiguus	lca
+ASV882	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca
+ASV883	species	Temora longicornis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Temoridae	Temora	Temora longicornis	lca
+ASV898	species	Thalassionema nitzschioides	Eukaryota	Bacillariophyta	Fragilariophyceae	Thalassionemales	Thalassionemataceae	Thalassionema	Thalassionema nitzschioides	lca
+ASV910	family	Clausocalanidae	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	no identification	no identification	lca
+ASV923	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV927	species	Cylindrotheca closterium	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	lca
+ASV941	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV949	family	Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	no identification	no identification	lca
+ASV958	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV964	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV965	genus	Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	no identification	lca
+ASV967	species	Tortanus discaudatus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Tortanidae	Tortanus	Tortanus discaudatus	lca
+ASV983	phylum	Ascomycota	Fungi	Ascomycota	no identification	no identification	no identification	no identification	no identification	lca
+ASV985	species	Candidatus Pelagibacter sp. IMCC9063	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. IMCC9063	lca
+ASV99	species	Calanus finmarchicus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus finmarchicus	lca
+ASV990	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV991	genus	Candidatus Pelagibacter	Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV995	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	lca

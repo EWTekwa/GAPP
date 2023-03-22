@@ -1,0 +1,143 @@
+﻿Sample_ID,Sample_ID_original,Sample_type,DNA Extraction Date,DNA Extraction Blank,Area,Site,CastNumber,Target_Depth,SampleBlank,CTD_Depth,BottleNumber,Collection_Date,Filter_start_time,filter_end_time,volume_filtered(ml),pump y/n),Notes
+GDS001_Pacific,GDS001,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_1,200,Sample,203.6,3,22-Apr-21,10:20,11:57,850,,"Tried to pump, but it didn't work (forgot to open valve); forgot to use acrodisk"
+GDS002_Pacific,GDS002,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_1,150,Sample,150.7,4,22-Apr-21,10:22,12:01,925,,
+GDS003_Pacific,GDS003,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-1,loph-1_1,100,Sample,100.7,5,22-Apr-21,10:24,11:55,900,,
+GDS004_Pacific,GDS004,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_1,50,Sample,50.7,6,22-Apr-21,10:26,11:55,900,,
+GDS005_Pacific,GDS005,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_1,1,Sample,50.7,2,22-Apr-21,10:27,12:00,900,,
+GDS006_Pacific,GDS006,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-1,loph-1_1,30,Sample,30.7,1,22-Apr-21,10:29,12:00,850,,
+GDS007_Pacific,GDS007,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_2,200,Sample,204.1,3,22-Apr-21,11:03,12:56,900,,kangaroo bag was open when filling from niskin so whirlpack with tube was filled with water
+GDS008_Pacific,GDS008,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_2,150,Sample,150.8,4,22-Apr-21,11:05,12:56,850,,stopped because there was a fire drill followed by a safety drill
+GDS009_Pacific,GDS009,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_2,100,Sample,100.8,5,22-Apr-21,11:07,12:56,850,,stopped because there was a fire drill followed by a safety drill
+GDS010_Pacific,GDS010,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_2,50,Sample,50.7,6,22-Apr-21,11:08,12:56,900,,stopped because there was a fire drill followed by a safety drill
+GDS011_Pacific,GDS011,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_2,30,Sample,30.7,1,22-Apr-21,11:11,12:56,850,,stopped because there was a fire drill followed by a safety drill
+GDS012_Pacific,GDS012,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_2,1,Sample,1.9,2,22-Apr-21,11:12,13:20,820,,bag empty
+GDS013_Pacific,GDS013,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-1,loph-1_3,200,Sample,203.9,3,22-Apr-21,11:48,13:20,850,,
+GDS014_Pacific,GDS014,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_3,150,Sample,150.7,4,22-Apr-21,11:50,13:27,1100,,kangaroo bag filled to top and filtered quicker than others
+GDS015_Pacific,GDS015,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_3,100,Sample,100.7,5,22-Apr-21,11:50,13:06,500,,there was a leak found after filtering for one hour and water was spilling at the purple connector on the bag;at least 500ml was filtered
+GDS016_Pacific,GDS016,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,loph-1_3,50,Sample,50.7,6,22-Apr-21,11:51,13:27,900,,
+GDS017_Pacific,GDS017,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-1,Loph-1_5,30,Sample,50.7,3,22-Apr-21,13:28,15:05,1000,,"this sample is from a different cast than this set because the first cast didn't fire at the right depth, so water was collected a second time and this is why the times don’t match"
+GDS018_Pacific,GDS018,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-1,loph-1_3,1,Sample,50.7,2,22-Apr-21,11:53,13:45,900,,
+GDS019_Pacific,GDS019,Field Blank,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-1,loph-1_3,blank,Blank,0,na,22-Apr-21,11:54,13:38,900,,
+GDS020_Pacific,GDS020,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_1,100,Sample,112.3,3,22-Apr-21,14:16,15:30,950,,
+GDS021_Pacific,GDS021,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_1,80,Sample,80.7,4,22-Apr-21,14:18,15:44,950,,
+GDS022_Pacific,GDS022,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_1,50,Sample,50.7,5,22-Apr-21,14:19,15:53,900,,
+GDS023_Pacific,GDS023,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_1,30,Sample,30.6,6,22-Apr-21,14:20,15:56,950,,
+GDS024_Pacific,GDS024,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_1,1,Sample,1.8,1,22-Apr-21,14:21,15:53,1000,y,stopped at 700ml after 1.5 hours and filtered last 300ml on the pump
+GDS025_Pacific,GDS025,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-2,Loph-2_2,100,Sample,0,3,22-Apr-21,14:41,16:15,1000,,
+GDS026_Pacific,GDS026,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-2,Loph-2_2,80,Sample,0,4,22-Apr-21,14:42,16:18,900,,
+GDS027_Pacific,GDS027,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_2,50,Sample,0,5,22-Apr-21,14:44,16:18,920,,
+GDS028_Pacific,GDS028,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-2,Loph-2_2,30,Sample,0,6,22-Apr-21,14:45,16:18,950,,
+GDS029_Pacific,GDS029,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-2,Loph-2_2,1,Sample,0,1,22-Apr-21,14:46,16:18,1000,Y,stopped at 700ml after 1.5 hours and filtered last 300ml on the pump
+GDS030_Pacific,GDS030,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_3,100,Sample,107.4,3,22-Apr-21,15:19,17:00,920,,
+GDS031_Pacific,GDS031,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_3,80,Sample,80.6,4,22-Apr-21,15:21,17:00,950,,
+GDS032_Pacific,GDS032,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_3,50,Sample,50.7,5,22-Apr-21,15:22,17:00,900,,
+GDS033_Pacific,GDS033,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_3,30,Sample,30.7,6,22-Apr-21,15:23,17:00,855,,
+GDS034_Pacific,GDS034,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-2,Loph-2_3,1,Sample,1.7,1,22-Apr-21,15:24,17:00,900,Y,"stopped at 700ml after 1.5 hours and filtered last 200ml on the pump - after seeing that most bags could filter 850-900ml in 2 hours, we decided to filter when there was less than 800ml after 1.5 hours."
+GDS035_Pacific,GDS035,Field Blank,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-2,Loph-2_3,blank,Blank,0,na,22-Apr-21,15:26,17:00,900,Y,stopped at 700ml after 1.5 hours and filtered last 200ml on the pump 
+GDS036_Pacific,GDS036,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-3,Loph-3_1,50,Sample,54.7,3,22-Apr-21,16:09,17:29,900,,
+GDS037_Pacific,GDS037,Sample,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-3,Loph-3_1,30,Sample,30.6,4,22-Apr-21,16:10,17:43,950,,
+GDS038_Pacific,GDS038,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-3,Loph-3_1,1,Sample,1.8,5,22-Apr-21,16:11,18:00,900,,
+GDS039_Pacific,GDS039,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-3,Loph-3_2,50,Sample,50.4,3,22-Apr-21,16:15,17:43,900,,
+GDS040_Pacific,GDS040,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-3,Loph-3_2,30,Sample,30.7,4,22-Apr-21,16:16,17:45,850,,
+GDS041_Pacific,GDS041,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-3,Loph-3_2,1,Sample,1.8,5,22-Apr-21,16:55,18:35,900,,
+GDS042_Pacific,GDS042,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-3,Loph-3_3,50,Sample,50.9,3,22-Apr-21,16:57,18:30,940,,
+GDS043_Pacific,GDS043,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-3,Loph-3_3,30,Sample,30.6,4,22-Apr-21,16:58,18:35,900,,
+GDS044_Pacific,GDS044,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-3,Loph-3_3,1,Sample,1.8,5,22-Apr-21,16:59,18:35,900,Y,stopped at 750ml after 1.5 hours and finished on pump
+GDS045_Pacific,GDS045,Field Blank,2022-06-16,GDSXN-pacific-006,Lophelia,Loph-3,Loph-3_3,blank,Blank,0,na,22-Apr-21,17:01,18:35,900,Y,stopped at just under 800ml and finishe don the pump
+GDS046_Pacific,GDS046,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_1,200,Sample,203.4,3,23-Apr-21,8:31,10:05,890,,
+GDS047_Pacific,GDS047,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_1,150,Sample,150.7,4,23-Apr-21,8:33,10:07,900,,
+GDS048_Pacific,GDS048,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-1,Fawn-1_1,100,Sample,100.6,5,23-Apr-21,8:34,10:08,860,,
+GDS049_Pacific,GDS049,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_1,50,Sample,50.7,6,23-Apr-21,8:36,10:20,925,,
+GDS050_Pacific,GDS050,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_1,30,Sample,30.7,1,23-Apr-21,8:37,10:22,900,,
+GDS051_Pacific,GDS051,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_1,1,Sample,1.9,2,23-Apr-21,8:39,10:15,900,Y,stopped at 700ml then pumped to 900
+GDS052_Pacific,GDS052,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_2,200,Sample,204.8,3,23-Apr-21,9:14,10:50,950,,
+GDS053_Pacific,GDS053,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_2,150,Sample,150.8,4,23-Apr-21,9:18,10:50,820,,tube fell into beaker and displaced water so it looked like more had been filtered
+GDS054_Pacific,GDS054,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_2,100,Sample,100.7,5,23-Apr-21,9:21,11:05,850,,
+GDS055_Pacific,GDS055,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-1,Fawn-1_2,50,Sample,50.7,6,23-Apr-21,9:24,11:02,900,,
+GDS056_Pacific,GDS056,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-1,Fawn-1_2,30,Sample,30.7,1,23-Apr-21,9:26,11:09,900,,
+GDS057_Pacific,GDS057,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-1,Fawn-1_2,1,Sample,1.9,2,23-Apr-21,9:25,11:13,800,,?? Bag was filled full but only 800ml and bag empty
+GDS058_Pacific,GDS058,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_3,200,Sample,204.1,3,23-Apr-21,9:53,11:30,900,,
+GDS059_Pacific,GDS059,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_3,150,Sample,150.7,4,23-Apr-21,9:56,11:42,890,,
+GDS060_Pacific,GDS060,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_3,100,Sample,100.7,5,23-Apr-21,9:56,11:42,950,,
+GDS061_Pacific,GDS061,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-1,Fawn-1_3,50,Sample,50.6,6,23-Apr-21,9:58,11:44,950,,
+GDS062_Pacific,GDS062,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-1,Fawn-1_3,30,Sample,30.7,1,23-Apr-21,10:03,11:49,800,,empty bag
+GDS063_Pacific,GDS063,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-1,Fawn-1_3,1,Sample,1.6,2,23-Apr-21,10:05,11:57,900,Y,775ml then filtered remainder
+GDS064_Pacific,GDS064,Field Blank,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-1,Fawn-1_3,blank,Blank,0,na,23-Apr-21,10:07,11:50,900,,this is the blank and it got bumped and the outflow of sterivex dripped on to clamp on beaker
+GDS065_Pacific,GDS065,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_1,100,Sample,97.5,3,23-Apr-21,10:34,12:08,900,,
+GDS066_Pacific,GDS066,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_1,80,Sample,80.8,4,23-Apr-21,10:35,12:21,920,,
+GDS067_Pacific,GDS067,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_1,50,Sample,50.7,5,23-Apr-21,10:36,12:11,850,,
+GDS068_Pacific,GDS068,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_1,30,Sample,30.7,6,23-Apr-21,11:00,12:45,900,,
+GDS069_Pacific,GDS069,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_3,1,Sample,30.7,2,23-Apr-21,12:14,14:02,850,,this bottle didn't fire on first cast so this is from second cast
+GDS070_Pacific,GDS070,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_2,50,Sample,30.7,5,23-Apr-21,11:21,13:15,900,,
+GDS071_Pacific,GDS071,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_2,30,Sample,30.7,6,23-Apr-21,11:23,13:13,950,,
+GDS072_Pacific,GDS072,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_2,1,Sample,30.7,1,23-Apr-21,11:24,13:32,900,,
+GDS073_Pacific,GDS073,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_2,100,Sample,30.7,3,23-Apr-21,11:26,13:15,920,,
+GDS074_Pacific,GDS074,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-2,Fawn-2_2,80,Sample,30.7,4,23-Apr-21,11:27,13:22,1000,,
+GDS075_Pacific,GDS075,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-2,Fawn-2_3,100,Sample,30.7,3,23-Apr-21,12:15,13:57,980,,
+GDS076_Pacific,GDS076,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-2,Fawn-2_3,80,Sample,30.7,4,23-Apr-21,12:16,13:57,1100,,went over desired volume (900ml) when processing other filters as they finish
+GDS077_Pacific,GDS077,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-2,Fawn-2_3,50,Sample,50.7,5,23-Apr-21,12:17,13:57,875,,
+GDS078_Pacific,GDS078,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-2,Fawn-2_3,30,Sample,30.7,6,23-Apr-21,12:18,14:05,1050,,went over desired volume (900ml) when processing other filters as they finish
+GDS079_Pacific,GDS079,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-2,Fawn-2_3,2,Sample,2.8,1,23-Apr-21,12:19,14:28,900,y,800 before pumping
+GDS080_Pacific,GDS080,Field Blank,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-2,Fawn-2_3,blank,Blank,0,na,23-Apr-21,12:20,14:06,920,,
+GDS081_Pacific,GDS081,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-3,Fawn-3_1,50,Sample,0,3,23-Apr-21,13:07,14:48,900,,
+GDS082_Pacific,GDS082,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-3,Fawn-3_1,30,Sample,0,4,23-Apr-21,13:07,14:37,900,,
+GDS083_Pacific,GDS083,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-3,Fawn-3_1,1,Sample,0,5,23-Apr-21,13:08,15:08,850,,
+GDS084_Pacific,GDS084,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-3,Fawn-3_2,50,Sample,0,3,23-Apr-21,13:09,14:43,900,,
+GDS085_Pacific,GDS085,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-3,Fawn-3_2,30,Sample,0,4,23-Apr-21,13:11,14:47,900,,
+GDS086_Pacific,GDS086,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-3,Fawn-3_2,1,Sample,0,5,23-Apr-21,13:30,15:28,900,,
+GDS087_Pacific,GDS087,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-3,Fawn-3_3,50,Sample,0,3,23-Apr-21,13:39,15:20,900,,
+GDS088_Pacific,GDS088,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-3,Fawn-3_3,30,Sample,0,4,23-Apr-21,13:41,15:40,900,,
+GDS089_Pacific,GDS089,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-3,Fawn-3_3,1,Sample,0,5,23-Apr-21,13:41,15:40,900,,
+GDS090_Pacific,GDS090,Field Blank,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-3,Fawn-3_3,blank,Blank,0,na,23-Apr-21,13:42,15:23,925,,
+GDS091_Pacific,GDS091,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-4,Fawn-4_1,1,Sample,0,16,24-Apr-21,9:17,10:47,900,Y,stopped to pump @ 700ml
+GDS092_Pacific,GDS092,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-4,Fawn-4_1,30,Sample,0,23,24-Apr-21,9:17,11:03,1000,,
+GDS093_Pacific,GDS093,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-4,Fawn-4_2,1,Sample,0,16,24-Apr-21,9:18,10:55,900,Y,stopped at 700ml and pumped
+GDS094_Pacific,GDS094,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-4,Fawn-4_2,30,Sample,0,23,24-Apr-21,9:21,11:02,920,,
+GDS095_Pacific,GDS095,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-4,Fawn-4_3,1,Sample,0,23,24-Apr-21,9:21,11:02,850,,
+GDS096_Pacific,GDS096,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-4,Fawn-4_3,30,Sample,0,16,24-Apr-21,9:23,11:01,950,,
+GDS097_Pacific,GDS097,Field Blank,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-4,Fawn-4_3,blank,Blank,0,na,24-Apr-21,9:25,11:13,900,,
+GDS098_Pacific,GDS098,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-5,Fawn-5-1,1,Sample,0,11,24-Apr-21,10:19,12:48,900,,
+GDS099_Pacific,GDS099,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-5,Fawn-5-1,20,Sample,0,24,24-Apr-21,10:20,12:01,900,,
+GDS100_Pacific,GDS100,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-5,Fawn-5_2,1,Sample,0,24,24-Apr-21,10:22,12:21,900,,
+GDS101_Pacific,GDS101,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-5,Fawn-5_2,20,Sample,0,11,24-Apr-21,10:23,12:01,900,,
+GDS102_Pacific,GDS102,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-5,Fawn-5_3,1,Sample,0,16,24-Apr-21,10:24,12:26,900,,
+GDS103_Pacific,GDS103,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-5,Fawn-5_3,20,Sample,0,23,24-Apr-21,10:25,12:08,900,,
+GDS104_Pacific,GDS104,Field Blank,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-5,Fawn-5_3,blank,Blank,0,na,24-Apr-21,10:26,12:16,900,,
+GDS105_Pacific,GDS105,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-6,Fawn-6-1,1,Sample,0,16,24-Apr-21,11:28,13:00,900,Y,stopped at 750ml after 1.5 hours and pumped
+GDS106_Pacific,GDS106,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-6,Fawn-6-1,5,Sample,0,24,24-Apr-21,11:30,13:10,900,Y,stopped at 750ml after 1.5 hours and pumped
+GDS107_Pacific,GDS107,Sample,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-6,Fawn-6_2,5,Sample,0,11,24-Apr-21,11:31,13:30,950,,
+GDS108_Pacific,GDS108,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-6,Fawn-6_2,1,Sample,0,23,24-Apr-21,11:33,13:35,900,,
+GDS109_Pacific,GDS109,Sample,2022-05-16,GDSXN-pacific-003,Fawn Pt,Fawn-6,Fawn-6_3,5,Sample,0,24,24-Apr-21,11:33,13:30,900,,
+GDS110_Pacific,GDS110,Sample,2022-05-03,GDSXN-pacific-001,Fawn Pt,Fawn-6,Fawn-6_3,1,Sample,0,16,24-Apr-21,11:34,13:20,900,Y,stopped at 750ml after 1.5 hours and pumped
+GDS111_Pacific,GDS111,Field Blank,2022-05-11,GDSXN-pacific-002,Fawn Pt,Fawn-6,Fawn-6_3,blank,Blank,0,na,24-Apr-21,11:35,13:25,900,,
+GDS112_Pacific,GDS112,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_1,1,Sample,0,11,25-Apr-21,13:18,14:39,900,Y,stopped and pumped (600ml pre-pump)
+GDS113_Pacific,GDS113,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_1,30,Sample,0,23,25-Apr-21,13:18,14:59,900,,
+GDS114_Pacific,GDS114,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_2,1,Sample,0,16,25-Apr-21,13:18,14:53,900,Y,stopped and pumped at 770ml
+GDS115_Pacific,GDS115,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_2,30,Sample,0,24,25-Apr-21,13:20,14:41,900,,
+GDS116_Pacific,GDS116,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_3,30,Sample,0,23,25-Apr-21,13:23,14:41,870,,
+GDS117_Pacific,GDS117,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_3,1,Sample,0,16,25-Apr-21,13:25,14:53,900,,stopped to pump @700
+GDS118_Pacific,GDS118,Field Blank,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-4,Loph-4_3,blank,Blank,0,na,25-Apr-21,13:27,15:06,900,,
+GDS119_Pacific,GDS119,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-5,Loph-5-1,1,Sample,0,16,25-Apr-21,14:28,15:36,900,Y,stopped at 725ml and filtered
+GDS120_Pacific,GDS120,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-5,Loph-5-1,20,Sample,0,23,25-Apr-21,14:29,16:07,900,,
+GDS121_Pacific,GDS121,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-5,Loph-5_2,1,Sample,0,11,25-Apr-21,14:31,16:27,850,,
+GDS122_Pacific,GDS122,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-5,Loph-5_2,20,Sample,0,24,25-Apr-21,14:31,16:16,900,,
+GDS123_Pacific,GDS123,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-5,Loph-5_3,1,Sample,0,23,25-Apr-21,14:32,16:30,870,,
+GDS124_Pacific,GDS124,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-5,Loph-5_3,20,Sample,0,16,25-Apr-21,14:33,16:05,900,,
+GDS125_Pacific,GDS125,Field Blank,2022-05-16,GDSXN-pacific-003,Lophelia,Loph-5,Loph-5_3,blank,Blank,0,na,25-Apr-21,14:33,16:14,900,,
+GDS126_Pacific,GDS126,Sample,2022-05-16,GDSXN-pacific-003,Lophelia,Loph-6,Loph-6-1,5,Sample,0,16,25-Apr-21,15:34,17:12,900,Y,stopped @800ml and pumped
+GDS127_Pacific,GDS127,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-6,Loph-6-1,1,Sample,0,23,25-Apr-21,15:32,17:12,900,Y,stopped @800ml and pumped
+GDS128_Pacific,GDS128,Sample,2022-05-25,GDSXN-pacific-004,Lophelia,Loph-6,Loph-6_2,5,Sample,0,24,25-Apr-21,15:30,17:12,900,Y,stopped @700ml and pumped
+GDS129_Pacific,GDS129,Sample,2022-05-16,GDSXN-pacific-003,Lophelia,Loph-6,Loph-6_2,1,Sample,0,23,25-Apr-21,15:33,17:12,900,Y,stopped  @ 700ml and pumped
+GDS130_Pacific,GDS130,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-6,Loph-6_3,5,Sample,0,16,25-Apr-21,15:35,17:12,900,Y,stopped and pumped
+GDS131_Pacific,GDS131,Sample,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-6,Loph-6_3,1,Sample,0,24,25-Apr-21,15:37,17:12,900,Y,stopped  @ 750ml and pumped
+GDS132_Pacific,GDS132,Field Blank,2022-05-30,GDSXN-pacific-005,Lophelia,Loph-6,Loph-6_3,blank,Blank,0,na,25-Apr-21,15:37,17:08,900,,
+12S-NegPCR1-Vector,12S-NegPCR1-Vector,PCR Negative Control,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+12S-NegPCR2-Vector,12S-NegPCR2-Vector,PCR Negative Control,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+GDSXN-pacific-001,GDSXN-pacific-001,DNA Extraction Blank,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+GDSXN-pacific-002,GDSXN-pacific-002,DNA Extraction Blank,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+GDSXN-pacific-003,GDSXN-pacific-003,DNA Extraction Blank,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+GDSXN-pacific-004,GDSXN-pacific-004,DNA Extraction Blank,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+GDSXN-pacific-005,GDSXN-pacific-005,DNA Extraction Blank,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+GDSXN-pacific-006,GDSXN-pacific-006,DNA Extraction Blank,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+Neg-PCR-1-COI,Neg-PCR-1-COI,PCR Negative Control,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,
+Neg-PCR-2-COI,Neg-PCR-2-COI,PCR Negative Control,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,,

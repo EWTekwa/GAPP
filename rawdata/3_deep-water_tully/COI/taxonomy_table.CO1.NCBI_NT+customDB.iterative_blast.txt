@@ -1,0 +1,329 @@
+#Query	#lca rank	#lca taxon	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1006	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV102	genus	unknown genus	Eukaryota	Arthropoda	Collembola	Symphypleona	unknown family	unknown genus	no identification	lca
+ASV1020	species	Skeletonema japonicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema japonicum	best hit
+ASV1036	genus	Stigmatoteuthis	Eukaryota	Mollusca	Cephalopoda	Teuthida	Histioteuthidae	Stigmatoteuthis	no identification	lca
+ASV1043	order	Hypocreales	Fungi	Ascomycota	Sordariomycetes	Hypocreales	no identification	no identification	no identification	lca
+ASV1044	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV107	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1077	species	Leuckartiara longicalcar	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Leuckartiara	Leuckartiara longicalcar	best hit
+ASV1086	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV1097	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1143	species	Poeobius meseres	Eukaryota	Annelida	Polychaeta	Terebellida	Flabelligeridae	Poeobius	Poeobius meseres	best hit
+ASV1144	species	Aeginura grimaldii	Eukaryota	Cnidaria	Hydrozoa	Narcomedusae	Aeginidae	Aeginura	Aeginura grimaldii	best hit
+ASV1145	species	Dasybranchus sp. DH1	Eukaryota	Annelida	Polychaeta	unknown order	Capitellidae	Dasybranchus	Dasybranchus sp. DH1	best hit
+ASV1155	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1170	genus	unknown genus	Eukaryota	Annelida	Polychaeta	unknown order	unknown family	unknown genus	no identification	lca
+ASV1173	species	Rhodotorula mucilaginosa	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula	Rhodotorula mucilaginosa	best hit
+ASV1196	species	Benthopecten acanthonotus	Eukaryota	Echinodermata	Asteroidea	Notomyotida	Benthopectinidae	Benthopecten	Benthopecten acanthonotus	best hit
+ASV1211	species	Cyanea sp. USWAQCN	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	Cyanea sp. USWAQCN	best hit
+ASV1214	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1219	species	Frillagalma vityazi	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Frillagalma	Frillagalma vityazi	best hit
+ASV1236	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1243	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV1255	species	Margalefidinium polykrikoides	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Gymnodiniaceae	Margalefidinium	Margalefidinium polykrikoides	best hit
+ASV1258	species	Gonatus onyx	Eukaryota	Mollusca	Cephalopoda	Teuthida	Gonatidae	Gonatus	Gonatus onyx	best hit
+ASV1267	species	Pseudocalanus sp. PsAkkeshi1	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	Pseudocalanus	Pseudocalanus sp. PsAkkeshi1	best hit
+ASV1278	genus	Aphrodita	Eukaryota	Annelida	Polychaeta	Phyllodocida	Aphroditidae	Aphrodita	no identification	lca
+ASV1282	species	Eukrohnia hamata	Eukaryota	Chaetognatha	Sagittoidea	Phragmophora	Eukrohniidae	Eukrohnia	Eukrohnia hamata	best hit
+ASV1292	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1293	genus	Dokdonia	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Dokdonia	no identification	lca
+ASV1328	species	Neoturris breviconis	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Neoturris	Neoturris breviconis	best hit
+ASV1349	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV1352	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV1358	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV1363	species	Pandeidae sp. USNM IZ 1163616	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	unknown genus	Pandeidae sp. USNM IZ 1163616	best hit
+ASV1364	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1370	species	Protoptilum carpenteri	Eukaryota	Cnidaria	Anthozoa	Pennatulacea	Protoptilidae	Protoptilum	Protoptilum carpenteri	best hit
+ASV1381	genus	Amaeana	Eukaryota	Annelida	Polychaeta	Terebellida	Terebellidae	Amaeana	no identification	lca
+ASV1407	species	Chordata	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	Chordata	best hit
+ASV1417	species	Skeletonema japonicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema japonicum	best hit
+ASV1418	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1426	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1439	species	Solmissus marshalli	Eukaryota	Cnidaria	Hydrozoa	Narcomedusae	Cuninidae	Solmissus	Solmissus marshalli	best hit
+ASV1443	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV1445	species	Protoptilum carpenteri	Eukaryota	Cnidaria	Anthozoa	Pennatulacea	Protoptilidae	Protoptilum	Protoptilum carpenteri	best hit
+ASV145	species	Nanomia bijuga	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Nanomia	Nanomia bijuga	best hit
+ASV1467	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1475	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1481	species	Coryphaenoides cinereus	Eukaryota	Chordata	Actinopteri	Gadiformes	Macrouridae	Coryphaenoides	Coryphaenoides cinereus	best hit
+ASV1498	species	Oncaea sp. 776DZMB	Eukaryota	Arthropoda	Hexanauplia	Poecilostomatoida	Oncaeidae	Oncaea	Oncaea sp. 776DZMB	best hit
+ASV1512	species	Geotrichum candidum	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Dipodascaceae	Geotrichum	Geotrichum candidum	best hit
+ASV1519	species	Aeginura grimaldii	Eukaryota	Cnidaria	Hydrozoa	Narcomedusae	Aeginidae	Aeginura	Aeginura grimaldii	best hit
+ASV1527	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV1533	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1535	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1578	genus	Apolemia	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Apolemiidae	Apolemia	no identification	lca
+ASV1594	species	Croceibacter atlanticus HTCC2559	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Croceibacter	Croceibacter atlanticus HTCC2559	best hit
+ASV1595	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV1616	species	Protoptilum carpenteri	Eukaryota	Cnidaria	Anthozoa	Pennatulacea	Protoptilidae	Protoptilum	Protoptilum carpenteri	best hit
+ASV1632	species	Chloropicon roscoffensis	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloropicon	Chloropicon roscoffensis	best hit
+ASV1640	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1653	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1675	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1684	species	Chloroparvula sp. RCC4572	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula sp. RCC4572	best hit
+ASV1712	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1780	species	Lestidiops ringens	Eukaryota	Chordata	Actinopteri	Aulopiformes	Paralepididae	Lestidiops	Lestidiops ringens	best hit
+ASV1789	species	Cyanea sp. USWAQCN	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	Cyanea sp. USWAQCN	best hit
+ASV1790	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV1802	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1827	species	Moina sp. ARRV-2013	Eukaryota	Arthropoda	Branchiopoda	Diplostraca	Moinidae	Moina	Moina sp. ARRV-2013	best hit
+ASV1830	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV1837	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1842	species	Agalma elegans	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Agalma	Agalma elegans	best hit
+ASV1862	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1873	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV1875	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1882	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1897	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1914	species	Stomotoca atra	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Stomotoca	Stomotoca atra	best hit
+ASV192	species	Acartia longiremis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	Acartia longiremis	best hit
+ASV1921	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1937	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1941	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1954	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV1987	species	Hybocodon prolifer	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Tubulariidae	Hybocodon	Hybocodon prolifer	best hit
+ASV1996	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2004	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2011	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2023	genus	unknown genus	Eukaryota	Echinodermata	Echinoidea	unknown order	unknown family	unknown genus	no identification	lca
+ASV2030	species	Acartia longiremis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	Acartia longiremis	best hit
+ASV2032	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV2035	species	Clytia gregaria	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Clytiidae	Clytia	Clytia gregaria	best hit
+ASV204	species	Acartia longiremis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	Acartia longiremis	best hit
+ASV2040	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2047	species	Stomotoca atra	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Stomotoca	Stomotoca atra	best hit
+ASV2049	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV2055	species	Skeletonema japonicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema japonicum	best hit
+ASV2066	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2078	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2089	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV209	species	Geotrichum candidum	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Dipodascaceae	Geotrichum	Geotrichum candidum	best hit
+ASV2093	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2095	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2097	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV211	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV2110	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2122	species	Acartia longiremis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	Acartia longiremis	best hit
+ASV2124	family	Daphniidae	Eukaryota	Arthropoda	Branchiopoda	Diplostraca	Daphniidae	no identification	no identification	lca
+ASV2128	species	Agalma elegans	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Agalma	Agalma elegans	best hit
+ASV2129	genus	Ophiomonas	Eukaryota	Echinodermata	Ophiuroidea	Amphilepidida	Amphiuridae	Ophiomonas	no identification	lca
+ASV2172	species	Earleria	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Mitrocomidae	unknown genus	Earleria	best hit
+ASV2186	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2256	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2260	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2265	species	Acartia longiremis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Acartiidae	Acartia	Acartia longiremis	best hit
+ASV2268	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2281	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV2292	species	Euphausia pacifica	Eukaryota	Arthropoda	Malacostraca	Euphausiacea	Euphausiidae	Euphausia	Euphausia pacifica	best hit
+ASV2317	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2329	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV233	species	uncultured Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	uncultured Emiliania	best hit
+ASV2349	order	Hemiptera	Eukaryota	Arthropoda	Insecta	Hemiptera	no identification	no identification	no identification	lca
+ASV2385	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV2415	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV2429	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2511	species	Mitrocoma cellularia	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Mitrocomidae	Mitrocoma	Mitrocoma cellularia	best hit
+ASV2536	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV255	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV2551	genus	Thalassiosira	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	no identification	lca
+ASV2568	phylum	Cnidaria	Eukaryota	Cnidaria	no identification	no identification	no identification	no identification	no identification	lca
+ASV2577	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV2579	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV2619	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV2625	species	Frillagalma vityazi	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Frillagalma	Frillagalma vityazi	best hit
+ASV2642	order	Heteronemertea	Eukaryota	Nemertea	Pilidiophora	Heteronemertea	no identification	no identification	no identification	lca
+ASV2647	species	Dokdonia sp. 4H-3-7-5	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Dokdonia	Dokdonia sp. 4H-3-7-5	best hit
+ASV2652	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2662	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2670	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2671	species	Fujientomon dicestum	Eukaryota	Arthropoda	Protura	unknown order	Fujientomidae	Fujientomon	Fujientomon dicestum	best hit
+ASV2695	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2698	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2705	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV2718	species	uncultured Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	uncultured Emiliania	best hit
+ASV2729	species	Ceratopogonidae	Eukaryota	Arthropoda	Insecta	Diptera	unknown family	unknown genus	Ceratopogonidae	best hit
+ASV2751	genus	unknown genus	Eukaryota	Echinodermata	Echinoidea	unknown order	unknown family	unknown genus	no identification	lca
+ASV2786	species	Skeletonema japonicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema japonicum	best hit
+ASV279	species	Acanthamoeba castellanii	Eukaryota	Discosea	unknown class	Longamoebia	Acanthamoebidae	Acanthamoeba	Acanthamoeba castellanii	best hit
+ASV2820	species	Magnisudis atlantica	Eukaryota	Chordata	Actinopteri	Aulopiformes	Paralepididae	Magnisudis	Magnisudis atlantica	best hit
+ASV2825	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV2827	species	Chordata	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	Chordata	best hit
+ASV285	species	Diptera	Eukaryota	Arthropoda	Insecta	unknown order	unknown family	unknown genus	Diptera	best hit
+ASV2857	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2862	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV2865	class	Polychaeta	Eukaryota	Annelida	Polychaeta	no identification	no identification	no identification	no identification	lca
+ASV2892	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2901	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV2911	species	Pectinaster agassizi	Eukaryota	Echinodermata	Asteroidea	Notomyotida	Benthopectinidae	Pectinaster	Pectinaster agassizi	best hit
+ASV2941	species	Branchiocerianthus imperator	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Corymorphidae	Branchiocerianthus	Branchiocerianthus imperator	best hit
+ASV2997	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV3011	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3027	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV3039	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV307	species	Poeobius meseres	Eukaryota	Annelida	Polychaeta	Terebellida	Flabelligeridae	Poeobius	Poeobius meseres	best hit
+ASV3105	species	Paraeuchaeta elongata	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Euchaetidae	Paraeuchaeta	Paraeuchaeta elongata	best hit
+ASV3132	genus	unknown genus	Eukaryota	Arthropoda	Collembola	Symphypleona	unknown family	unknown genus	no identification	lca
+ASV3185	species	Nectopyramis natans	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Prayidae	Nectopyramis	Nectopyramis natans	best hit
+ASV3206	class	Polychaeta	Eukaryota	Annelida	Polychaeta	no identification	no identification	no identification	no identification	lca
+ASV3211	genus	Cafeteria	Eukaryota	Bigyra	Bigyra	Bicosoecida	Cafeteriaceae	Cafeteria	no identification	lca
+ASV3215	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV3218	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3220	family	Daphniidae	Eukaryota	Arthropoda	Branchiopoda	Diplostraca	Daphniidae	no identification	no identification	lca
+ASV3223	species	Nanomia bijuga	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Nanomia	Nanomia bijuga	best hit
+ASV3227	species	Paraeuchaeta elongata	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Euchaetidae	Paraeuchaeta	Paraeuchaeta elongata	best hit
+ASV325	order	Hemiptera	Eukaryota	Arthropoda	Insecta	Hemiptera	no identification	no identification	no identification	lca
+ASV3265	species	Cyanea sp. USWAQCN	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	Cyanea sp. USWAQCN	best hit
+ASV3267	species	Cyanea sp. USWAQCN	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	Cyanea sp. USWAQCN	best hit
+ASV3269	species	Agalma elegans	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Agalma	Agalma elegans	best hit
+ASV3290	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3296	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV3337	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV334	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV3367	species	Agalma elegans	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Agalma	Agalma elegans	best hit
+ASV3378	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV3396	species	Leuckartiara sp. PS-2018	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Leuckartiara	Leuckartiara sp. PS-2018	best hit
+ASV3408	species	Parastenella pacifica	Eukaryota	Cnidaria	Anthozoa	Alcyonacea	Primnoidae	Parastenella	Parastenella pacifica	best hit
+ASV3416	species	Thysanoessa spinifera	Eukaryota	Arthropoda	Malacostraca	Euphausiacea	Euphausiidae	Thysanoessa	Thysanoessa spinifera	best hit
+ASV343	species	Diptera	Eukaryota	Arthropoda	Insecta	unknown order	unknown family	unknown genus	Diptera	best hit
+ASV3488	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3498	species	Polaribacter sp. Hel1_33_78	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Polaribacter	Polaribacter sp. Hel1_33_78	best hit
+ASV3500	species	Nanomia bijuga	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Nanomia	Nanomia bijuga	best hit
+ASV3539	genus	Apolemia	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Apolemiidae	Apolemia	no identification	lca
+ASV3567	genus	Polarella	Eukaryota	Dinophyceae	Dinophyceae	Suessiales	Suessiaceae	Polarella	no identification	lca
+ASV3568	species	Bolocera sp. BZ-2016	Eukaryota	Cnidaria	Anthozoa	Actiniaria	Actiniidae	Bolocera	Bolocera sp. BZ-2016	best hit
+ASV3575	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3593	genus	Polarella	Eukaryota	Dinophyceae	Dinophyceae	Suessiales	Suessiaceae	Polarella	no identification	lca
+ASV3614	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3660	species	Diptera	Eukaryota	Arthropoda	Insecta	unknown order	unknown family	unknown genus	Diptera	best hit
+ASV3665	species	Tarletonbeania crenularis	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	Tarletonbeania	Tarletonbeania crenularis	best hit
+ASV3667	species	Pachycara gymninium	Eukaryota	Chordata	Actinopteri	Perciformes	Zoarcidae	Pachycara	Pachycara gymninium	best hit
+ASV3692	species	Gersemia rubiformis	Eukaryota	Cnidaria	Anthozoa	Alcyonacea	Nephtheidae	Gersemia	Gersemia rubiformis	best hit
+ASV370	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV3701	genus	unknown genus	Eukaryota	Annelida	Polychaeta	Terebellida	Trichobranchidae	unknown genus	no identification	lca
+ASV3773	genus	Ophiomusa	Eukaryota	Echinodermata	Ophiuroidea	Amphilepidida	Ophiolepididae	Ophiomusa	no identification	lca
+ASV3806	species	Neoturris breviconis	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Neoturris	Neoturris breviconis	best hit
+ASV3831	genus	Eremicaster	Eukaryota	Echinodermata	Asteroidea	Paxillosida	Porcellanasteridae	Eremicaster	no identification	lca
+ASV3839	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV385	species	Clytia gregaria	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Clytiidae	Clytia	Clytia gregaria	best hit
+ASV3894	species	uncultured Emiliania	Eukaryota	Haptista	Haptophyta	Isochrysidales	Noelaerhabdaceae	Emiliania	uncultured Emiliania	best hit
+ASV3904	species	Neocalanus plumchrus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Neocalanus	Neocalanus plumchrus	best hit
+ASV3927	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV393	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV3956	species	Hydra oligactis	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Hydridae	Hydra	Hydra oligactis	best hit
+ASV3968	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV399	species	Chuniphyes multidentata	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Clausophyidae	Chuniphyes	Chuniphyes multidentata	best hit
+ASV4	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV40	species	Rhodotorula mucilaginosa	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula	Rhodotorula mucilaginosa	best hit
+ASV4006	genus	Aetideopsis	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Aetideidae	Aetideopsis	no identification	lca
+ASV4027	species	Nanomia bijuga	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Nanomia	Nanomia bijuga	best hit
+ASV4030	species	Paralia sulcata	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Paraliales	Paraliaceae	Paralia	Paralia sulcata	best hit
+ASV4046	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV4054	species	Aeginura grimaldii	Eukaryota	Cnidaria	Hydrozoa	Narcomedusae	Aeginidae	Aeginura	Aeginura grimaldii	best hit
+ASV408	genus	unknown genus	Eukaryota	Annelida	Polychaeta	unknown order	unknown family	unknown genus	no identification	lca
+ASV4106	species	Eukrohnia sp. c922	Eukaryota	Chaetognatha	Sagittoidea	Phragmophora	Eukrohniidae	Eukrohnia	Eukrohnia sp. c922	best hit
+ASV4130	species	Merluccius productus	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV414	species	Skeletonema japonicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema japonicum	best hit
+ASV4163	species	Aetideopsis sp. KJ729	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Aetideidae	Aetideopsis	Aetideopsis sp. KJ729	best hit
+ASV4194	genus	unknown genus	Eukaryota	Nemertea	Pilidiophora	Heteronemertea	Lineidae	unknown genus	no identification	lca
+ASV4202	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV4215	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV4221	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV423	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV4242	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV4263	class	Hydrozoa	Eukaryota	Cnidaria	Hydrozoa	no identification	no identification	no identification	no identification	lca
+ASV4272	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV4292	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV4341	species	Azadinium dalianense	Eukaryota	Dinophyceae	Dinophyceae	Gonyaulacales	Amphidomataceae	Azadinium	Azadinium dalianense	best hit
+ASV4373	genus	unknown genus	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Forskaliidae	unknown genus	no identification	lca
+ASV4384	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV4386	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV4460	species	Sigiweddellia sp. DLSI022	Eukaryota	Cnidaria	Hydrozoa	Narcomedusae	Cuninidae	Sigiweddellia	Sigiweddellia sp. DLSI022	best hit
+ASV4468	genus	Cylindrotheca	Eukaryota	Bacillariophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	no identification	lca
+ASV4472	species	Paelopatides sp. 2 AM-2017	Eukaryota	Echinodermata	Holothuroidea	Aspidochirotida	Synallactidae	Paelopatides	Paelopatides sp. 2 AM-2017	best hit
+ASV4479	species	Bathyraja spinicauda	Eukaryota	Chordata	Chondrichthyes	Rajiformes	Arhynchobatidae	Bathyraja	Bathyraja spinicauda	best hit
+ASV4481	species	Earleria	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Mitrocomidae	unknown genus	Earleria	best hit
+ASV4483	species	Tubulanus lutescens	Eukaryota	Nemertea	Palaeonemertea	unknown order	Tubulanidae	Tubulanus	Tubulanus lutescens	best hit
+ASV4490	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV4492	species	Praya dubia	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Prayidae	Praya	Praya dubia	best hit
+ASV4533	species	Oncorhynchus kisutch	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV4539	species	Chordata	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	Chordata	best hit
+ASV4542	species	Ammodytes personatus	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV4549	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV4570	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV4596	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV4602	genus	Chromatonema	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Tiarannidae	Chromatonema	no identification	lca
+ASV4613	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV4632	genus	Dokdonia	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Dokdonia	no identification	lca
+ASV4653	species	Polaribacter sp. Hel1_33_78	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Polaribacter	Polaribacter sp. Hel1_33_78	best hit
+ASV467	species	Chuniphyes multidentata	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Clausophyidae	Chuniphyes	Chuniphyes multidentata	best hit
+ASV4679	phylum	Cnidaria	Eukaryota	Cnidaria	no identification	no identification	no identification	no identification	no identification	lca
+ASV4708	species	Grammonema striatula	Eukaryota	Bacillariophyta	Fragilariophyceae	Fragilariales	Fragilariaceae	Grammonema	Grammonema striatula	best hit
+ASV4753	species	Protoptilum carpenteri	Eukaryota	Cnidaria	Anthozoa	Pennatulacea	Protoptilidae	Protoptilum	Protoptilum carpenteri	best hit
+ASV4755	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV4776	genus	Apolemia	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Apolemiidae	Apolemia	no identification	lca
+ASV4786	genus	unknown genus	Eukaryota	Nemertea	Pilidiophora	Heteronemertea	Lineidae	unknown genus	no identification	lca
+ASV4829	species	Clausocalanus lividus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus lividus	best hit
+ASV4839	species	Pandeidae sp. USNM IZ 1658812	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	unknown genus	Pandeidae sp. USNM IZ 1658812	best hit
+ASV4869	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV4884	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV4912	genus	Solmissus	Eukaryota	Cnidaria	Hydrozoa	Narcomedusae	Cuninidae	Solmissus	no identification	lca
+ASV4919	species	Virgularia tuberculata	Eukaryota	Cnidaria	Anthozoa	Pennatulacea	Virgulariidae	Virgularia	Virgularia tuberculata	best hit
+ASV492	species	Megaptera novaeangliae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV4923	species	Paraphelliactis xishaensis	Eukaryota	Cnidaria	Anthozoa	Actiniaria	Hormathiidae	Paraphelliactis	Paraphelliactis xishaensis	best hit
+ASV4926	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV4946	genus	Cladosporium	Fungi	Ascomycota	Dothideomycetes	Cladosporiales	Cladosporiaceae	Cladosporium	no identification	lca
+ASV4980	species	Caprella mutica	Eukaryota	Arthropoda	Malacostraca	Amphipoda	Caprellidae	Caprella	Caprella mutica	best hit
+ASV4984	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV5029	species	Anoplopoma fimbria	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV5046	species	uncultured dinoflagellate	Eukaryota	Dinophyceae	Dinophyceae	unknown order	unknown family	unknown genus	uncultured dinoflagellate	best hit
+ASV5057	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV5088	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV5131	species	Vibrio metschnikovii	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio	Vibrio metschnikovii	best hit
+ASV514	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV5159	class	Anthozoa	Eukaryota	Cnidaria	Anthozoa	no identification	no identification	no identification	no identification	lca
+ASV5166	genus	Apolemia	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Apolemiidae	Apolemia	no identification	lca
+ASV5169	species	Corolla spectabilis	Eukaryota	Mollusca	Gastropoda	Pteropoda	Cymbuliidae	Corolla	Corolla spectabilis	best hit
+ASV5182	genus	Dokdonia	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Dokdonia	no identification	lca
+ASV5184	species	Halipteris californica	Eukaryota	Cnidaria	Anthozoa	Pennatulacea	Halipteridae	Halipteris	Halipteris californica	best hit
+ASV519	species	Aureococcus anophagefferens	Eukaryota	Pelagophyceae	Pelagophyceae	Pelagomonadales	unknown family	Aureococcus	Aureococcus anophagefferens	best hit
+ASV5194	family	Saprolegniaceae	Eukaryota	Oomycota	unknown class	Saprolegniales	Saprolegniaceae	no identification	no identification	lca
+ASV5196	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV5206	species	Attheya longicornis	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Attheyaceae	Attheya	Attheya longicornis	best hit
+ASV5218	class	Anthozoa	Eukaryota	Cnidaria	Anthozoa	no identification	no identification	no identification	no identification	lca
+ASV5226	species	Gasterosteus aculeatus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV5231	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV5244	genus	Scoloplos	Eukaryota	Annelida	Polychaeta	unknown order	Orbiniidae	Scoloplos	no identification	lca
+ASV5248	species	Agalma elegans	Eukaryota	Cnidaria	Hydrozoa	Siphonophorae	Agalmatidae	Agalma	Agalma elegans	best hit
+ASV5259	species	Polaribacter sp. Hel1_33_78	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Polaribacter	Polaribacter sp. Hel1_33_78	best hit
+ASV5264	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV5318	species	Hexagrammos agrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos agrammus	best hit
+ASV5324	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV5325	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV5326	species	Pholis gunnellus	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis gunnellus	best hit
+ASV57	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV574	genus	Aequorea	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Aequoreidae	Aequorea	no identification	lca
+ASV584	species	Phocoenoides dalli	Eukaryota	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoenoides	Phocoenoides dalli	best hit
+ASV593	species	Chloroparvula sp. RCC4572	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula sp. RCC4572	best hit
+ASV612	species	Geotrichum candidum	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Dipodascaceae	Geotrichum	Geotrichum candidum	best hit
+ASV627	species	Pectinaster agassizi	Eukaryota	Echinodermata	Asteroidea	Notomyotida	Benthopectinidae	Pectinaster	Pectinaster agassizi	best hit
+ASV63	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV636	species	Stomotoca atra	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Pandeidae	Stomotoca	Stomotoca atra	best hit
+ASV659	species	Clytia gregaria	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Clytiidae	Clytia	Clytia gregaria	best hit
+ASV666	genus	Bougainvillia	Eukaryota	Cnidaria	Hydrozoa	Anthoathecata	Bougainvilliidae	Bougainvillia	no identification	lca
+ASV706	species	Prionace glauca	Eukaryota	Chordata	Chondrichthyes	Carcharhiniformes	Carcharhinidae	Prionace	Prionace glauca	best hit
+ASV716	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV78	species	Cyanea sp. USWAQCN	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	Cyanea sp. USWAQCN	best hit
+ASV789	species	Pectinaster agassizi	Eukaryota	Echinodermata	Asteroidea	Notomyotida	Benthopectinidae	Pectinaster	Pectinaster agassizi	best hit
+ASV791	species	Phacellophora camtschatica	Eukaryota	Cnidaria	Scyphozoa	Semaeostomeae	Ulmaridae	Phacellophora	Phacellophora camtschatica	best hit
+ASV821	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV823	species	uncultured Kareniaceae	Eukaryota	Dinophyceae	Dinophyceae	Gymnodiniales	Kareniaceae	unknown genus	uncultured Kareniaceae	best hit
+ASV852	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV921	species	Diptera	Eukaryota	Arthropoda	Insecta	unknown order	unknown family	unknown genus	Diptera	best hit
+ASV924	order	Hypocreales	Fungi	Ascomycota	Sordariomycetes	Hypocreales	no identification	no identification	no identification	lca
+ASV929	species	Chloroparvula pacifica	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	Chloropicaceae	Chloroparvula	Chloroparvula pacifica	best hit
+ASV932	species	Cladosporium bruhnei	Fungi	Ascomycota	Dothideomycetes	Cladosporiales	Cladosporiaceae	Cladosporium	Cladosporium bruhnei	best hit
+ASV949	species	Bathycoccus prasinos	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	best hit
+ASV963	species	Calanus pacificus	Eukaryota	Arthropoda	Hexanauplia	Calanoida	Calanidae	Calanus	Calanus pacificus	best hit
+ASV971	species	Clytia gregaria	Eukaryota	Cnidaria	Hydrozoa	Leptothecata	Clytiidae	Clytia	Clytia gregaria	best hit
