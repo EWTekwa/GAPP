@@ -1,0 +1,409 @@
+---
+title: "00_species-lists"
+author: "Kate Sheridan"
+date: "3/23/2023"
+output: html_document
+---
+
+This script extracts species lists from each survey in GAPP for 12S and COI.
+
+The cleaning could be done in fewer steps but as of right now more exploration might be needed at a later date.
+
+*This is currently pre-qc.*
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+
+```
+
+# 1a
+
+Depth transect Atlantic
+
+## 12S
+
+Not yet
+
+
+## COI
+
+```{r}
+taxonomy_1a_coi <- read.delim(here('rawdata', '1a_depth-transect_atlantic', 'COI',  'taxonomy_table.CO1.NCBI_NT+customDB.iterative_blast.LCA+best_hit.txt'), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  # column to match, eliminate any duplicates
+  rename(asv = query) %>%
+  distinct()
+
+
+sp_1a_coi <- taxonomy_1a_coi %>%
+  # no bacteria
+  filter(kingdom == 'Eukaryota') %>%
+  # select animal phyla; 
+  # there may be some not listed here or with different backbone taxonomy check for each dataset
+  filter(phylum %in% c('Acanthocephala', 'Annelida', 'Brachiopoda', 'Bryozoa',
+                       'Cephalorhyncha', 'Chordata', 'Chaetognatha', 'Cnidaria', 
+                       'Ctenophora', 'Dicyemida', 'Echinodermata', 'Gastrotricha', 
+                       'Gnathostomulida', 'Kamptozoa', 'Micrognathozoa', 'Mollusca', 
+                       'Nematoda', 'Nematomorpha', 'Nemertea', 'Orthonectida', 
+                       'Phoronida', 'Placozoa', 'Platyhelminthes', 'Porifera', 'Rotifera', 
+                       'Sipuncula', 'Tardigrada', 'Xenacoelomorpha')) %>%
+  # only sp level ids for this, comment out for full list
+  filter(lca_rank == 'species') %>%
+  # remove known terrestrial and non-invert
+  filter(!(class %in% c('Actinopteri', 'Elasmobranchii',
+                      'Holocephali', 'Leptocardii', 'Myxini',
+                      'Petromyzonti', 'Mammalia', 'Insecta'))) %>%
+  # select only species column
+  select(species) %>%
+  distinct() %>%
+  # clean up column
+  mutate(verbatim_species = species) %>%
+  # these may not be comprehensive; see taxonomy key script for comprehensive list
+  # first remove special characters that would be near the end
+  mutate(species = str_remove_all(species, "[[:digit:]]")) %>%
+  mutate(species = str_remove_all(species, "-")) %>%
+  # remove end of line whitespace
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  # trim and four more (in case of 'words')
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  #remove sp. from the end
+  mutate(species = str_remove_all(species, "(sp\\.)$")) %>%
+  mutate(species = trimws(species)) %>%
+  # remove verbatim unless needed
+  select(species) %>%
+  # some entries will be duplicate now
+  distinct() %>%
+  # only species epithets, though we may want a generic list sometime
+  filter(str_detect(species, ' ') == TRUE)
+  
+  
+write_csv(sp_1a_coi, here('processeddata', 'splists', '20230323_gapp-1a-atlantic_coi-sp.csv'))
+
+
+```
+
+
+
+# 1b
+
+depth transect vector pacific
+
+## 12S
+
+
+```{r 12S-tully}
+taxonomy_1b_12s <- read.delim(here('rawdata', '1b_depth-transect_vector-pacific', '12S',  'taxonomy_table.12S.NCBI_NT.96sim.LCA+besthit.txt'), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  # column to match, eliminate any duplicates
+  rename(asv = query) %>%
+  distinct()
+
+
+sp_1b_12s <- taxonomy_1b_12s %>%
+  # fish only; check if more than Actinopteri
+  filter(class %in% c('Actinopteri', 'Chondrichthyes')) %>% 
+  # only sp level ids for this, comment out for full list
+  filter(lca_rank == 'species') %>%
+  select(species) %>%
+  distinct()
+# there may be clean up work here, maybe not.
+
+
+
+write_csv(sp_1b_12s, here('processeddata', 'splists', '20230323_gapp-1b-pacific_12sfish-sp.csv'))
+
+```
+
+
+## COI
+
+```{r}
+taxonomy_1b_coi <- read.delim(here('rawdata', '1b_depth-transect_vector-pacific', 'COI',  'taxonomy_table.CO1.NCBI_NT+customDB.iterative_blast.txt'), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  # column to match, eliminate any duplicates
+  rename(asv = query) %>%
+  distinct()
+
+
+sp_1b_coi <- taxonomy_1b_coi %>%
+  # no bacteria
+  filter(kingdom == 'Eukaryota') %>%
+  # select animal phyla; 
+  # there may be some not listed here or with different backbone taxonomy check for each dataset
+  filter(phylum %in% c('Acanthocephala', 'Annelida', 'Brachiopoda', 'Bryozoa',
+                       'Cephalorhyncha', 'Chordata', 'Chaetognatha', 'Cnidaria', 
+                       'Ctenophora', 'Dicyemida', 'Echinodermata', 'Gastrotricha', 
+                       'Gnathostomulida', 'Kamptozoa', 'Micrognathozoa', 'Mollusca', 
+                       'Nematoda', 'Nematomorpha', 'Nemertea', 'Orthonectida', 
+                       'Phoronida', 'Placozoa', 'Platyhelminthes', 'Porifera', 'Rotifera', 
+                       'Sipuncula', 'Tardigrada', 'Xenacoelomorpha')) %>%
+  # only sp level ids for this, comment out for full list
+  filter(lca_rank == 'species') %>%
+  # remove known terrestrial and non-invert
+  filter(!(class %in% c('Actinopteri', 'Elasmobranchii',
+                      'Holocephali', 'Leptocardii', 'Myxini',
+                      'Petromyzonti', 'Mammalia', 'Insecta'))) %>%
+  # select only species column
+  select(species) %>%
+  distinct() %>%
+  # clean up column
+  mutate(verbatim_species = species) %>%
+  # these may not be comprehensive; see taxonomy key script for comprehensive list
+  # first remove special characters that would be near the end
+  mutate(species = str_remove_all(species, "[[:digit:]]")) %>%
+  mutate(species = str_remove_all(species, "-")) %>%
+  mutate(species = str_remove_all(species, "(cf\\. )")) %>%
+  mutate(species = str_remove_all(species, "(complex )")) %>%
+  # remove end of line whitespace
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  # trim and four more (in case of 'words')
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  #remove sp. from the end
+  mutate(species = str_remove_all(species, "(sp\\.)$")) %>%
+  mutate(species = trimws(species)) %>%
+  # remove verbatim unless needed
+  select(species) %>%
+  # some entries will be duplicate now
+  distinct() %>%
+  # only species epithets, though we may want a generic list sometime
+  filter(str_detect(species, ' ') == TRUE)
+  
+  
+write_csv(sp_1b_coi, here('processeddata', 'splists', '20230323_gapp-1b-pacific_coi-sp.csv'))
+
+
+```
+
+
+
+# 2 Calvert
+
+## 12S
+
+not yet
+
+
+## COI
+
+
+```{r}
+taxonomy_2_coi <- read.delim(here('rawdata', '2_spatial-survey_calvert-island', 'COI',  'taxonomy_table.CO1.NCBI_NT+customDB.iterative_blast.txt'), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  # column to match, eliminate any duplicates
+  rename(asv = query) %>%
+  distinct()
+
+
+sp_2_coi <- taxonomy_2_coi %>%
+  # no bacteria
+  filter(kingdom == 'Eukaryota') %>%
+  # select animal phyla; 
+  # there may be some not listed here or with different backbone taxonomy check for each dataset
+  filter(phylum %in% c('Acanthocephala', 'Annelida', 'Brachiopoda', 'Bryozoa',
+                       'Cephalorhyncha', 'Chordata', 'Chaetognatha', 'Cnidaria', 
+                       'Ctenophora', 'Dicyemida', 'Echinodermata', 'Gastrotricha', 
+                       'Gnathostomulida', 'Kamptozoa', 'Micrognathozoa', 'Mollusca', 
+                       'Nematoda', 'Nematomorpha', 'Nemertea', 'Orthonectida', 
+                       'Phoronida', 'Placozoa', 'Platyhelminthes', 'Porifera', 'Rotifera', 
+                       'Sipuncula', 'Tardigrada', 'Xenacoelomorpha')) %>%
+  # only sp level ids for this, comment out for full list
+  filter(lca_rank == 'species') %>%
+  # remove known terrestrial and non-invert
+  filter(!(class %in% c('Actinopteri', 'Elasmobranchii',
+                      'Holocephali', 'Leptocardii', 'Myxini',
+                      'Petromyzonti', 'Mammalia', 'Insecta'))) %>%
+  # select only species column
+  select(species) %>%
+  distinct() %>%
+  # clean up column
+  mutate(verbatim_species = species) %>%
+  # these may not be comprehensive; see taxonomy key script for comprehensive list
+  # first remove special characters that would be near the end
+  mutate(species = str_remove_all(species, "[[:digit:]]")) %>%
+  mutate(species = str_remove_all(species, "-")) %>%
+  mutate(species = str_remove_all(species, "_")) %>%
+  mutate(species = str_remove_all(species, "(cf\\. )")) %>%
+  mutate(species = str_remove_all(species, "(aff\\. )")) %>%
+  mutate(species = str_remove_all(species, "(gen\\. )")) %>%
+  mutate(species = str_remove_all(species, "(complex )")) %>%
+  # remove end of line whitespace
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  # trim and four more (in case of 'words')
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  #remove sp. from the end
+  mutate(species = str_remove_all(species, "(sp\\.)$")) %>%
+  mutate(species = str_remove_all(species, "(sp\\. )")) %>%
+  mutate(species = trimws(species)) %>%
+  # remove verbatim unless needed
+  select(species) %>%
+  # some entries will be duplicate now
+  distinct() %>%
+  # only species epithets, though we may want a generic list sometime
+  filter(str_detect(species, ' ') == TRUE)
+  
+  
+write_csv(sp_2_coi, here('processeddata', 'splists', '20230323_gapp-2-calvert_coi-sp.csv'))
+
+
+```
+
+
+# 3 Tully
+
+## 12S
+
+
+```{r 12S-tully}
+taxonomy_3_12s <- read.delim(here('rawdata', '3_deep-water_tully', '12S',  'taxonomy_table.12S.NCBI_NT.96sim.txt'), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  # column to match, eliminate any duplicates
+  rename(asv = query) %>%
+  distinct()
+
+
+sp_3_12s <- taxonomy_3_12s %>%
+  # fish only; check if more 
+  filter(class %in% c('Actinopteri', 'Chondrichthyes')) %>% 
+  # only sp level ids for this, comment out for full list
+  filter(lca_rank == 'species') %>%
+  select(species) %>%
+  distinct()
+# there may be clean up work here, maybe not.
+
+
+unique(taxonomy_3_12s$class)
+
+
+write_csv(sp_3_12s, here('processeddata', 'splists', '20230323_gapp-3-tully_12sfish-sp.csv'))
+
+```
+
+
+
+## COI
+
+
+```{r coi-tully}
+taxonomy_3_coi <- read.delim(here('rawdata', '3_deep-water_tully', 'COI',  'taxonomy_table.CO1.NCBI_NT+customDB.iterative_blast.txt'), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  # column to match, eliminate any duplicates
+  rename(asv = query) %>%
+  distinct()
+
+
+sp_3_coi <- taxonomy_3_coi %>%
+  # no bacteria
+  filter(kingdom == 'Eukaryota') %>%
+  # select animal phyla; 
+  # there may be some not listed here or with different backbone taxonomy check for each dataset
+  filter(phylum %in% c('Acanthocephala', 'Annelida', 'Brachiopoda', 'Bryozoa',
+                       'Cephalorhyncha', 'Chordata', 'Chaetognatha', 'Cnidaria', 
+                       'Ctenophora', 'Dicyemida', 'Echinodermata', 'Gastrotricha', 
+                       'Gnathostomulida', 'Kamptozoa', 'Micrognathozoa', 'Mollusca', 
+                       'Nematoda', 'Nematomorpha', 'Nemertea', 'Orthonectida', 
+                       'Phoronida', 'Placozoa', 'Platyhelminthes', 'Porifera', 'Rotifera', 
+                       'Sipuncula', 'Tardigrada', 'Xenacoelomorpha')) %>%
+  # only sp level ids for this, comment out for full list
+  filter(lca_rank == 'species') %>%
+  # remove known terrestrial and non-invert
+  filter(!(class %in% c('Actinopteri', 'Elasmobranchii',
+                      'Holocephali', 'Leptocardii', 'Myxini',
+                      'Petromyzonti', 'Mammalia', 'Insecta'))) %>%
+  # select only species column
+  select(species) %>%
+  distinct() %>%
+  # clean up column
+  mutate(verbatim_species = species) %>%
+  # these may not be comprehensive; see taxonomy key script for comprehensive list
+  # first remove special characters that would be near the end
+  mutate(species = str_remove_all(species, "[[:digit:]]")) %>%
+  mutate(species = str_remove_all(species, "-")) %>%
+  mutate(species = str_remove_all(species, "_")) %>%
+  mutate(species = str_remove_all(species, "(cf\\. )")) %>%
+  mutate(species = str_remove_all(species, "(aff\\. )")) %>%
+  mutate(species = str_remove_all(species, "(gen\\. )")) %>%
+  mutate(species = str_remove_all(species, "(complex )")) %>%
+  # remove end of line whitespace
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  # trim and four more (in case of 'words')
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  # hanging single lowercase
+  mutate(species = str_remove_all(species, "( [a-z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  # remove sp. from the end
+  mutate(species = str_remove_all(species, "(sp\\.)$")) %>%
+  mutate(species = str_remove_all(species, "(sp\\. )")) %>%
+  mutate(species = trimws(species)) %>%
+  # remove verbatim unless needed
+  select(species) %>%
+  # some entries will be duplicate now
+  distinct() %>%
+  # only species epithets, though we may want a generic list sometime
+  filter(str_detect(species, ' ') == TRUE)
+  
+  
+write_csv(sp_3_coi, here('processeddata', 'splists', '20230323_gapp-3-tully_coi-sp.csv'))
+
+
+```
