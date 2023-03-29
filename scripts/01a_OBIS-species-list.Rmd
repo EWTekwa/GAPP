@@ -11,7 +11,8 @@ May be able to update with a shapefile?
 Currently it pulls and cleans a checklist() but can be updated later for occurrence()
 
 OBIS already uses the WoRMS taxonomic backbone so no adjustment to taxonomy was necessary.
-
+Note that currently Species and Subspecies is preserved; in some cases the species column for a subspecies is unique. This seems to be a largely invertebrate-specific situation. 
+So when using these lists for analysis: `select(species) %>% distinct()` instead of `filter(taxon_rank == 'species')`
 
 ```{r setup, include=FALSE}
 library(robis)
@@ -46,7 +47,7 @@ load(here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
 ```{r fish filter taxonomy}
 obisfish <- obisdat %>%
   # only species level records
-  filter(taxonRank == 'Species') %>%
+  filter(taxonRank %in% c('Species', 'Subspecies')) %>%
   # only fish; polyphyletic so can be complicated
   # class covers most of it, some sculpins lack class though
   filter(class %in% c('Actinopteri', 'Elasmobranchii', 'Holocephali',
@@ -55,11 +56,16 @@ obisfish <- obisdat %>%
   # only records that have accepted taxonomy for now
   filter(taxonomicStatus == 'accepted') %>%
   #select only useful columns for now
-  select(species, 
+  select(species, subspecies, taxonRank,
          class, order, family, genus, 
          is_marine, is_brackish, is_freshwater,
          speciesid, taxonID, bold_id, ncbi_id) %>%
-  distinct()
+  # just in case
+  distinct() %>%
+  # rank to lowercase to match other databases
+  mutate(taxonRank = tolower(taxonRank)) %>%
+  # standardize column names
+  janitor::clean_names()
   
 
 
@@ -72,7 +78,7 @@ write_csv(obisfish, here('processeddata', 'species_lists', 'region', '20230329_o
 ```{r invertebrates filter taxonomy}
 obisinverts <- obisdat %>%
   # only species-level records
-  filter(taxonRank == 'Species') %>%
+  filter(taxonRank %in% c('Species', 'Subspecies')) %>%
   # only animals
   filter(kingdom == 'Animalia') %>%
   # only not-vertebrates, 
@@ -82,11 +88,16 @@ obisinverts <- obisdat %>%
   # only records that have accepted taxonomy for now
   filter(taxonomicStatus == 'accepted') %>%
   #select only useful columns for now
-  select(species, 
+  select(species, subspecies, taxonRank,
          phylum, class, order, family, genus, 
          is_marine, is_brackish, is_freshwater,
          speciesid, taxonID, bold_id, ncbi_id) %>%
-  distinct()
+  # just in case
+  distinct() %>%
+  # rank to lowercase to match other databases
+  mutate(taxonRank = tolower(taxonRank)) %>%
+  # standardize column names
+  janitor::clean_names()
 
 
 write_csv(obisinverts, here('processeddata', 'species_lists', 'region', '20230329_obis-invertebrates.csv'))
