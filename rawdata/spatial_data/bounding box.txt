@@ -1,0 +1,4 @@
+Define region to pull species checklists from
+
+big box: -161.261728,34.532973,-116.613291,62.729976
+little box: define box from metadata
