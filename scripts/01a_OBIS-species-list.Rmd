@@ -1,0 +1,35 @@
+---
+title: "01a_OBIS-species-list"
+author: "Kate Sheridan"
+date: "3/29/2023"
+output: html_document
+---
+
+This script pulls species occurrence data from OBIS to generate a species list for a defined region.
+May be able to update with a shapefile?
+
+
+```{r setup, include=FALSE}
+library(robis)
+library(obistools)
+library(tidyverse)
+library(here)
+
+#remotes::install_github("iobis/robis")
+```
+
+```{r scrape-data}
+# Bounding box for region; formatted as a well-known text object
+## (lat long, lat long, lat long, lat long) where each pair is a corner of the bounding box, then closed
+obis_bb <- "POLYGON((-161.261728 34.532973,-116.613291 34.532973, -116.613291 62.729976, -161.261728 62.729976, -161.261728 34.532973))"
+
+
+
+obisdat <- occurrence("Sebastes", geometry = obis_bb)
+obisdat <- checklist("Sebastes")
+#save so we don't have to download again
+save(obisdat, file = here('rawdata', 'species_lsits', '20230329_obis.RData'))
+# load if needed
+#load(here('rawdata', 'species_lists', '20230329_obis.RData'))
+```
+
