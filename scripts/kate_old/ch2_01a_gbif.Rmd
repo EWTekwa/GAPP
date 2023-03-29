@@ -1,0 +1,436 @@
+---
+title: "ch2_gbif"
+author: "Kate Sheridan"
+date: "5/15/2022"
+output: html_document
+---
+This script sets up a gbif download, then cleans the resulting download.
+Download is based on taxon keys plus bounding box.
+
+```{r setup, include=FALSE}
+#note: I had trouble installing rgibif because of a dependency that didn't want to compile. 
+#The solution if something like this happens again is make sure the package Rcpp is up to date.
+
+library(rgbif)
+library(taxize)
+library(tidyverse)
+library(sf)
+library(countrycode)
+library(taxize)
+#library(CoordinateCleaner)
+library(here)
+#library(rgdal) # transition to sf
+#library(rgeos) # transition to sf
+# having an issue here
+#install.packages('terra')
+
+
+
+
+# This package was in the biogeography course
+# i don't know if its needed here?
+library(conflicted)
+conflict_prefer('filter', 'dplyr')
+conflict_prefer('select', 'dplyr')
+```
+
+
+This taxa list includes major invertebrate phyla.
+Chordata only marine mammals, sea turtles, fish, plus inverts
+Arthropoda subset as well
+note: had to remove monogynaspida, possibly spelled wrong? either way i need to refine my marine mites.
+```{r taxa list}
+#seagrass
+#marine_taxa <- c('Zostera', 'Phyllospadix', 'Ruppia')
+
+#Animals
+marine_taxa <- c('Acanthocephala', 'Annelida', 'Brachiopoda', 'Bryozoa', 'Cephalorhyncha',
+          'Chaetognatha', 'Cnidaria', 'Ctenophora', 'Dicyemida', 'Echinodermata',
+          'Gastrotricha', 'Gnathostomulida', 'Hemichordata', 'Kamptozoa',
+          'Micrognathozoa', 'Mollusca', 'Myxozoa', 'Nematoda', 'Nematomorpha',
+          'Nemertea', 'Orthonectida', 'Phoronida', 'Placozoa', 'Platyhelminthes',
+          'Porifera', 'Rotifera', 'Sipuncula', 'Tardigrada', 'Xenacoelomorpha',
+          #Arthropoda
+          'Branchiopoda', 'Cephalocarida', 'Hexanauplia', 'Malacostraca',
+          'Maxillopoda', 'Merostomata', 'Ostracoda', 'Pycnogonida', 'Remipeda',
+          #Arachnida - marine mites
+          'Sarcoptiformes', 'Trombidiformes', 'Ornithodoros', 'Ixodes',
+          'Pontiolaelaps', 'Litogamasus',
+          #Chordata
+          'Ascidiacea', 'Appendicularia', 'Actinopterygii', 'Elasmobranchii',
+          'Holocephali', 'Leptocardii', 'Myxini', 'Sarcopterygii', 'Thaliacea',
+          #Marine mammals + reptiles
+          'Cetacea', 'Otariidae', 'Phocidae', 'Enhydra lutris', 'Cheloniidae'
+          )
+
+```
+
+
+Taxize will get gbif keys for these
+```{r}
+gbif_taxon_keys <-
+  marine_taxa %>%
+  get_gbifid_(method="backbone") %>% # match names to the GBIF backbone to get taxonkeys
+  imap(~ .x %>% mutate(original_sciname = .y)) %>% # add original name back into data.frame
+  bind_rows() %>% # combine all data.frames into one
+  filter(matchtype == "EXACT" & status == "ACCEPTED") %>% # get only accepted and matched names
+  filter(kingdom == "Animalia") # avoid homonyms with plants
+```
+
+
+Set up the download from gbif
+```{r gbif download}
+#set bounding box
+#pacific coast to equator
+gbif_bb <- "POLYGON((-168 69, -168.7 64.8, -166 63.5, -168.3 60, -162.2 57, -160 54.4, -148 57, -138 58, -133 52, -125.6 48, -126 42.7, -123 34, -117 30, -107.5 19.3, -94 14, -87.3 10.5, -81.5 6.6, -79.4 2.3, -82.4 -1, -80 -1, -76.8 3.7, -77.25 7.25, -78.56 9.1, -79.5 9.2, -81.3 8.1, -85.71 11.23, -87.27 13.5, -91.34 14.38, -94.4 16.6, -96.6 15.9, -105 20.2, -104.9 21.8, -112.8 31.4, -120 34.75, -121.8 37.2, -121.6 38, -122.75 38.2, -124 40.4, -123.8 41.6, -124.3 42.85, -123 46, -122.3 47, -122 47.6, -122.4 49.4, -126.6 51.5, -129.6 54.6, -130.85 56.1, -133.6 58.4, -135.6 59.5, -137.5 58.9, -139.5 60, -143.9 60.2, -146 61.2, -149.7 61.6, -151.75 61.1, -157.6 59, -161.4 59.3, -163.8 60.6, -163.8 60, -165.4 61.7, -162.2 63.3, -160.7 63.5, -160.7 65, -159.5 66.5, -165.3 68.5, -156.7 71.1, -168 69))"
+
+# download data
+user <- "lithobius"
+pwd <- "RG_GirDLuBfDE55"
+email <- "kate.sheridan@mail.mcgill.ca"
+
+#specific taxa within bounding box
+occ_download(pred_in("taxonKey", unique(gbif_taxon_keys$usagekey)),
+             pred("hasCoordinate", TRUE), 
+             pred_within(gbif_bb), 
+             format = "SIMPLE_CSV", 
+             user = user, pwd = pwd, email = email)
+
+#then go to gbif to download the file
+```
+
+Then download file from gbif, rename to proper format, move to folder.
+
+```{r}
+dat <- read_tsv(here("rawdata", "bigdata", "20220517_gbif_raw.csv"), guess_max = 25000, quote = "")
+
+
+#dat <- read_tsv(here("rawdata", "bigdata", "20220614_gbifseagrass.csv"), guess_max = 25000, #quote = "")
+
+#names(dat) #a lot of columns
+
+dat <- dat %>%
+  select(scientificName, decimalLongitude, decimalLatitude, countryCode, stateProvince,
+         gbifID, phylum, order, class, family, genus, species, taxonKey, taxonRank,
+         coordinateUncertaintyInMeters, year,
+         basisOfRecord,occurrenceStatus, individualCount)%>% # you might find other ones useful depending on your downstream analyses
+  mutate(countryCode = countrycode(dat$countryCode, origin =  'iso2c', destination = 'iso3c'))
+
+```
+
+```{r get-seagrass, eval=FALSE, include=FALSE}
+# only if you want seagrass-only
+dat <-  dat %>%
+  filter(!(species %in% c('Zostera japonica', 'NA')))
+
+unique(dat$species)
+```
+
+
+```{r}
+# remove records without coordinates
+dat_cl <- dat %>% filter(!is.na(decimalLongitude)) %>% filter(!is.na(decimalLatitude))
+
+# remove records with low coordinate precision
+#hist(dat_cl$coordinateUncertaintyInMeters/1000, breaks = 30)
+
+dat_cl <- dat_cl %>% 
+  filter(coordinateUncertaintyInMeters/1000 <= 100 | is.na(coordinateUncertaintyInMeters))
+
+# remove unsuitable data sources, especially fossils
+#table(dat$basisOfRecord)
+
+#the onclusion is that material sample is dna, etc. worth keeping for my work, but not all
+dat_cl <- filter(dat_cl, basisOfRecord == "HUMAN_OBSERVATION" | basisOfRecord == "OBSERVATION" | basisOfRecord == "PRESERVED_SPECIMEN" | basisOfRecord == "MATERIAL_SAMPLE" | is.na(basisOfRecord))
+
+#Individual count
+#when individual count = 0 or <99, remove because its likely to be a problem
+#also remove absence data here
+#table(dat_cl$individualCount)
+
+dat_cl <- dat_cl%>%
+  filter(individualCount > 0 | is.na(individualCount))%>%
+  #filter(individualCount < 199 | is.na(individualCount)) %>% # high counts are not a problem
+  filter(occurrenceStatus == "PRESENT")
+
+# Age of records
+#older records may be less reliable so we can delete older records to a point. cutoff may vary depending on groups, the sample is 1945. for many regions, there has been enough change in recording practices and land use since world war 2, this is a reasonable cutoff
+#table(dat_cl$year)
+
+dat_cl <- dat_cl %>% filter(year > 1944)  # remove records from before second world war
+
+# temp intermediate file until taxize is good
+saveRDS(dat_cl, here('rawdata','bigdata','intermediate','gbif_pretaxize.rds'))
+dat_cl<-readRDS('/Users/katesheridan/Documents/GitHub/chapter2/rawdata/bigdata/intermediate/gbif_pretaxize.rds')
+
+#here we're checking a bit of taxonomy
+# taxonomic cleaning with taxize
+## right now species + genus columns are separate
+# first extract species gbifids from search
+gbifids <- dat_cl %>%
+  filter(taxonRank %in% c("SPECIES", "SUBSPECIES")) %>%
+  select(taxonKey) %>%
+  distinct()
+
+# dealing with unranked separately, something is wrong here.
+unranked <- dat_cl %>%
+  filter(taxonRank == 'UNRANKED')
+
+
+# gbif's we'll query gbif for the keys
+gbif_gbif <- classification(gbifids$taxonKey, db = 'gbif', return_id = FALSE)
+gbif_class <- map_dfr(.x = gbif_gbif, ~ data.frame(.x), .id = 'taxonKey') %>%
+  filter(rank %in% c('species', 'subspecies')) %>% #check subspecies 
+  mutate(taxonKey = as.numeric(taxonKey))
+
+# make df for each taxon
+gbif_ranks <- dat_cl %>%
+  select(taxonKey, taxonRank,
+         genus, family, order, class) %>%
+  distinct() %>%
+  mutate(rank = tolower(taxonRank)) %>%
+  filter(!(rank %in% c('species', 'subspecies', 'form', 'variety',
+                       'phylum', 'unranked'))) %>%
+  mutate(name = ifelse((rank %in% "genus"), genus,
+                       ifelse((rank %in% "family"),  family,
+                             ifelse((rank %in% "order"),  order,
+                                    ifelse((rank %in% "class"),  class,NA))))) %>%
+  select(taxonKey, name, rank) %>%
+  filter(!(is.na(name))) %>%
+  full_join(gbif_class) %>%
+  distinct(name, .keep_all = TRUE)
+
+# temporary intermediate save
+write.csv(gbif_ranks, here('rawdata','bigdata','intermediate',
+                           '20220624_gbif_taxonomy-ranks.csv'))
+
+gbif_ranks <- read_csv(here('rawdata','bigdata','intermediate',
+                           '20220624_gbif_taxonomy-ranks.csv'))[-1]
+# inserting +'s for the temporary search issue
+worms_search <- gbif_ranks %>%
+  select(name, taxonKey) %>%
+  mutate(query = gsub(" ", "+", name))
+
+# temporary subdivisions until i get the function written
+worms_search1 <- worms_search[1:10000,]
+worms_search2 <- worms_search[10001:20000,]
+worms_search3 <- worms_search[20001:24202,]
+
+gbif_worms <- get_wormsid_(sci_com = worms_search3$query)
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+gbif_worms2 <- gbif_worms %>% 
+  compact() %>%
+  discard( ~ nrow(.x) == 0) %>%
+  map_dfr( ~ data.frame(.x), .id = 'query')
+
+#temp save and load-in for each section
+#saveRDS(gbif_worms2, here('rawdata', 'bigdata','intermediate','gbif-worms-temp2.rds'))
+#gbif_worms_3 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp2.rds'))
+#gbif_worms_1 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp.rds'))
+
+#temp join object
+gbif_worms4 <- gbif_worms2 %>%
+  full_join(gbif_worms_3) %>%
+  full_join(gbif_worms_1)
+
+#temp save of all combined
+#saveRDS(gbif_worms4, here('rawdata', 'bigdata','intermediate','gbif-worms-all.rds'))
+gbif_worms4 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-all.rds'))
+
+# this cleans up the +'s until curl is fixed by taxize
+gbif_worms4 <- gbif_worms4 %>%
+  left_join(worms_search) %>%
+  relocate(name) %>%
+  select(!(query))
+
+
+# now match species to sciname to remove extra rows
+gbif_worms4 <- gbif_worms4 %>%
+  # remove higher taxonomy with species-level hits
+  filter(!(str_detect(name, " ") == FALSE & str_detect(scientificname, " ") == TRUE)) %>%
+  filter(!(!(name == scientificname))) %>%
+  select(!(c(status))) %>%
+  rename(worms_aphiaid = AphiaID,
+        worms_sciname = scientificname) %>%
+  distinct()
+
+# repopulate higher taxonomy
+
+#temp splits to make this reasonable again
+worms_class1 <- gbif_worms4[1:3000,]
+worms_class1b <- gbif_worms4[3001:6000,]
+worms_class1c <- gbif_worms4[6001:10000,]
+worms_class2 <- gbif_worms4[10001:14000,]
+worms_class2b <- gbif_worms4[14001:18000,]
+worms_class2c <- gbif_worms4[18001:22000,]
+worms_class3 <- gbif_worms4[22001:24202,]
+
+# missed some?
+missed <- gbif_taxize %>%
+  filter(is.na(phylum)) %>%
+  left_join(worms_search)
+
+
+# worms classification
+gbif_worms_classify <- classification(missed$worms_aphiaid, db = 'worms')
+
+# make and rotate dataframe 
+gbif_worms_classify2 <- map_dfr(.x = gbif_worms_classify, ~ data.frame(.x), .id = 'worms_aphiaid') %>%
+  pivot_wider(id_cols = worms_aphiaid, names_from = rank, values_from = c(name, id)) %>%
+  rename_with(~ str_replace(.x, 'name_', '')) %>%
+  rename_with(~ str_replace(.x, 'id_', 'wormsid_')) %>%
+  mutate(worms_aphiaid = as.numeric(worms_aphiaid)) %>%
+  janitor::clean_names()
+
+
+#temp save and load-in for each section
+saveRDS(gbif_worms_classify2, here('rawdata', 'bigdata','intermediate','gbif-worms-temp7.rds'))
+
+# temp reloading all the rds's
+gbif_classify1 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp.rds'))
+gbif_classify2 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp2.rds'))
+gbif_classify3 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp3.rds'))
+gbif_classify4 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp4.rds'))
+gbif_classify5 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp5.rds'))
+gbif_classify6 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp6.rds'))
+gbif_classify7 <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp7.rds'))
+
+gbif_worms_classify <- gbif_classify1 %>%
+  full_join(gbif_classify2) %>%
+  full_join(gbif_classify3) %>%
+  full_join(gbif_classify4) %>%
+  full_join(gbif_classify5) %>%
+  full_join(gbif_classify6) %>%
+  full_join(gbif_classify7) %>%
+  full_join(gbif_worms_classify2) %>%
+  filter(kingdom == 'Animalia')
+
+saveRDS(gbif_worms_classify, here('rawdata', 'bigdata','intermediate','gbif-worms-temp8.rds'))
+
+gbif_worms_classify <- readRDS(here('rawdata', 'bigdata','intermediate','gbif-worms-temp8.rds'))
+
+
+# clean
+gbif_worms5 <- gbif_worms4 %>%
+  left_join(gbif_worms_classify) %>%
+  janitor::remove_empty() %>%
+  #select only desired taxonomic levels and their IDs
+  ## note subgenus was empty here but it probably shouldn't be
+  select(c(name, worms_aphiaid, worms_sciname,
+           phylum, class, subclass, order, family, genus, #subgenus, 
+           species,
+           wormsid_phylum, wormsid_class, wormsid_subclass, wormsid_order,
+           wormsid_family, wormsid_genus, #wormsid_subgenus, 
+           wormsid_species,
+           authority)) %>%
+  left_join(gbif_ranks) %>%
+  # some odd stuff
+  filter(!(rank %in% c('order', 'class', 'family', 'genus') & !(is.na(species)))) %>%
+  filter(!(is.na(phylum))) %>%
+  # keeping just the first one i guess, not super happy with this solution
+  ## problem is multiple authorities = multiple worms IDS
+  distinct(name, .keep_all = TRUE) 
+
+# re-merge with cleaned data
+
+dat_cl2 <- dat_cl %>%
+  select(!(c(phylum, order, class, family, genus, species))) %>%
+  left_join(gbif_worms5) %>%
+  distinct(gbifID, .keep_all = TRUE)
+
+#save!!!
+
+write.csv(dat_cl2, file = here('rawdata', 'bigdata',
+                               '20220627_gbif_worms-taxonomy-complete.csv'))
+
+# checking merges that weren't good
+tabs <- as.data.frame(table(dat_cl2$scientificName))
+tabs2 <- as.data.frame(table(dat_cl$scientificName))
+
+tabs <- tabs %>%
+  rename(datcl2 = Freq) %>%
+  full_join(tabs2) %>%
+  filter(!(datcl2 == Freq))
+
+#here they constrain their data to only-species ID. 
+#However my analysis right now is at the generic level and I filtered in advance with my genera list so I don't need this.
+#good to see that I don't have to be as precise with my generic list though, I could probably pull higher taxonomy then genera and constrain incomplete records at this stage.
+table(dat_cl$taxonRank)  # We will only include records identified to species level or below
+#dat_cl <- dat_cl %>% filter(taxonRank %in% c("SPECIES", "SUBSPECIES", "VARIETY") | is.na(taxonRank))
+
+#remove anything with NAs in the 3 lowest categories
+dat_cl <- dat_cl %>%
+  filter(!(is.na(family) & is.na(genus) & is.na(species)))
+
+```
+
+
+```{r temp-save}
+#save until coordinate cleaner is happy
+write_csv(dat_cl2, here("processeddata", "bigdata",
+                        "20220525_gbif-animal.csv"))
+
+write_csv(dat_cl, here("processeddata", "bigdata",
+                        "20220604_gbif-seagrass.csv"))
+```
+
+```{r}
+
+dat_cl <- read_csv(here("processeddata", "bigdata",
+                        "20220525_gbif-animal.csv"))
+
+```
+
+
+```{r}
+# insert coordinate cleaner
+```
+
+
+
+```{r save}
+write_csv(dat_cl2, "./cleandata/gbif_trawl_gen_clean.csv")
+```
+
+
+```{r bc-only}
+gbif2 <- dat_cl %>% 
+  filter(decimalLatitude > 47) %>%
+  filter(decimalLatitude < 55)
+
+gbif_unique <- gbif2 %>%
+  distinct(species, decimalLatitude, decimalLongitude)
+
+write.csv(gbif2, here('processeddata', 'bigdata',
+                      '20220525_gbif_bc_subset.csv'))
+write_csv(gbif_unique, here('processeddata','bigdata',
+                            '20220525_gbif_bc_subset-unique.csv'))
+```
+
+
+
+
+### this was from before? 
+
+```{r}
+#bc species list only
+#load in species list for bc
+bcsplist <- read.csv(here('rawdata', 'big_splist-bc.csv'))
+#load in species lists from specific taxa
+mollusc1 <- read.csv(here('output', 'molluscs_not_in_BLAST.csv'))
+mollusc2 <- read.csv(here('output', 'molluscs_share_BLAST.csv'))
+fish1 <- read.csv(here('output', 'fish_not_in_BLAST.csv'))
+fish2 <- read.csv(here('output', 'fish_share_BLAST.csv'))
+
+#combine and enframe list
+molluscfish <- enframe(c(mollusc1$species, mollusc2$species, fish1$species, fish2$species))
+
+#filter only species in our BC species list, then make sure its a list
+marine_taxa <- molluscfish %>% filter(value %in% bcsplist$x)
+marine_taxa <- c(marine_taxa$value)
+#saveRDS(marine_taxa, here('cleandata', '20210510_marine_taxa_search.Rdata'))
+
+```
+
+

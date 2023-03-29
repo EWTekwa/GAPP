@@ -1,0 +1,366 @@
+---
+title: "ch2_obis"
+author: "Kate Sheridan"
+date: "5/13/2022"
+output: html_document
+---
+
+This script scrapes data from OBIS based on a polygon.
+Data cleaning includes: date, basis of record, animals of interest
+Also subsets to BC and generates mapping csv (coordinates x scientificName)
+
+```{r setup, include=FALSE}
+library(robis)
+library(obistools)
+library(tidyverse)
+library(dplyr)
+library(sf)
+library(ape)
+library(ggtree)
+library(here)
+
+
+# currently having issues
+#library(speciesgeocodeR)
+# may not need if sf?
+#library(raster)
+#library(rgdal) # will be retired move to sf?
+
+
+```
+
+```{r scrape}
+obis_bb <- "POLYGON((-119 27,-113 27, -116 34, -119.8 35, -123 46.5, -121 47.5, -135 60, -139 58, -127 47.5, -126 39, -119 27))"
+
+#pacific coast to equator
+obis_bb2 <- "POLYGON((-168 69, -168.7 64.8, -166 63.5, -168.3 60, -162.2 57, -160 54.4, -148 57, -138 58, -133 52, -125.6 48, -126 42.7, -123 34, -117 30, -107.5 19.3, -94 14, -87.3 10.5, -81.5 6.6, -79.4 2.3, -82.4 -1, -80 -1, -76.8 3.7, -77.25 7.25, -78.56 9.1, -79.5 9.2, -81.3 8.1, -85.71 11.23, -87.27 13.5, -91.34 14.38, -94.4 16.6, -96.6 15.9, -105 20.2, -104.9 21.8, -112.8 31.4, -120 34.75, -121.8 37.2, -121.6 38, -122.75 38.2, -124 40.4, -123.8 41.6, -124.3 42.85, -123 46, -122.3 47, -122 47.6, -122.4 49.4, -126.6 51.5, -129.6 54.6, -130.85 56.1, -133.6 58.4, -135.6 59.5, -137.5 58.9, -139.5 60, -143.9 60.2, -146 61.2, -149.7 61.6, -151.75 61.1, -157.6 59, -161.4 59.3, -163.8 60.6, -163.8 60, -165.4 61.7, -162.2 63.3, -160.7 63.5, -160.7 65, -159.5 66.5, -165.3 68.5, -156.7 71.1, -168 69))"
+
+obisdat <- occurrence(geometry = obis_bb2)
+#save so we don't have to download again
+save(obisdat, file = here('rawdata', 'bigdata', '20220517_obis.RData'))
+load(here('rawdata', 'bigdata', '20220517_obis.RData'))
+```
+
+cleaning
+```{r}
+# not necessary if coordinates used for records
+# remove records without coordinates
+#obis_cl <- obisdat %>% filter(!is.na(decimalLongitude)) %>% filter(!is.na(decimalLatitude))
+
+# check dates to find bad ones
+table(obis_cl$eventDate)
+
+#remove records without dates
+obis_cl <- obisdat %>% 
+  filter(!is.na(eventDate)) %>%
+  # also invalid/bad dates
+  filter(!(eventDate %in% c('0000-00-00', '0000-02-00',
+                          '0000-10-00')))
+
+# remove unsuitable data sources, especially fossils
+table(obisdat$basisOfRecord)
+
+#the conclusion is that material sample is dna, etc. worth keeping for my work, but not all
+obis_cl <- filter(obis_cl, basisOfRecord == "Human observation" | basisOfRecord == "HumanObservation" | basisOfRecord == "PreservedSpecimen" | basisOfRecord == "MaterialSample" | basisOfRecord == 'LivingSpecimen' | is.na(basisOfRecord))
+
+#check who's on land
+land_buffer <- check_onland(obis_cl, buffer = 1000)
+
+obis_cl <- obis_cl %>%
+  filter(!(id %in% land_buffer$id))
+
+
+
+#save(obis_cl, file = here("processeddata", "bigdata",
+#                          "20220525_obis-cl.RData"))
+load(here('processeddata', 'bigdata', '20220525_obis-cl.RData'))
+
+#subset by group
+obis_animal <- obis_cl %>%
+  subset(kingdom == 'Animalia')
+
+
+write.csv(obis_animal, here("processeddata", "bigdata", "20210525_obis-animal.csv"))
+```
+
+
+
+subset animals for mappping
+```{r}
+#Things to remove
+#might add insects and birds back in later
+class_rem <- c('Insecta', 'Aves', 'Chilopoda')
+order_rem <- c('Araneae', 'Pseudoscorpionida')
+
+#smaller dataset with only name, coordinates, and a few taxonomic levels to filter
+obis_sub <- obis_animal %>%
+  dplyr::select(scientificName, decimalLatitude, decimalLongitude, year, phylum, 
+                class, order, family, genus, species, taxonRank, basisOfRecord, id) %>%
+  drop_na(phylum) %>%
+  filter(!(class %in% class_rem)) %>%
+  filter(!(order %in% order_rem))
+
+write.csv(obis_sub, 
+          here('rawdata', 'bigdata', '20220525_obis-animals.csv'))
+
+
+obis_sub <- read_csv(here("rawdata", "bigdata", "20220525_obis-animals.csv"))[,-1]
+```
+# sort taxonomy with taxize
+```{r taxize}
+library(taxize)
+
+# list of unique species to check
+obis_taxize <- obis_sub %>%
+  # uncomment to check issues
+  #select(scientificName, phylum) %>%
+  select(scientificName) %>%
+  distinct() %>%
+  filter(!(is.na(scientificName)))
+
+# get gbifid to populate higher taxonomy that will match GBIF
+# get it to extract 3 rows in case of uncertainty; 99% of the time row 1 is fine
+# but we'll pull 2 in case
+obis_fix_gbifid <- get_gbifid_(sci = obis_taxize$scientificName, rows = 2)
+
+#bind up lists into a dataframe
+obis_fix_gbifid <- dplyr::bind_rows(obis_fix_gbifid, .id = "query")
+rownames(obis_fix_gbifid) <- NULL
+
+# split up lists to assess
+# note that the status column is not synced with GBIF
+# do not use this column to eliminate species!!!
+
+# matches to save: animals, exact, and fuzzy with confidece 90+
+obis_gbifid2 <- obis_fix_gbifid %>% 
+  filter(!(is.na(usagekey))) %>%
+  filter(kingdom == "Animalia") %>%
+  # eliminating fuzzy matches for now
+  #filter(matchtype == 'EXACT' | matchtype == 'FUZZY' & confidence >= 90)
+  filter(matchtype == 'EXACT') %>%
+  rename(gbif_key = usagekey) %>%
+  # strip higher taxonomy from gbif bc it doesn't match worms/bold
+  ## but keep keys!
+  select(!(c(kingdom, phylum, class, order, family, genus, species,
+             status, canonicalname, matchtype, kingdomkey,
+             # just keeping regular gbif key
+             acceptedusagekey, synonym, note))) %>%
+  rename(gbif_phylumkey = phylumkey,
+         gbif_classkey = classkey,
+         gbif_orderkey = orderkey,
+         gbif_familykey = familykey,
+         gbif_genuskey = genuskey,
+         gbif_specieskey = specieskey,
+         gbif_sciname = scientificname)
+  
+
+# now we'll search worms
+obis_bold <- get_boldid_(sci = obis_taxize$scientificName, 
+                         includeTree = TRUE,
+                         divison = 'Animalia')
+#bind up lists into a dataframe
+obis_bold2 <- map_dfr(.x= obis_bold, ~ data.frame(.x)) %>%
+  filter(!(is.na(input))) %>%
+  filter(!(is.na(taxid))) %>%
+  filter(tax_division == 'Animalia') %>%
+  # remove cases where input is higher taxonomy and taxon is species epthet
+  filter(!(str_detect(input, " ") == FALSE & str_detect(taxon, " ") == TRUE)) %>%
+  select(!(c(representitive_image.image, 
+             representitive_image.apectratio))) %>%
+  remove_rownames() %>%
+  relocate(input) %>%
+  distinct()
+
+# fetch higher taxonomy
+# note this doesn't show progress for some reason, just sits as busy forever
+obis_bold_class <- classification(obis_bold2$taxid, db = 'bold')
+# make and rotate dataframe 
+obis_bold_class2 <- map_dfr(.x = obis_bold_class, ~ data.frame(.x), .id = 'bold') %>%
+  pivot_wider(id_cols = bold, names_from = rank, values_from = c(name, id)) %>%
+  rename_with(~ str_replace(.x, 'name_', '')) %>%
+  rename_with(~ str_replace(.x, 'id_', 'boldid_')) %>%
+  mutate(bold = as.numeric(bold))
+
+# obis with higher taxonomy prepped to merge with gbif
+obis_bold2 <- obis_bold2 %>%
+  left_join(obis_bold_class2, by = c('taxid' = 'bold')) %>%
+  rename(bold_id = taxid,
+         query = input,
+         rank = tax_rank,
+         kingdom = tax_division,
+         bold_taxon = taxon) %>%
+  select(!(c(specimenrecords, parentname, parentid,
+             tribe, subspecies, subfamily,
+             boldid_subfamily, boldid_subspecies, boldid_tribe,
+             kingdom, taxonrep)))
+
+
+# there is still an open issue where whitespaces aren't being handled properly
+## until this is fixed, replace white spaces with a + in any search to WoRMS
+worms_search <- obis_taxize %>%
+  select(scientificName) %>%
+  mutate(query = gsub(" ", "+", scientificName))
+
+obis_worms <- get_wormsid_(sci_com = worms_search$query)
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+obis_worms2 <- obis_worms %>% 
+  compact() %>%
+  discard( ~ nrow(.x) == 0) %>%
+  map_dfr( ~ data.frame(.x), .id = 'query')
+
+# this cleaning step is relatively temporary until they fix the curl issue
+obis_worms2 <- obis_worms2 %>%
+  left_join(worms_search) %>%
+  relocate(scientificName) %>%
+  select(!(query))
+
+# when the temporary cleaning step is removed, continue above pipe here
+# might be possible to just force matches but should fuzzy match at some point?
+## can we fuzzy match from worms?
+obis_worms2 <- obis_worms2 %>%
+  # remove higher taxonomy with species-level hits
+  filter(!(str_detect(scientificName, " ") == FALSE & str_detect(scientificname, " ") == TRUE)) %>%
+  
+  # remove species-level taxonomy with subspecies/variety-level hits
+  #filter(!(str_detect(scientificName, " ") == TRUE & 
+  #           str_detect(scientificname, regex("[A-Z,a-z]+[\\s][A-Z,a-z]+[\\s]")) == TRUE)) %>%
+  # force columns to match if it has a parentheses
+  #  filter(!(str_detect(scientificName, "\\(") == TRUE & 
+  #           !(scientificName == scientificname))) %>%
+  # force columns to match if its a higher level taxonomy
+  filter(!(!(scientificName == scientificname))) %>%
+  select(!(c(status))) %>%
+  rename(worms_aphiaid = AphiaID,
+        worms_sciname = scientificname,
+        query = scientificName) %>%
+  distinct()
+
+# worms classification
+obis_worms_class <- classification(obis_worms2$worms_aphiaid, db = 'worms')
+
+# make and rotate dataframe 
+obis_worms_class2 <- map_dfr(.x = obis_worms_class, ~ data.frame(.x), .id = 'worms_aphiaid') %>%
+  pivot_wider(id_cols = worms_aphiaid, names_from = rank, values_from = c(name, id)) %>%
+  rename_with(~ str_replace(.x, 'name_', '')) %>%
+  rename_with(~ str_replace(.x, 'id_', 'wormsid_')) %>%
+  mutate(worms_aphiaid = as.numeric(worms_aphiaid)) %>%
+  janitor::clean_names()
+
+obis_worms3 <- obis_worms2 %>%
+  left_join(obis_worms_class2) %>%
+  filter(kingdom == 'Animalia') %>%
+  janitor::remove_empty() %>%
+  #select only desired taxonomic levels and their IDs
+  select(c(query, worms_aphiaid, worms_sciname,
+           phylum, class, subclass, order, family, genus, subgenus, species,
+           wormsid_phylum, wormsid_class, wormsid_subclass, wormsid_order,
+           wormsid_family, wormsid_genus, wormsid_subgenus, wormsid_species,
+           authority))
+
+#save original object if desired
+#write.csv(obis_worms2, here('rawdata','bigdata','20220623_obis_worms-taxonomy-complete.csv'))
+
+# not-found list
+notfound <- obis_sub %>%
+  select(scientificName, phylum, class, family) %>%
+  distinct() %>%
+  filter(!(is.na(scientificName))) %>%
+  #not in gbif or obis or worms
+  filter(!(scientificName %in% obis_fix_gbifid2$query |
+           scientificName %in% obis_bold2$query | 
+           scientificName %in% obis_worms2$query))
+
+```
+
+```{r join-fixed}
+# join all updated fields
+obis_fix_join <- obis_taxize %>%
+  rename(query = scientificName) %>%
+  left_join(obis_worms3) %>%
+  left_join(obis_bold2) %>%
+  left_join(obis_gbifid2) %>%
+  relocate(c('bold_id', 'gbif_key'), .before = 'worms_aphiaid') %>%
+  relocate(c('bold_taxon', 'gbif_sciname'), .before = 'phylum')
+
+
+
+# rejoin
+obis_sub_fix <- obis_sub %>%
+  dplyr::select(scientificName, decimalLatitude, decimalLongitude, 
+                year, basisOfRecord, id) %>%
+  left_join(obis_fix_join, 
+             by = c("scientificName" = "query"))
+
+#write full
+write.csv(obis_sub_fix, here('rawdata','bigdata', '20220622_obis_taxonomy-full.csv'))
+
+
+
+obis_sub_fix_reduced <- obis_sub_fix %>%
+  select()
+```
+
+
+
+```{r}
+#table(obis_sub$order)
+#obis_sub %>% filter(class == 'Insecta')
+
+#unique to map
+obis_sub_coords <- obis_sub %>%
+  drop_na(class) %>%
+  distinct(scientificName, decimalLatitude, decimalLongitude)
+write.csv(obis_sub_coords, 
+          here('rawdata', 'bigdata', '20220525_obis_subset-unique.csv'))
+
+#BC subsets
+#all records for analysis
+bc_sub <- obis_sub %>% 
+  filter(decimalLatitude > 47) %>%
+  filter(decimalLatitude < 55)
+
+#only unique species x lat x long combonations for quick mapping
+bc_sub_coords <- bc_sub %>%
+  drop_na(class) %>%
+  distinct(scientificName, decimalLatitude, decimalLongitude)
+
+write.csv(bc_sub, 
+          here('processeddata', 'bigdata',
+               '20220525_obis_bc_subset.csv'))
+write.csv(bc_sub_coords, 
+          here('processeddata', 'bigdata',
+               '20220525_obis_bc_subset-unique.csv'))
+
+#species list for whole
+obis_sp_list <- obis_sub %>%
+  dplyr::select(species) %>%
+  drop_na() %>%
+  distinct()
+
+
+write.csv(obis_sp_list$species,
+          here('processeddata', 'sp_lists', '20220525_obis_splist.csv'))
+
+#species list for bc only
+bc_sp_list <- bc_sub %>%
+  dplyr::select(species) %>%
+  drop_na() %>%
+  distinct()
+
+
+write.csv(bc_sp_list$species,
+          here('processeddata', 'sp_lists',
+               '20220525_obis_bc_splist.csv'))
+```
+
+
+
+
+
+```{r}
+library(arsenal)
+sp1sp2_compared <- comparedf(obis_worms2, worms_search, by = 'scientificName')
+sp1sp2_diff <- diffs(sp1sp2_compared, what = 'observations')
+```
+
