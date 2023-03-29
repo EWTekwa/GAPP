@@ -11,7 +11,7 @@ May be able to update with a shapefile?
 
 ```{r setup, include=FALSE}
 library(robis)
-library(obistools)
+#library(obistools)
 library(tidyverse)
 library(here)
 
@@ -24,11 +24,12 @@ library(here)
 obis_bb <- "POLYGON((-161.261728 34.532973,-116.613291 34.532973, -116.613291 62.729976, -161.261728 62.729976, -161.261728 34.532973))"
 
 
-
-obisdat <- occurrence("Sebastes", geometry = obis_bb)
-obisdat <- checklist("Sebastes")
+# occurrence for all records
+#obisdat <- occurrence(geometry = obis_bb)
+# checklist for species/taxonomy lst
+obisdat <- checklist(geometry = obis_bb)
 #save so we don't have to download again
-save(obisdat, file = here('rawdata', 'species_lsits', '20230329_obis.RData'))
+save(obisdat, file = here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
 # load if needed
 #load(here('rawdata', 'species_lists', '20230329_obis.RData'))
 ```
