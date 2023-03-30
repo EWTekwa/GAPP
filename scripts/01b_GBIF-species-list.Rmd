@@ -1,0 +1,228 @@
+---
+title: "1b_GBIF-species-list"
+author: "Kate Sheridan"
+date: "3/30/2023"
+output: html_document
+---
+
+This script pulls records from GBIF.
+`rgbif` does not have the equivalent of `checklist()` from `robis`, so we will have to use a somewhat indirect method.
+
+```{r setup, include=FALSE}
+library(rgbif)
+library(taxize)
+library(worrms)
+library(countrycode)
+library(tidyverse)
+library(here)
+```
+
+# set up dataset
+
+We need to define the occurrence records in our dataset. Since GBIF includes terrestrial animals, we want to make sure we're pulling only marine animals. We also have to check that our names match the GBIF backbone taxonomy, especially if some time has elapsed since the last assessment. 
+
+Some of these, such as Annelida and Actinopterygii, will still pull terrestrial or freshwater hits to filter out later but I have tried to select levels that would minimize filtering.
+
+```{r define parameters}
+#Animals
+marine_taxa <- c(
+  #exclusively or largely marine invertebrate phyla
+  'Acanthocephala', 'Annelida', 'Brachiopoda', 'Bryozoa', 'Cephalorhyncha',
+  'Chaetognatha', 'Cnidaria', 'Ctenophora', 'Cycliophora', 'Dicyemida', 
+  'Echinodermata', 'Entoprocta', 'Gastrotricha', 'Gnathostomulida', 'Hemichordata', 
+  'Kamptozoa', 'Kinorhyncha', 'Loricifera', 'Micrognathozoa', 'Mollusca', 
+  'Myxozoa', 'Nematoda', 'Nematomorpha', 'Nemertea', 'Orthonectida', 
+  'Phoronida', 'Placozoa', 'Platyhelminthes', 'Porifera', 'Priapulida', 
+  'Rotifera', 'Sipuncula', 'Tardigrada', 'Xenacoelomorpha',
+  #Arthropod 'classes' (according to GBIF)
+  'Branchiopoda', 'Cephalocarida', 'Copepoda', 'Hexanauplia', 'Malacostraca',
+  'Maxillopoda', 'Merostomata', 'Mystacocarida', 'Ostracoda', 'Pycnogonida', 
+  'Remipeda', 'Tantulocarida',
+    #Arachnida - marine mites ; this list is incomplete
+  'Ameronothridae', 'Fortuyniidae', 'Halacaridae', 'Hyadesiidae', 'Hydrachnidae', 'Pontarachnidae',
+  'Ornithodoros', 'Ixodes', 'Pontiolaelaps', 'Litogamasus',
+  #Chordata 'classes'
+  'Ascidiacea', 'Appendicularia', 'Copelata', 'Coelacanthi', 'Elasmobranchii',
+          'Holocephali', 'Leptocardii', 'Myxini', 'Petromyzonti', 'Sarcopterygii', 'Thaliacea',
+  # Bony fish because 'Actinopteri/Actinopterygii' is not part of the GBIF backbone
+  'Acipenseriformes', 'Albuliformes', 'Anguilliformes', 'Ateleopodiformes', 'Atheriniformes',
+  'Aulopiformes', 'Batrachoidiformes', 'Beloniformes', 'Beryciformes', 'Cetomimiformes',
+  'Characiformes', 'Clupeiformes', 'Cypriniformes', 'Cyprinodontiformes', 'Elopiformes',
+  'Esociformes', 'Gadiformes', 'Gasterosteiformes', 'Gobeisociformes', 'Gonorynchiformes',
+  'Lampriformes', 'Lepidosteiformes', 'Lophiiformes', 'Mugiliformes', 'Myctophiformes', 
+  'Notacanthiformes', 'Ophiodiiformes', 'Osmeriformes', 'Osteoglossiformes', 'Perciformes',
+  'Pleuronectiformes', 'Polymixiformes', 'Polypteriformes', 'Saccopharyngiformes', 'Salmoniformes',
+  'Scorpaeniformes', 'Siluriformes', 'Stephanoberyciformes', 'Stomiiformes', 'Synbranchiformes',
+  'Syngnathiformes', 'Tetraodontiformes', 'Zeiformes'
+          #Marine mammals + reptiles ## not yet, we'll add this back in if we need them
+          #'Cetacea', 'Otariidae', 'Phocidae', 'Enhydra lutris', 'Cheloniidae'
+          )
+
+# use taxize to get keys for selected taxa
+gbif_taxon_keys <-marine_taxa %>%
+  get_gbifid_(method="backbone") %>% # match names to the GBIF backbone to get taxonkeys
+  imap(~ .x %>% mutate(original_sciname = .y)) %>% # add original name back into data.frame
+  # combine all data.frames into one
+  bind_rows() %>% 
+  # get only accepted and matched names
+  filter(matchtype == "EXACT" & status == "ACCEPTED") %>% 
+   # avoid homonyms with plants
+  filter(kingdom == "Animalia")
+
+# Bounding box for region; formatted as a well-known text object
+## (lat long, lat long, lat long, lat long) where each pair is a corner of the bounding box, then closed
+gbif_bb <- "POLYGON((-161.261728 34.532973,-116.613291 34.532973, -116.613291 62.729976, -161.261728 62.729976, -161.261728 34.532973))"
+
+
+```
+
+
+```{r gbif download}
+# download data
+#user <- "Your-username"
+#pwd <- "your-password"
+#email <- "your-email"
+
+
+#specific taxa within bounding box
+occ_download(pred_in("taxonKey", unique(gbif_taxon_keys$usagekey)),
+             pred("hasCoordinate", TRUE), 
+             pred_within(gbif_bb), 
+             format = "SIMPLE_CSV", 
+             user = user, pwd = pwd, email = email)
+
+#then go to gbif to download the file or use occ_download_get
+```
+
+
+```{r download download directly}
+occ_download_wait('0133151-230224095556074')
+
+gbif_data <- occ_download_get('0133151-230224095556074') %>%
+    occ_download_import()
+```
+
+# Clean GBIF data
+
+```{r}
+
+gbif_data <- gbif_data %>%
+  # reduce the columns
+  select(scientificName, decimalLongitude, decimalLatitude, countryCode, stateProvince,
+         gbifID, phylum, order, class, family, genus, species, taxonKey, taxonRank,
+         coordinateUncertaintyInMeters, year,
+         basisOfRecord,occurrenceStatus, individualCount)%>% 
+  # you might find other ones useful depending on your downstream analyses
+  mutate(countryCode = countrycode(countryCode, origin =  'iso2c', destination = 'iso3c'))
+
+
+
+gbif_cl <- gbif_data %>% 
+  # remove records without coordinates
+  filter(!is.na(decimalLongitude)) %>% filter(!is.na(decimalLatitude)) %>%
+  # remove records with high coordinate uncertainty
+  filter(coordinateUncertaintyInMeters/1000 <= 100 | is.na(coordinateUncertaintyInMeters)) %>%
+  # only keep the types of observations relevant
+  filter(basisOfRecord == "HUMAN_OBSERVATION" | basisOfRecord == "OBSERVATION" | basisOfRecord == "PRESERVED_SPECIMEN" | basisOfRecord == "MATERIAL_SAMPLE" | is.na(basisOfRecord)) %>%
+  # remove records where the individual count is 0
+  filter(individualCount > 0 | is.na(individualCount))%>%
+  # remove records where individual count is high, may not be necessary for our data
+  #filter(individualCount < 199 | is.na(individualCount)) %>% 
+  # remove absence data
+  filter(occurrenceStatus == "PRESENT") %>%
+  # older records can be less reliable
+  # typically WWII is a cutoff as data collection standards changed in many fields
+  #filter(year > 1944)
+  # but since we're also looking for invertebrates I'm going to relax this a bit,
+  # might allow data from species description papers for more obscure taxa that aren't frequently observed
+  filter(year > 1900) %>%
+  # make taxon rank match other datasets
+  mutate(taxonRank = tolower(taxonRank)) %>%
+  janitor::clean_names() 
+
+
+# temp intermediate file until taxize is good
+#saveRDS(gbif_cl, here('rawdata','species_lists','20230330_gbif_pretaxize.rds'))
+gbif_cl<-readRDS(here('rawdata','species_lists','20230330_gbif_pretaxize.rds'))
+```
+
+
+
+# Fish
+
+```{r filter to fish}
+# get unique species and prepare for taxize
+gbiffish <- gbif_cl %>%
+  # 'unranked' includes some messed up but otherwise perfectly usable data
+  filter(taxon_rank %in% c('species', 'subspecies', 'unranked')) %>%
+  # fish 'classes'
+  filter(class %in% c('Appendicularia', 'Coelacanthi', 'Elasmobranchii',
+          'Holocephali', 'Myxini', 'Petromyzonti', 'Sarcopterygii', 'Thaliacea') |
+           order %in% c(
+             # Bony fish because 'Actinopteri/Actinopterygii' is not part of the GBIF backbone
+  'Acipenseriformes', 'Albuliformes', 'Anguilliformes', 'Ateleopodiformes', 'Atheriniformes',
+  'Aulopiformes', 'Batrachoidiformes', 'Beloniformes', 'Beryciformes', 'Cetomimiformes',
+  'Characiformes', 'Clupeiformes', 'Cypriniformes', 'Cyprinodontiformes', 'Elopiformes',
+  'Esociformes', 'Gadiformes', 'Gasterosteiformes', 'Gobeisociformes', 'Gonorynchiformes',
+  'Lampriformes', 'Lepidosteiformes', 'Lophiiformes', 'Mugiliformes', 'Myctophiformes', 
+  'Notacanthiformes', 'Ophiodiiformes', 'Osmeriformes', 'Osteoglossiformes', 'Perciformes',
+  'Pleuronectiformes', 'Polymixiformes', 'Polypteriformes', 'Saccopharyngiformes', 'Salmoniformes',
+  'Scorpaeniformes', 'Siluriformes', 'Stephanoberyciformes', 'Stomiiformes', 'Synbranchiformes',
+  'Syngnathiformes', 'Tetraodontiformes', 'Zeiformes')) %>%
+  # reduce columns to only taxonomy related ones
+  select(phylum, class, order, family, genus, species, taxon_key, taxon_rank) %>%
+  distinct() %>%
+  # get rid of higher level unranked
+  filter(!(species == "")) %>%
+  # now we know they're all species
+  mutate(taxon_rank = ifelse(taxon_rank == 'unranked', 'species', taxon_rank)) %>%
+  distinct(species, .keep_all = TRUE)
+
+
+```
+
+
+```{r worrms and taxize}
+# inserting +'s for the temporary search issue
+worms_search <- gbif_ranks %>%
+  select(name, taxonKey) %>%
+  mutate(query = gsub(" ", "+", name))
+```
+
+
+
+
+# Invertebrates
+
+
+```{r}
+gbifinverts <- gbif_cl %>%
+  # genus here for some rare things that might have been hard to ID
+  filter(taxon_rank %in% c('species', 'subspecies', 'unranked', 'genus')) %>%
+  #filter out fish 'classes'
+  filter(!(class %in% c('Appendicularia', 'Actinopterygii', 'Coelacanthi', 'Elasmobranchii',
+          'Holocephali', 'Myxini', 'Petromyzonti', 'Sarcopterygii', 'Thaliacea'))) %>%
+  # reduce columns to only taxonomy related ones
+  select(phylum, class, order, family, genus, species, taxon_key, taxon_rank) %>%
+  #remove unranked and neither species or genus
+  filter(!(taxon_rank == 'unranked' & species == '' & genus == '')) %>%
+  # update all blank spaces to NAs
+  mutate(across(.cols = c(order, class, family, genus, species),
+                .fns = ~ na_if(., ""))) %>%
+  # unranked to genus and species depending
+  mutate(taxon_rank = ifelse((is.na(species) & taxon_rank == 'unranked'), 'genus',
+                             ifelse(taxon_rank == 'unranked', 'species', taxon_rank))) %>%
+  distinct(genus, species, .keep_all = TRUE) %>%
+  # remove genus-level records that also have species level records
+  add_count(genus, name = 'num_sp') %>%
+  filter(!(taxon_rank == 'genus' & num_sp >= 2)) %>%
+  select(!(num_sp)) %>%
+  # these are really species records now
+  mutate(taxon_rank = ifelse(taxon_rank == 'subspecies', 'species', taxon_rank)) %>%
+  # just in case haha
+  distinct()
+
+
+```
+
+

@@ -5,11 +5,14 @@ date: "3/23/2023"
 output: html_document
 ---
 
+** Last updated March 20 2023 **
+
 This script extracts species lists from each survey in GAPP for 12S and COI.
 
 The cleaning could be done in fewer steps but as of right now more exploration might be needed at a later date.
 
 *This is currently pre-qc.*
+This needs to be updated as more data come in and the data are cleaned.
 
 ```{r setup, include=FALSE}
 library(tidyverse)

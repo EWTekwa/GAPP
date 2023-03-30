@@ -16,11 +16,9 @@ So when using these lists for analysis: `select(species) %>% distinct()` instead
 
 ```{r setup, include=FALSE}
 library(robis)
-#library(obistools)
+#library(obistools) # for cleaning occurrence data
 library(tidyverse)
 library(here)
-
-#remotes::install_github("iobis/robis")
 ```
 
 ```{r scrape-data}
@@ -34,10 +32,12 @@ obis_bb <- "POLYGON((-161.261728 34.532973,-116.613291 34.532973, -116.613291 62
 
 # checklist for species/taxonomy lst
 obisdat <- checklist(geometry = obis_bb)
+
+# if the download is large:
 #save so we don't have to download again
-save(obisdat, file = here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
+#save(obisdat, file = here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
 # load if needed
-load(here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
+#load(here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
 ```
 
 
