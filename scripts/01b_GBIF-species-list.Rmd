@@ -178,15 +178,25 @@ gbiffish <- gbif_cl %>%
   mutate(taxon_rank = ifelse(taxon_rank == 'unranked', 'species', taxon_rank)) %>%
   distinct(species, .keep_all = TRUE)
 
-
+head(gbiffish)
 ```
 
 
 ```{r worrms and taxize}
 # inserting +'s for the temporary search issue
-worms_search <- gbif_ranks %>%
-  select(name, taxonKey) %>%
-  mutate(query = gsub(" ", "+", name))
+worms_search_fish <- gbiffish %>%
+  select(species, taxon_key) %>%
+  mutate(query = gsub(" ", "+", species))
+
+
+
+worms_fish <- get_wormsid_(sci_com = worms_search_fish$query)
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+worms_fish2 <- worms_fish %>% 
+  compact() %>%
+  discard( ~ nrow(.x) == 0) %>%
+  map_dfr( ~ data.frame(.x), .id = 'query')
 ```
 
 
@@ -226,3 +236,19 @@ gbifinverts <- gbif_cl %>%
 ```
 
 
+```{r worrms and taxize}
+# inserting +'s for the temporary search issue
+worms_search_inverts <- gbifinverts %>%
+  select(species, taxon_key) %>%
+  mutate(query = gsub(" ", "+", species))
+
+
+
+worms_inverts <- get_wormsid_(sci_com = worms_search_inverts$query)
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+worms_fish2 <- worms_fish %>% 
+  compact() %>%
+  discard( ~ nrow(.x) == 0) %>%
+  map_dfr( ~ data.frame(.x), .id = 'query')
+```
