@@ -7,7 +7,7 @@ output: html_document
 
 ** Last updated March 20 2023 **
 
-This script extracts species lists from each survey in GAPP for 12S and COI.
+This script extracts species lists from each survey in GAPP for 12S and COI primer sets.
 
 The cleaning could be done in fewer steps but as of right now more exploration might be needed at a later date.
 

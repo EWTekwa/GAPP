@@ -1,0 +1,3 @@
+dim(seqtab): 	140	2239 
+dim(seqtab.nosingletons.nochim): 	140	1140 
+proprtion of chimeras: 	0.9516983

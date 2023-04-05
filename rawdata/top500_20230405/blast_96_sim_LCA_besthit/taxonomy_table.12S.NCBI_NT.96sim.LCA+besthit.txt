@@ -1,0 +1,1028 @@
+#Query	#lca rank	#lca taxon	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV2	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV3	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV4	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV5	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV6	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV7	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV8	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV9	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV10	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV11	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV12	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV13	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV14	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV15	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV16	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV17	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV18	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV19	species	Leuroglossus schmidti	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Leuroglossus	Leuroglossus schmidti	best hit
+ASV20	species	Lycodapus mandibularis	Eukaryota	Chordata	Actinopteri	Perciformes	Zoarcidae	Lycodapus	Lycodapus mandibularis	best hit
+ASV21	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV22	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV23	species	Hydrolagus colliei	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV24	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV25	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV26	species	Merluccius productus	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV27	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV28	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV29	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV30	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV31	species	Pycnococcus provasolii	Viridiplantae	Chlorophyta	unknown class	unknown order	Pycnococcaceae	Pycnococcus	Pycnococcus provasolii	best hit
+ASV32	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV33	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV34	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV35	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV36	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV37	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV38	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV39	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV40	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV41	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV42	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV43	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV44	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV45	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV46	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV47	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV48	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV49	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV50	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV51	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV52	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV53	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV54	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV55	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV56	species	Skeletonema marinoi	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema marinoi	best hit
+ASV57	species	Hippoglossoides platessoides	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossoides	Hippoglossoides platessoides	best hit
+ASV58	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV59	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV60	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV61	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV62	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV63	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV64	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV65	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV66	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV67	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV68	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV69	species	Ophiodon elongatus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV70	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV71	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV72	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV73	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV74	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV75	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV76	species	Scorpaenichthys marmoratus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV77	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV78	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV79	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV80	species	Pararotalia nipponica	Eukaryota	Foraminifera	unknown class	Rotaliida	Rotaliidae	Pararotalia	Pararotalia nipponica	best hit
+ASV81	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV82	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV83	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV84	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV85	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV86	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV87	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV88	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV90	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV91	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV92	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV93	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV94	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV95	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV96	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV97	species	Sprattus sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV98	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV99	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV100	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV101	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV102	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV103	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV104	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV105	species	Chaetoceros diadema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros diadema	best hit
+ASV106	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV107	species	Oncorhynchus tshawytscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV108	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV109	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV110	species	Alburnus alburnus	Eukaryota	Chordata	Actinopteri	Cypriniformes	Leuciscidae	Alburnus	Alburnus alburnus	best hit
+ASV111	species	Liparis fucensis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis fucensis	best hit
+ASV112	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV113	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV114	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV115	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV116	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV117	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV118	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV119	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV120	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV121	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV122	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV123	species	Thalassiosira rotula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira rotula	best hit
+ASV124	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV125	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV126	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV127	species	Pseudoalteromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Pseudoalteromonadaceae	Pseudoalteromonas	Pseudoalteromonas sp.	best hit
+ASV128	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV129	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV130	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV131	species	Cottus cognatus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV132	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV133	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV134	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV135	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV136	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV137	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV138	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV139	species	Oncorhynchus gorbuscha	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV140	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV141	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV142	species	Oxylebius pictus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Oxylebius	Oxylebius pictus	best hit
+ASV143	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV144	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV146	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV147	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV148	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV149	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV150	species	uncultured Gammaproteobacteria bacterium	Bacteria	Pseudomonadota	Gammaproteobacteria	unknown order	unknown family	unknown genus	uncultured Gammaproteobacteria bacterium	best hit
+ASV151	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV152	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV153	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV155	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV156	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV157	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV158	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV159	species	Corethron pennatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Corethrales	Corethraceae	Corethron	Corethron pennatum	best hit
+ASV160	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV161	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV162	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV163	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV164	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV165	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV166	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV167	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV168	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV169	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV170	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV171	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV172	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV173	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV174	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV175	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV176	species	uncultured Rhodobacteraceae bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Paracoccaceae	unknown genus	uncultured Rhodobacteraceae bacterium	best hit
+ASV177	species	uncultured phototrophic eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured phototrophic eukaryote	best hit
+ASV178	species	Leuroglossus schmidti	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Leuroglossus	Leuroglossus schmidti	best hit
+ASV179	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV181	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV182	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV183	species	uncultured Gammaproteobacteria bacterium	Bacteria	Pseudomonadota	Gammaproteobacteria	unknown order	unknown family	unknown genus	uncultured Gammaproteobacteria bacterium	best hit
+ASV184	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV185	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV186	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV187	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV188	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV189	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV190	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV191	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV192	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV193	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV194	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV195	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV196	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV197	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV198	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV199	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV200	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV201	species	uncultured protist	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured protist	best hit
+ASV202	species	Maritimibacter harenae	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Roseobacteraceae	Maritimibacter	Maritimibacter harenae	best hit
+ASV203	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV204	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV205	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV206	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV207	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV208	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV209	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV210	species	Glyptocephalus cynoglossus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Glyptocephalus	Glyptocephalus cynoglossus	best hit
+ASV212	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV213	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV214	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV215	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV216	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	best hit
+ASV217	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV218	species	Psychromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Psychromonadaceae	Psychromonas	Psychromonas sp.	best hit
+ASV219	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV220	species	Uncultured Salinisphaeraceae bacterium	Bacteria	Pseudomonadota	Gammaproteobacteria	Salinisphaerales	Salinisphaeraceae	unknown genus	Uncultured Salinisphaeraceae bacterium	best hit
+ASV221	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV222	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV223	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV224	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV225	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV226	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV227	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV228	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV229	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV230	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV231	species	Maritimibacter harenae	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Roseobacteraceae	Maritimibacter	Maritimibacter harenae	best hit
+ASV232	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV233	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV234	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV235	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV236	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV237	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV238	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV239	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV240	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV241	species	Pycnococcus provasolii	Viridiplantae	Chlorophyta	unknown class	unknown order	Pycnococcaceae	Pycnococcus	Pycnococcus provasolii	best hit
+ASV242	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV243	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV245	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV246	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV247	species	uncultured protist	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured protist	best hit
+ASV249	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV250	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV251	genus	Candidatus Pseudothioglobus	Bacteria	Pseudomonadota	Gammaproteobacteria	unknown order	unknown family	Candidatus Pseudothioglobus	no identification	lca
+ASV252	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV253	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV254	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV255	species	Psychromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Psychromonadaceae	Psychromonas	Psychromonas sp.	best hit
+ASV256	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV257	species	uncultured phototrophic eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured phototrophic eukaryote	best hit
+ASV258	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV259	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV260	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV261	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV262	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV263	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV264	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV265	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV266	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV267	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV268	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV269	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV270	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV272	species	uncultured proteobacterium	Bacteria	Pseudomonadota	unknown class	unknown order	unknown family	unknown genus	uncultured proteobacterium	best hit
+ASV273	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV274	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV275	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV277	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV278	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV279	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV280	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV281	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV282	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV283	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV284	species	Chaetoceros diadema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros diadema	best hit
+ASV285	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV286	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV287	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV288	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV289	species	Oligocottus maculosus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV290	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV291	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV292	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV293	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV294	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV295	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV296	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV297	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV298	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV299	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV300	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV301	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV302	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV303	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV304	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV305	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV306	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV307	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV308	species	Sprattus sprattus	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV309	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV311	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV312	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV313	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV314	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV315	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV316	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV317	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV318	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV319	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV320	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV321	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	best hit
+ASV322	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV323	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV324	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV325	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV326	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV327	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV329	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV330	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV331	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV332	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV333	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV334	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV336	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV337	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV338	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV339	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV340	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV341	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV342	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV343	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV344	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV345	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV346	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV347	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV348	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV349	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV350	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV351	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV352	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV353	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV354	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV355	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV356	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV357	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV358	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV360	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV361	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV362	species	Sus scrofa	Eukaryota	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV363	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV364	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV365	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV367	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV368	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV369	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV370	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV371	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV372	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV373	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV374	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV375	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV376	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV377	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV378	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV379	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV380	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV381	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV382	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV383	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV384	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV385	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV386	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV387	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV388	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV389	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV390	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV391	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV392	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV393	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV394	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV395	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV396	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV397	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV398	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV399	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV400	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV401	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV402	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV403	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV406	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV407	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV408	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV409	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV410	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV411	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV412	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV413	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV414	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV415	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV417	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV418	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV419	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV420	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV421	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV422	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV423	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV425	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV426	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV427	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV428	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV429	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV430	species	Merluccius productus	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV431	species	Pararotalia nipponica	Eukaryota	Foraminifera	unknown class	Rotaliida	Rotaliidae	Pararotalia	Pararotalia nipponica	best hit
+ASV432	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV433	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV434	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV435	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV436	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV437	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV439	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV440	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV442	species	Chaetoceros simplex	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros simplex	best hit
+ASV443	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV444	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV445	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV446	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV447	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV448	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV449	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV450	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV451	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV452	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV453	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV454	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV455	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV456	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV457	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV458	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV459	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV460	species	Grammonema striatula	Eukaryota	Bacillariophyta	Fragilariophyceae	Fragilariales	Fragilariaceae	Grammonema	Grammonema striatula	best hit
+ASV461	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV462	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV463	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV464	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV465	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV466	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV467	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV468	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV469	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV470	species	uncultured Fibrobacterota bacterium	Bacteria	Fibrobacterota	unknown class	unknown order	unknown family	unknown genus	uncultured Fibrobacterota bacterium	best hit
+ASV471	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV472	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV473	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV474	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV475	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV476	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV477	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV478	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV479	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV480	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV481	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV482	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV483	species	uncultured Cyanobacterium sp.	Bacteria	Cyanobacteriota	Cyanophyceae	Chroococcales	Geminocystaceae	Cyanobacterium	uncultured Cyanobacterium sp.	best hit
+ASV485	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV486	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV487	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV488	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV489	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV490	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV491	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV492	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV493	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV494	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV495	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV496	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV497	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV498	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV499	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV500	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Pseudomonadota	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV501	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV504	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV505	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV506	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV507	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV508	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV509	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV510	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV511	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV512	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV513	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV515	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV516	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV517	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV518	species	Pararotalia nipponica	Eukaryota	Foraminifera	unknown class	Rotaliida	Rotaliidae	Pararotalia	Pararotalia nipponica	best hit
+ASV519	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV520	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV522	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV523	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV524	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV525	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV526	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV527	species	Lycodapus mandibularis	Eukaryota	Chordata	Actinopteri	Perciformes	Zoarcidae	Lycodapus	Lycodapus mandibularis	best hit
+ASV528	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV529	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV530	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV531	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV532	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV534	species	uncultured phototrophic eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured phototrophic eukaryote	best hit
+ASV535	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV536	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV537	species	Planktomarina temperata RCA23	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Paracoccaceae	Planktomarina	Planktomarina temperata RCA23	best hit
+ASV538	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV539	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV540	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV541	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV542	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV543	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV544	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV545	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV546	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV547	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV548	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV549	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV550	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV551	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV552	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV553	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV554	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV555	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV556	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV557	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV558	species	uncultured protist	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured protist	best hit
+ASV559	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV560	species	uncultured eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured eukaryote	best hit
+ASV561	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV562	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV563	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV564	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV565	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV566	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV567	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV568	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV569	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV570	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV571	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV572	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV573	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV574	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV575	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV576	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV577	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV578	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV579	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV580	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV581	species	Pseudictyota dubia	Eukaryota	Bacillariophyta	Mediophyceae	Eupodiscales	Odontellaceae	Pseudictyota	Pseudictyota dubia	best hit
+ASV582	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV583	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV584	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV586	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV587	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV588	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV589	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV590	species	Lepidopsetta bilineata	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV591	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV592	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV593	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV594	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV595	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV596	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV597	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV598	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV599	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV601	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV602	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV603	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV604	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV605	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV606	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV607	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV608	species	Thalassiosira rotula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira rotula	best hit
+ASV609	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV610	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV611	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV612	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV613	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV614	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV615	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV616	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV617	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV618	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV619	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV620	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV621	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV622	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV623	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV624	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV625	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV626	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV627	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV628	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV629	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV630	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV631	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV632	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV633	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV634	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV635	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV636	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV637	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV638	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV639	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV640	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV641	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV642	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV643	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV644	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV645	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV646	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV647	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV648	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV649	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV652	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV654	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV655	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV656	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV657	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV658	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV659	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV660	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV661	species	Dermasterias imbricata	Eukaryota	Echinodermata	Asteroidea	Valvatida	Poraniidae	Dermasterias	Dermasterias imbricata	best hit
+ASV662	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV663	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV664	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV665	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV666	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	best hit
+ASV667	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV668	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV669	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV670	species	Shewanella psychrophila	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Shewanellaceae	Shewanella	Shewanella psychrophila	best hit
+ASV671	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV672	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV673	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV675	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV676	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV677	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV678	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV679	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV680	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV681	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV682	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV683	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV685	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV686	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV687	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV688	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV689	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV690	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV691	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV692	species	Pholis laeta	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis laeta	best hit
+ASV693	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV694	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV695	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV696	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV697	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV698	species	Oxylebius pictus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Oxylebius	Oxylebius pictus	best hit
+ASV699	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV700	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV701	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV702	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV703	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV704	species	Xiphister atropurpureus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV705	species	Anarrhichthys ocellatus	Eukaryota	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	best hit
+ASV706	species	Hexagrammos decagrammus	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV707	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV709	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV710	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV712	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV713	species	uncultured bacillariophyte clone AWS98-11c	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured bacillariophyte clone AWS98-11c	best hit
+ASV714	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV715	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV716	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV717	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV718	species	uncultured Rhodobacteraceae bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Paracoccaceae	unknown genus	uncultured Rhodobacteraceae bacterium	best hit
+ASV720	species	Maritimibacter harenae	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Roseobacteraceae	Maritimibacter	Maritimibacter harenae	best hit
+ASV721	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV722	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV723	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV724	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV725	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV726	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV727	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV728	species	Corethron pennatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Corethrales	Corethraceae	Corethron	Corethron pennatum	best hit
+ASV729	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV730	species	Eumetopias jubatus	Eukaryota	Chordata	Mammalia	Carnivora	Otariidae	Eumetopias	Eumetopias jubatus	best hit
+ASV731	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV732	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV733	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV735	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV736	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV737	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV738	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV739	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV740	species	Skeletonema marinoi	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema marinoi	best hit
+ASV742	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV743	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV744	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV745	species	Anoplarchus purpurescens	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	Anoplarchus purpurescens	best hit
+ASV746	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV749	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV750	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV751	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV752	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV753	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV754	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV755	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV756	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV757	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV758	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV759	species	Chaetoceros diadema	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros diadema	best hit
+ASV760	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV761	species	uncultured Gammaproteobacteria bacterium	Bacteria	Pseudomonadota	Gammaproteobacteria	unknown order	unknown family	unknown genus	uncultured Gammaproteobacteria bacterium	best hit
+ASV762	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV764	species	uncultured delta proteobacterium	Bacteria	Pseudomonadota	Deltaproteobacteria	unknown order	unknown family	unknown genus	uncultured delta proteobacterium	best hit
+ASV765	species	Cottus asper	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV766	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV767	species	Sebastes baramenuke	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes baramenuke	best hit
+ASV768	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV769	species	uncultured delta proteobacterium	Bacteria	Pseudomonadota	Deltaproteobacteria	unknown order	unknown family	unknown genus	uncultured delta proteobacterium	best hit
+ASV770	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV772	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV773	species	uncultured Pseudoalteromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Pseudoalteromonadaceae	Pseudoalteromonas	uncultured Pseudoalteromonas sp.	best hit
+ASV774	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV775	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV776	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV777	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV779	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV780	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV781	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV782	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV783	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV784	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV785	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV786	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV787	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV788	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV789	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV790	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV791	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV792	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV793	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV794	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV796	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV798	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV799	species	uncultured Rhodobacterales bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	unknown family	unknown genus	uncultured Rhodobacterales bacterium	best hit
+ASV800	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV801	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV802	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV803	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	best hit
+ASV804	species	uncultured eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured eukaryote	best hit
+ASV805	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV806	species	Sebastes entomelas	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes entomelas	best hit
+ASV807	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV808	species	Maritimibacter harenae	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Roseobacteraceae	Maritimibacter	Maritimibacter harenae	best hit
+ASV809	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV810	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV811	species	Psammoneis obaidii	Eukaryota	Bacillariophyta	Mediophyceae	Triceratiales	Plagiogrammaceae	Psammoneis	Psammoneis obaidii	best hit
+ASV812	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV813	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV814	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV815	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV816	species	Halamphora americana	Eukaryota	Bacillariophyta	Bacillariophyceae	Naviculales	Amphipleuraceae	Halamphora	Halamphora americana	best hit
+ASV817	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV818	species	Caudoviricetes sp.	Heunggongvirae	Uroviricota	Caudoviricetes	unknown order	unknown family	unknown genus	Caudoviricetes sp.	lca
+ASV819	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV820	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV821	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV822	species	Pararotalia nipponica	Eukaryota	Foraminifera	unknown class	Rotaliida	Rotaliidae	Pararotalia	Pararotalia nipponica	best hit
+ASV823	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV824	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV825	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV826	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV827	species	Psychromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Psychromonadaceae	Psychromonas	Psychromonas sp.	best hit
+ASV828	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV829	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV830	species	Microstomus pacificus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV831	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV832	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV833	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV834	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV835	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV836	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV837	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV838	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV839	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV840	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV842	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV843	species	Pararotalia nipponica	Eukaryota	Foraminifera	unknown class	Rotaliida	Rotaliidae	Pararotalia	Pararotalia nipponica	best hit
+ASV844	species	Merluccius productus	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV845	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV846	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV847	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV848	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV849	species	uncultured Ralstonia sp.	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	uncultured Ralstonia sp.	best hit
+ASV850	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV851	species	Sebastes caurinus	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes caurinus	best hit
+ASV852	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV853	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV854	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV855	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV856	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV857	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV858	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV859	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV860	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV861	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV862	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV863	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV864	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV865	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV866	species	Merluccius productus	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV868	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV869	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV871	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV872	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV873	species	uncultured cyanobacterium	Bacteria	Cyanobacteriota	unknown class	unknown order	unknown family	unknown genus	uncultured cyanobacterium	best hit
+ASV875	species	Leucothrix sargassi	Bacteria	Pseudomonadota	Gammaproteobacteria	Thiotrichales	Thiotrichaceae	Leucothrix	Leucothrix sargassi	best hit
+ASV876	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV878	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV880	species	Navicula arenaria	Eukaryota	Bacillariophyta	Bacillariophyceae	Naviculales	Naviculaceae	Navicula	Navicula arenaria	best hit
+ASV881	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV882	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV883	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV884	species	uncultured eukaryotic phytoplankton	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured eukaryotic phytoplankton	best hit
+ASV885	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV886	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV887	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV888	species	uncultured archaeon	Archaea	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured archaeon	best hit
+ASV889	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV890	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV891	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV892	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV893	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV894	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV895	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV896	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV897	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV898	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV899	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV900	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV901	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV902	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV903	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV905	genus	Candidatus Pelagibacter	Bacteria	Pseudomonadota	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV906	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV907	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV908	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV909	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV910	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV911	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV913	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV914	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV915	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV916	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV917	species	Skeletonema marinoi	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema marinoi	best hit
+ASV918	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV920	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV922	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV923	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV924	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV925	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV926	species	Gadus morhua	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV927	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV928	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV930	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV932	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV933	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV934	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV935	species	uncultured eukaryotic phytoplankton	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured eukaryotic phytoplankton	best hit
+ASV936	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV937	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV938	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV939	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV941	species	Pycnococcus provasolii	Viridiplantae	Chlorophyta	unknown class	unknown order	Pycnococcaceae	Pycnococcus	Pycnococcus provasolii	best hit
+ASV943	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV944	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV947	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV948	species	Stephanopyxis turris	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Melosirales	Stephanopyxidaceae	Stephanopyxis	Stephanopyxis turris	best hit
+ASV949	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV950	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV951	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV952	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV953	species	Skeletonema tropicum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema tropicum	best hit
+ASV954	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV955	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV956	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV957	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV959	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV960	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV961	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV963	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV965	species	uncultured cyanobacterium	Bacteria	Cyanobacteriota	unknown class	unknown order	unknown family	unknown genus	uncultured cyanobacterium	best hit
+ASV966	species	Skeletonema pseudocostatum	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV967	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV968	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV969	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV971	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV972	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	best hit
+ASV973	species	Pycnococcus provasolii	Viridiplantae	Chlorophyta	unknown class	unknown order	Pycnococcaceae	Pycnococcus	Pycnococcus provasolii	best hit
+ASV974	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV975	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV976	species	uncultured marine bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine bacterium	best hit
+ASV977	species	Planktomarina temperata RCA23	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Paracoccaceae	Planktomarina	Planktomarina temperata RCA23	lca
+ASV978	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV979	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV981	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV984	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV986	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV987	species	Pseudopedinella elastica	Eukaryota	unknown phylum	Dictyochophyceae	Pedinellales	unknown family	Pseudopedinella	Pseudopedinella elastica	best hit
+ASV988	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV989	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV991	species	Thalassiosira rotula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira rotula	best hit
+ASV992	species	uncultured delta proteobacterium	Bacteria	Pseudomonadota	Deltaproteobacteria	unknown order	unknown family	unknown genus	uncultured delta proteobacterium	best hit
+ASV993	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV995	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV997	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV998	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV999	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1002	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1003	species	uncultured delta proteobacterium	Bacteria	Pseudomonadota	Deltaproteobacteria	unknown order	unknown family	unknown genus	uncultured delta proteobacterium	best hit
+ASV1004	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1005	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1007	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1010	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1011	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1013	species	Skeletonema marinoi	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema marinoi	best hit
+ASV1014	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1015	species	uncultured bacterium 413004-H17	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium 413004-H17	best hit
+ASV1016	species	uncultured Alphaproteobacteria bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV1018	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1019	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1020	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1021	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1023	species	Virgulinella fragilis	Eukaryota	Foraminifera	unknown class	Rotaliida	unknown family	Virgulinella	Virgulinella fragilis	best hit
+ASV1024	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1026	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1027	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1028	family	Burkholderiaceae	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	no identification	no identification	lca
+ASV1030	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1031	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1032	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1034	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1035	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1036	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1037	species	Achromobacter xylosoxidans	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	Achromobacter xylosoxidans	best hit
+ASV1038	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1039	species	uncultured Gammaproteobacteria bacterium	Bacteria	Pseudomonadota	Gammaproteobacteria	unknown order	unknown family	unknown genus	uncultured Gammaproteobacteria bacterium	best hit
+ASV1041	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1042	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1044	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1046	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1047	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1048	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1049	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1050	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1052	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1053	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1054	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1056	species	uncultured Pseudoalteromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Pseudoalteromonadaceae	Pseudoalteromonas	uncultured Pseudoalteromonas sp.	best hit
+ASV1057	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1058	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1059	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1060	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1063	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1064	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1067	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1068	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1069	species	uncultured Methylococcaceae bacterium	Bacteria	Pseudomonadota	Gammaproteobacteria	Methylococcales	Methylococcaceae	unknown genus	uncultured Methylococcaceae bacterium	best hit
+ASV1070	species	uncultured cyanobacterium	Bacteria	Cyanobacteriota	unknown class	unknown order	unknown family	unknown genus	uncultured cyanobacterium	lca
+ASV1071	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1072	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1074	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1075	species	Achromobacter ruhlandii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	Achromobacter ruhlandii	lca
+ASV1076	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1077	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1078	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1079	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1080	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1084	species	uncultured Rhodobacteraceae bacterium	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Paracoccaceae	unknown genus	uncultured Rhodobacteraceae bacterium	best hit
+ASV1086	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1088	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1089	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1090	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1091	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1092	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1093	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1094	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1095	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1096	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1097	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	best hit
+ASV1098	species	uncultured archaeon	Archaea	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured archaeon	best hit
+ASV1102	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1104	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1105	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1106	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1107	species	Ralstonia pickettii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia pickettii	best hit
+ASV1108	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1109	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1110	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1111	genus	Achromobacter	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	no identification	lca
+ASV1114	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1115	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1116	species	uncultured marine eukaryote	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured marine eukaryote	best hit
+ASV1117	species	Psychromonas sp.	Bacteria	Pseudomonadota	Gammaproteobacteria	Alteromonadales	Psychromonadaceae	Psychromonas	Psychromonas sp.	best hit
+ASV1118	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1119	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1120	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1122	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1124	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1125	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	best hit
+ASV1127	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1128	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1129	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1131	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1136	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1137	species	Clupea pallasii	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV1138	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1140	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca

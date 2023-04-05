@@ -1,0 +1,1028 @@
+#Query	#lca rank	#lca taxon	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV2	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV3	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV4	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV5	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV6	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV7	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV8	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV9	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV10	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV11	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV12	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV13	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV14	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV15	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV16	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV17	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV18	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV19	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV20	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV21	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV22	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV23	order	Chimaeriformes	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	no identification	no identification	no identification	lca
+ASV24	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV25	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV26	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV27	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV28	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV29	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV30	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV31	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV32	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV33	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV34	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV35	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV36	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV37	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV38	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV39	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV40	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV41	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV42	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV43	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV44	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV45	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV46	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV47	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV48	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV49	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV50	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV51	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV52	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV53	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV54	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV55	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV56	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV57	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV58	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV59	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV60	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV61	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV62	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV63	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV64	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV65	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV66	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV67	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV68	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV69	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV70	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV71	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV72	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV73	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV74	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV75	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV76	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV77	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV78	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV79	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV80	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV81	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV82	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV83	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV84	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV85	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV86	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV87	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV88	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV90	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV91	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV92	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV93	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV94	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV95	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV96	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV97	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV98	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV99	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV100	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV101	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV102	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV103	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV104	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV105	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV106	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV107	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV108	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV109	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV110	order	Cypriniformes	Eukaryota	Chordata	Actinopteri	Cypriniformes	no identification	no identification	no identification	lca
+ASV111	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV112	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV113	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV114	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV115	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV116	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV117	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV118	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV119	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV120	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV121	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV122	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV123	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV124	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV125	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV126	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV127	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV128	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV129	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV130	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV131	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV132	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV133	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV134	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV135	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV136	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV137	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV138	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV139	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV140	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV141	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV142	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV143	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV144	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV146	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV147	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV148	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV149	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV150	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV151	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV152	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV153	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV155	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV156	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV157	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV158	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV159	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV160	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV161	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV162	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV163	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV164	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV165	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV166	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV167	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV168	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV169	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV170	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV171	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV172	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV173	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV174	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV175	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV176	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV177	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV178	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV179	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV181	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV182	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV183	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV184	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV185	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV186	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV187	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV188	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV189	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV190	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV191	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV192	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV193	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV194	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV195	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV196	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV197	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV198	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV199	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV200	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV201	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV202	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV203	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV204	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV205	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV206	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV207	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV208	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV209	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV210	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV212	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV213	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV214	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV215	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV216	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV217	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV218	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV219	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV220	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV221	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV222	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV223	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV224	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV225	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV226	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV227	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV228	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV229	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV230	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV231	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV232	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV233	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV234	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV235	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV236	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV237	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV238	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV239	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV240	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV241	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV242	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV243	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV245	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV246	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV247	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV249	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV250	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV251	genus	Candidatus Pseudothioglobus	Bacteria	Pseudomonadota	Gammaproteobacteria	unknown order	unknown family	Candidatus Pseudothioglobus	no identification	lca
+ASV252	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV253	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV254	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV255	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV256	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV257	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV258	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV259	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV260	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV261	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV262	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV263	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV264	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV265	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV266	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV267	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV268	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV269	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV270	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV272	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV273	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV274	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV275	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV277	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV278	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV279	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV280	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV281	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV282	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV283	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV284	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV285	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV286	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV287	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV288	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV289	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV290	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV291	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV292	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV293	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV294	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV295	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV296	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV297	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV298	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV299	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV300	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV301	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV302	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV303	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV304	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV305	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV306	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV307	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV308	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV309	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV311	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV312	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV313	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV314	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV315	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV316	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV317	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV318	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV319	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV320	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV321	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV322	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV323	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV324	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV325	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV326	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV327	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV329	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV330	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV331	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV332	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV333	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV334	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV336	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV337	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV338	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV339	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV340	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV341	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV342	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV343	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV344	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV345	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV346	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV347	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV348	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV349	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV350	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV351	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV352	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV353	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV354	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV355	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV356	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV357	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV358	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV360	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV361	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV362	class	Mammalia	Eukaryota	Chordata	Mammalia	no identification	no identification	no identification	no identification	lca
+ASV363	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV364	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV365	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV367	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV368	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV369	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV370	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV371	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV372	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV373	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV374	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV375	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV376	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV377	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV378	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV379	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV380	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV381	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV382	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV383	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV384	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV385	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV386	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV387	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV388	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV389	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV390	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV391	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV392	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV393	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV394	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV395	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV396	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV397	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV398	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV399	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV400	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV401	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV402	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV403	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV406	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV407	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV408	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV409	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV410	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV411	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV412	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV413	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV414	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV415	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV417	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV418	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV419	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV420	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV421	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV422	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV423	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV425	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV426	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV427	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV428	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV429	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV430	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV431	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV432	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV433	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV434	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV435	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV436	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV437	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV439	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV440	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV442	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV443	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV444	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV445	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV446	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV447	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV448	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV449	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV450	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV451	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV452	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV453	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV454	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV455	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV456	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV457	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV458	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV459	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV460	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV461	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV462	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV463	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV464	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV465	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV466	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV467	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV468	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV469	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV470	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV471	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV472	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV473	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV474	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV475	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV476	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV477	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV478	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV479	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV480	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV481	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV482	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV483	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV485	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV486	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV487	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV488	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV489	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV490	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV491	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV492	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV493	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV494	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV495	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV496	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV497	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV498	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV499	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV500	species	Candidatus Pelagibacter ubique HTCC1062	Bacteria	Pseudomonadota	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter ubique HTCC1062	lca
+ASV501	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV504	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV505	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV506	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV507	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV508	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV509	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV510	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV511	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV512	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV513	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV515	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV516	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV517	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV518	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV519	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV520	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV522	genus	Homo	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	no identification	lca
+ASV523	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV524	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV525	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV526	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV527	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV528	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV529	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV530	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV531	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV532	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV534	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV535	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV536	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV537	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV538	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV539	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV540	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV541	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV542	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV543	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV544	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV545	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV546	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV547	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV548	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV549	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV550	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV551	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV552	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV553	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV554	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV555	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV556	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV557	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV558	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV559	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV560	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV561	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV562	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV563	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV564	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV565	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV566	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV567	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV568	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV569	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV570	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV571	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV572	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV573	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV574	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV575	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV576	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV577	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV578	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV579	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV580	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV581	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV582	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV583	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV584	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV586	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV587	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV588	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV589	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV590	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV591	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV592	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV593	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV594	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV595	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV596	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV597	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV598	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV599	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV601	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV602	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV603	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV604	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV605	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV606	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV607	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV608	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV609	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV610	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV611	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV612	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV613	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV614	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV615	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV616	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV617	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV618	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV619	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV620	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV621	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV622	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV623	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV624	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV625	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV626	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV627	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV628	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV629	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV630	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV631	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV632	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV633	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV634	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV635	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV636	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV637	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV638	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV639	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV640	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV641	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV642	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV643	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV644	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV645	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV646	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV647	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV648	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV649	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV652	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV654	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV655	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV656	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV657	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV658	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV659	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV660	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV661	order	Valvatida	Eukaryota	Echinodermata	Asteroidea	Valvatida	no identification	no identification	no identification	lca
+ASV662	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV663	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV664	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV665	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV666	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV667	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV668	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV669	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV670	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV671	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV672	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV673	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV675	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV676	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV677	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV678	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV679	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV680	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV681	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV682	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV683	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV685	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV686	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV687	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV688	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV689	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV690	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV691	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV692	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV693	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV694	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV695	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV696	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV697	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV698	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV699	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV700	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV701	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV702	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV703	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV704	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV705	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV706	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV707	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV709	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV710	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV712	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV713	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV714	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV715	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV716	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV717	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV718	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV720	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV721	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV722	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV723	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV724	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV725	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV726	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV727	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV728	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV729	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV730	class	Mammalia	Eukaryota	Chordata	Mammalia	no identification	no identification	no identification	no identification	lca
+ASV731	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV732	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV733	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV735	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV736	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV737	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV738	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV739	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV740	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV742	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV743	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV744	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV745	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV746	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV749	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV750	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV751	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV752	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV753	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV754	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV755	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV756	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV757	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV758	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV759	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV760	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV761	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV762	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV764	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV765	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV766	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV767	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV768	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV769	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV770	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV772	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV773	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV774	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV775	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV776	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV777	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV779	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV780	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV781	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV782	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV783	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV784	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV785	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV786	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV787	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV788	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV789	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV790	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV791	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV792	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV793	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV794	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV796	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV798	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV799	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV800	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV801	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV802	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV803	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV804	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV805	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV806	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV807	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV808	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV809	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV810	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV811	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV812	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV813	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV814	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV815	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV816	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV817	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV818	species	Caudoviricetes sp.	Heunggongvirae	Uroviricota	Caudoviricetes	unknown order	unknown family	unknown genus	Caudoviricetes sp.	lca
+ASV819	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV820	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV821	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV822	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV823	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV824	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV825	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV826	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV827	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV828	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV829	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV830	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV831	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV832	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV833	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV834	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV835	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV836	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV837	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV838	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV839	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV840	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV842	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV843	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV844	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV845	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV846	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV847	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV848	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV849	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV850	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV851	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV852	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV853	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV854	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV855	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV856	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV857	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV858	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV859	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV860	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV861	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV862	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV863	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV864	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV865	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV866	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV868	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV869	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV871	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV872	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV873	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV875	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV876	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV878	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV880	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV881	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV882	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV883	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV884	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV885	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV886	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV887	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV888	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV889	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV890	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV891	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV892	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV893	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV894	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV895	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV896	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV897	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV898	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV899	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV900	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV901	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV902	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV903	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV905	genus	Candidatus Pelagibacter	Bacteria	Pseudomonadota	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	no identification	lca
+ASV906	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV907	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV908	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV909	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV910	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV911	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV913	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV914	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV915	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV916	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV917	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV918	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV920	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV922	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV923	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV924	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV925	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV926	order	Gadiformes	Eukaryota	Chordata	Actinopteri	Gadiformes	no identification	no identification	no identification	lca
+ASV927	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV928	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV930	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV932	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV933	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV934	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV935	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV936	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV937	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV938	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV939	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV941	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV943	genus	Bos	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	no identification	lca
+ASV944	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV947	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV948	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV949	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV950	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV951	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV952	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV953	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV954	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV955	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV956	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV957	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV959	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV960	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV961	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV963	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV965	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV966	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV967	family	Salmonidae	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	no identification	no identification	lca
+ASV968	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV969	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV971	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV972	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV973	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV974	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV975	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV976	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV977	species	Planktomarina temperata RCA23	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Paracoccaceae	Planktomarina	Planktomarina temperata RCA23	lca
+ASV978	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV979	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV981	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV984	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV986	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV987	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV988	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV989	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV991	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV992	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV993	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV995	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV997	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV998	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV999	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1002	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1003	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1004	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1005	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1007	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1010	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1011	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1013	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1014	family	Burkholderiaceae	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	no identification	no identification	lca
+ASV1015	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1016	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1018	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1019	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1020	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV1021	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1023	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1024	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1026	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1027	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1028	family	Burkholderiaceae	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	no identification	no identification	lca
+ASV1030	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1031	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1032	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1034	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1035	family	Burkholderiaceae	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	no identification	no identification	lca
+ASV1036	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1037	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1038	family	Burkholderiaceae	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	no identification	no identification	lca
+ASV1039	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1041	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1042	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1044	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1046	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1047	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1048	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1049	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1050	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1052	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1053	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1054	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1056	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1057	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV1058	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1059	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1060	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1063	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1064	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1067	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1068	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1069	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1070	species	uncultured cyanobacterium	Bacteria	Cyanobacteriota	unknown class	unknown order	unknown family	unknown genus	uncultured cyanobacterium	lca
+ASV1071	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1072	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1074	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1075	species	Achromobacter ruhlandii	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	Achromobacter ruhlandii	lca
+ASV1076	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1077	order	Burkholderiales	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	no identification	no identification	no identification	lca
+ASV1078	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1079	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1080	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1084	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV1086	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1088	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1089	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1090	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1091	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1092	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1093	family	Burkholderiaceae	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	no identification	no identification	lca
+ASV1094	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1095	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1096	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1097	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1098	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1102	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1104	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1105	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1106	species	Ralstonia insidiosa	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia insidiosa	lca
+ASV1107	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1108	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1109	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1110	genus	Ralstonia	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	no identification	lca
+ASV1111	genus	Achromobacter	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	no identification	lca
+ASV1114	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1115	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1116	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1117	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1118	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1119	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1120	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1122	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1124	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1125	phylum	Pseudomonadota	Bacteria	Pseudomonadota	no identification	no identification	no identification	no identification	no identification	lca
+ASV1127	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1128	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1129	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1131	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1136	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1137	class	Actinopteri	Eukaryota	Chordata	Actinopteri	no identification	no identification	no identification	no identification	lca
+ASV1138	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV1140	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
