@@ -19,7 +19,14 @@ library(robis)
 #library(obistools) # for cleaning occurrence data
 library(tidyverse)
 library(here)
+
+# here filepaths
+splists <- here('processeddata', 'species_lists', 'region')
+spatial <- here("rawdata", "spatial_data", "MEOW")
 ```
+
+
+# Whole region
 
 ```{r scrape-data}
 # Bounding box for region; formatted as a well-known text object
@@ -32,17 +39,9 @@ obis_bb <- "POLYGON((-161.261728 34.532973,-116.613291 34.532973, -116.613291 62
 
 # checklist for species/taxonomy lst
 obisdat <- checklist(geometry = obis_bb)
-
-# if the download is large:
-#save so we don't have to download again
-#save(obisdat, file = here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
-# load if needed
-#load(here('rawdata', 'species_lists', '20230329_obis-checklist.RData'))
 ```
 
-
-
-# Fish
+## Fish
 
 ```{r fish filter taxonomy}
 obisfish <- obisdat %>%
@@ -69,11 +68,11 @@ obisfish <- obisdat %>%
   
 
 
-write_csv(obisfish, here('processeddata', 'species_lists', 'region', '20230329_obis-fish.csv'))
+write_csv(obisfish, here(splists, '20230329_obis-fish.csv'))
 ```
 
 
-# Invertebrates
+## Invertebrates
 
 ```{r invertebrates filter taxonomy}
 obisinverts <- obisdat %>%
@@ -100,7 +99,185 @@ obisinverts <- obisdat %>%
   janitor::clean_names()
 
 
-write_csv(obisinverts, here('processeddata', 'species_lists', 'region', '20230329_obis-invertebrates.csv'))
+write_csv(obisinverts, here(splists, '20230329_obis-invertebrates.csv'))
 
 ```
+
+
+# By ecoregion
+
+```{r set up ecoregions}
+# World map
+library(rnaturalearth)
+library(sf)
+
+# basemap
+world_map <- ne_countries(scale = 'small', returnclass = c("sf"))
+
+meow <- read_sf(here(spatial, "meow_ecos_simple.shp")) %>%
+  janitor::clean_names()
+ppow <- read_sf(here(spatial, "ppow_simple_NEP.shp")) %>%
+  janitor::clean_names()
+
+
+# Base map
+## what does kk mean?
+kk <- ggplot() +
+  # fill = col to remove country borders
+  geom_sf(data = world_map, size = .2, fill = "gray80", col = "gray80") + 
+  theme(panel.grid.major = element_line(color = gray(0.9), 
+                                        linetype = "dashed"))
+
+```
+
+```{r checklist function}
+# requires robis to be loaded
+library(robis)
+
+# takes a dataframe that 
+obis_checklist <- function(region_df) {
+  # make blank object
+  search <- tibble()
+  region_geo <- region_df$wkt
+  region_name <- region_df$ecoregion
+  # loop by 
+  for (i in 1:length(region_geo)) {
+    #region_geo <- region_df$wkt
+    print(paste0('searching for ', region_name[i]))
+    found_sp <- checklist(geometry = i,
+                          startdate = '1945-01-01') %>%
+      # only keep animals
+      filter(kingdom == 'Animalia') %>%
+      # only keep things at the levels we want
+      filter(taxonRank %in% c('Species', 'Subspecies',
+                              'Tribe', 'Variety', 'Forma',
+                              'Genus', 'Subgenus', NA))
+      found_sp$region = paste(region_name[i])
+    message('done')
+    
+    search <- bind_rows(search, found_sp)
+  }
+  #names(search) <- region_df
+  #search_output <- map_dfr(.x = search, ~ data.frame(.x), .id = 'query') %>%
+  #  janitor::clean_names()# %>%
+  #  select(!(c(url, taxon_rank_id, citation, lsid, modified)))
+  return(search)
+}
+```
+
+
+
+## MEOW
+
+```{r meow checklist}
+#Ecoregions
+# check on map
+kk +  
+  geom_sf(data = meow, 
+          aes(fill = ecoregion), 
+          linewidth = .2, 
+          col = 0, 
+          alpha=.3) +
+  ggtitle("MEOW REALM") +
+  ggtitle(paste0("Marine Ecoregions of the World (MEOW)(Spalding et al., 2007) - ", 
+                 length(unique(meow$ecoregion))," Ecoregions")) +
+  theme(legend.position = "none") +
+  coord_sf(expand = FALSE)
+
+
+#meow
+meow$wkt <- st_as_text(meow$geometry) #create well known text of ecoregions
+# make sure its all valid?
+st_is_valid(meow$geometry, reason = TRUE)
+
+
+meow_nep <- meow %>% #filter for regions of interest
+  filter(ecoregion %in% c("Aleutian Islands", "Gulf of Alaska", "North American Pacific Fijordland", 
+                        "Puget Trough/Georgia Basin", "Oregon, Washington, Vancouver Coast and Shelf",
+                        "Northern California", "Southern California Bight"))
+
+
+# use function to extract species list by region
+meow_nep_checklist <- obis_checklist(meow_nep)
+
+
+```
+
+### Fish
+
+```{r meow-fish}
+meow_fish <- meow_nep_checklist %>%
+  # only species level records
+  filter(taxonRank %in% c('Species', 'Subspecies')) %>%
+  # only fish; polyphyletic so can be complicated
+  # class covers most of it, some sculpins lack class though
+  filter(class %in% c('Actinopteri', 'Elasmobranchii', 'Holocephali',
+                      'Petromyzonti', 'Myxini') |
+           order %in% c('Scorpaeniformes')) %>%
+  # only records that have accepted taxonomy for now
+  #filter(taxonomicStatus == 'accepted') %>%
+  #select only useful columns for now
+  select(acceptedNameUsage, taxonomicStatus, species, subspecies, taxonRank,
+         class, order, family, genus, 
+         is_marine, is_brackish, is_freshwater,
+         speciesid, taxonID, bold_id, ncbi_id, region) %>%
+  # just in case
+  distinct() %>%
+  # rank to lowercase to match other databases
+  mutate(taxonRank = tolower(taxonRank)) %>%
+  # standardize column names
+  janitor::clean_names() %>%
+  mutate(found_taxa = coalesce(accepted_name_usage, subspecies, species)) %>%
+  relocate(found_taxa)
+  
+
+
+
+write_csv(meow_fish, here(splists, '20230411_obis-fish_meow.csv'))
+```
+
+### Invertebrates
+
+```{r invertebrates filter taxonomy}
+meow_inverts <- meow_nep_checklist %>%
+  # only species-level records
+  #filter(taxonRank %in% c('Species', 'Subspecies',
+  #                            'Tribe', 'Variety', 'Forma',
+  #                            'Genus', 'Subgenus', NA)) %>%
+  # only animals
+  filter(kingdom == 'Animalia') %>%
+  # only not-vertebrates, 
+  # but includes non-vertebrate chordates
+  ## c() will also include any NAs in subphylum
+  filter(!(subphylum %in% c('Vertebrata'))) %>%
+  # only records that have accepted taxonomy for now
+  filter(taxonomicStatus == 'accepted') %>%
+  #select only useful columns for now
+  select(acceptedNameUsage, taxonomicStatus, species, subspecies, taxonRank,
+         phylum, class, order, family, genus, 
+         is_marine, is_brackish, is_freshwater,
+         speciesid, taxonID, bold_id, ncbi_id, genusid) %>%
+  # just in case
+  distinct() %>%
+  # rank to lowercase to match other databases
+  mutate(taxonRank = tolower(taxonRank)) %>%
+  # standardize column names
+  janitor::clean_names() %>%
+  mutate(found_taxa = coalesce(accepted_name_usage, subspecies, species)) %>%
+  relocate(found_taxa)
+
+
+write_csv(meow_inverts, here(splists, '20230411_obis-invertebrates_meow.csv'))
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
 
