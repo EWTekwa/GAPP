@@ -1,0 +1,120 @@
+---
+title: "taxonomy_workflow_chunks"
+output: html_document
+date: "2023-04-11"
+---
+
+Copypasta from previous scripts
+
+
+
+
+Extracting fresh taxonomy for everyone, including freshwater-marine status.
+
+This function pulls from worms using worrms
+```{r worms-function}
+library(worrms)
+
+## requires worrms to be loaded
+# input is vector of species names
+# use wm_records_names to extract 
+# this doesn't need the + signs
+
+# right now this breaks if not-found
+search_records_worms <- function(spnames) {
+  search <- tibble()
+  for (i in spnames) {
+    print(paste0('searching for ', i))
+    record <- wm_records_names(i, marine_only = FALSE)
+    message('done')
+    search <- append(search, record)
+  }
+  names(search) <- spnames
+  search_output <- map_dfr(.x = search, ~ data.frame(.x), .id = 'query') %>%
+    janitor::clean_names() %>%
+    select(!(c(url, taxon_rank_id, citation, lsid, modified)))
+  return(search_output)
+}
+```
+
+
+
+I make a dataframe with species to search since often its from something else, there's an issue with the worms thing so i have an add plus sign section in the beginning
+
+
+```{r bc-taxonomy}
+# check which ones are in the database
+#then replace resolved
+fish_search <- fish_list %>% 
+  select(c(species)) %>%
+  ## temporary issue requires replacing whitespace with '+'
+  mutate(worms_query = gsub(" ", "+", species)) %>%
+  distinct() %>%
+  rename(query = species)
+
+
+# 2: worms
+fish_worms <- get_wormsid_(sci_com = fish_search$worms_query, marine_only = FALSE,
+                           accepted = FALSE)
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+fish_worms2 <- fish_worms %>% 
+  compact() %>%
+  discard( ~ nrow(.x) == 0) %>%
+  map_dfr( ~ data.frame(.x), .id = 'query')
+
+
+# this cleaning step is relatively temporary until they fix the curl issue
+fish_worms2 <- fish_worms2 %>%
+  #rename(taxa = scientificname) %>%
+  left_join(fish_search, by = c('query' = 'worms_query')) %>%
+  select(!(query)) %>%
+  rename(taxa = query.y)
+
+# now match species to sciname to remove extra rows
+fish_worms2 <- fish_worms2 %>%
+  # remove higher taxonomy with species-level hits
+  filter(!(str_detect(taxa, " ") == FALSE & str_detect(scientificname, " ") == TRUE)) %>%
+  filter(!(!(taxa == scientificname))) %>%
+  select(!(c(status))) %>%
+  rename(worms_aphiaid = AphiaID,
+        worms_sciname = scientificname) %>%
+  distinct()
+
+
+# extract higher and info about freshwater
+### this is my custom function!
+fish_records <- search_records_worms(fish_worms2$worms_sciname)
+
+# refine results to be useful
+fish_records <- fish_records %>%
+  # only animal hits
+  filter(kingdom == 'Animalia') %>%
+  # generate terrestrial-only and freshwater-only columns
+  mutate(freshwater_only = ifelse((is_marine %in% c(0, NA) ==TRUE) & (is_brackish %in% c(0,NA) == TRUE) & (is_freshwater == 1),  "1", "0")) %>%
+    mutate(terrestrial_only = ifelse((is_marine %in% c(0, NA) ==TRUE) & (is_brackish %in% c(0,NA) == TRUE) & (is_terrestrial == 1),  "1", "0")) %>%
+  distinct() %>%
+  # rename to format
+  rename(worms_aphiaid = valid_aphia_id,
+         original_aphiaid =aphia_id,
+         worms_match = scientificname,
+         worms_sciname = valid_name
+         ) %>%
+  # remove unneeded columns
+  select(!(c(authority, parent_name_usage_id, is_freshwater, 
+             is_terrestrial, is_marine, is_brackish, is_extinct, match_type))) %>%
+  relocate(c(worms_sciname, worms_aphiaid), .before = original_aphiaid) %>%
+  # rank lowercase
+  mutate(rank = tolower(rank))
+
+
+```
+
+
+Then I save the output as csv and find problem species -- that weren't found in worrms or any of hte other databases I search
+
+```{r}
+fish_problems <- fish_caution %>%
+  filter(!(species %in% fish_list_taxa2$species))
+```
+
