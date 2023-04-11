@@ -17,11 +17,7 @@ top500 <- read.delim("rawdata/top500_20230405/blast_96_sim_LCA_besthit/12S_ASV_s
 speclists <- read_csv("./processeddata/species_lists/region/20230410_obis_by_meow_ppow_NEP.csv")
 sp_spec <- speclists %>% #just obs with species assignment
   filter(!is.na(species)) %>%
-  # only fish; polyphyletic so can be complicated
-  # class covers most of it, some sculpins lack class though
-  filter(class %in% c('Actinopteri', 'Elasmobranchii', 'Holocephali',
-                      'Petromyzonti', 'Myxini') |
-           order %in% c('Scorpaeniformes'))
+  filter(class == "Actinopteri" | class == "Chondrichthyes")%>%
   select(species) %>%
   distinct() 
 taxize_obis <- tol_resolve(sp_spec$species) #get names
