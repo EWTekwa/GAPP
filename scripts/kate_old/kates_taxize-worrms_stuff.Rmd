@@ -118,3 +118,11 @@ fish_problems <- fish_caution %>%
   filter(!(species %in% fish_list_taxa2$species))
 ```
 
+
+```{r}
+# class covers most of it, some sculpins lack class though
+  filter(class %in% c('Actinopteri', 'Elasmobranchii', 'Holocephali',
+                      'Petromyzonti', 'Myxini') |
+           order %in% c('Scorpaeniformes'))
+```
+
