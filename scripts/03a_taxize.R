@@ -17,7 +17,11 @@ top500 <- read.delim("rawdata/top500_20230405/blast_96_sim_LCA_besthit/12S_ASV_s
 speclists <- read_csv("./processeddata/species_lists/region/20230410_obis_by_meow_ppow_NEP.csv")
 sp_spec <- speclists %>% #just obs with species assignment
   filter(!is.na(species)) %>%
-  filter(class == "Actinopteri" | class == "Chondrichthyes")%>%
+  # only fish; polyphyletic so can be complicated
+  # class covers most of it, some sculpins lack class though
+  filter(class %in% c('Actinopteri', 'Elasmobranchii', 'Holocephali',
+                      'Petromyzonti', 'Myxini') |
+           order %in% c('Scorpaeniformes'))
   select(species) %>%
   distinct() 
 taxize_obis <- tol_resolve(sp_spec$species) #get names
@@ -48,6 +52,19 @@ taxize_obis_BL <- tol_resolve(sp_spec_BL$species) #get names
 gbifIDs_obis_BL <- get_gbifid_(sp_spec_BL$species) #get gbif IDs
 
 gbifIDs_obis_BL_df <- data.frame(matrix(ncol = 22, nrow = 0))
+
+#bind up lists into a dataframe
+#obis_fix_gbifid <- dplyr::bind_rows(obis_fix_gbifid, .id = "query")
+#rownames(obis_fix_gbifid) <- NULL
+
+
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+#obis_worms2 <- obis_worms %>% 
+#  compact() %>%
+#  discard( ~ nrow(.x) == 0) %>%
+#  map_dfr( ~ data.frame(.x), .id = 'query')
+
 
 for (i in 1:1000) {
   temp1 <- as.data.frame(gbifIDs_obis_BL[i])
