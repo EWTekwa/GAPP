@@ -1,0 +1,14 @@
+
+(Gadus chalcogrammus [ORGN] or Hippoglossus stenolepis [ORGN]) + mitochondrial
+
+
+(Gadus chalcogrammus [ORGN] or Hippoglossus stenolepis [ORGN]) + 12s
+
+(Gadus chalcogrammus [ORGN] or Hippoglossus stenolepis [ORGN] or Clupea Pallasii [ORGN]) + 12s
+
+(Gadus chalcogrammus [ORGN] or Hippoglossus stenolepis [ORGN] or Clupea Pallasii [ORGN]) + motochondrial
+
+
+(Gadus chalcogrammus [ORGN]) + motochondrial
+
+(txid1042646 [ORGN]) + 12s 
