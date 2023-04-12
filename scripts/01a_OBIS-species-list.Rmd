@@ -144,7 +144,7 @@ obis_checklist <- function(region_df) {
   for (i in 1:length(region_geo)) {
     #region_geo <- region_df$wkt
     print(paste0('searching for ', region_name[i]))
-    found_sp <- checklist(geometry = i,
+    found_sp <- checklist(geometry = region_geo[i],
                           startdate = '1945-01-01') %>%
       # only keep animals
       filter(kingdom == 'Animalia') %>%
