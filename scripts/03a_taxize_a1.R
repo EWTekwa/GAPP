@@ -21,7 +21,7 @@ sp_spec <- speclists %>% #just obs with species assignment
   select(species) %>%
   distinct() 
 taxize_obis <- tol_resolve(sp_spec$species) #get names
-gbifIDs_obis <- get_gbifid(sp_spec$species) #get gbif IDs
+gbifIDs_obis <- get_gbifid(sp_spec$species, rows = 1) #get gbif IDs
 a1 <- taxize_obis %>% #get higher taxonomy
   mutate(gbifIDs = gbifIDs_obis)
 classification <- classification(gbifIDs_obis)
@@ -44,56 +44,30 @@ sp_spec_BL <- top500 %>%
   filter(class == "Actinopteri" | class == "Chondrichthyes")  %>% 
   select(c("species")) %>%
   distinct() 
-taxize_obis_BL <- tol_resolve(sp_spec_BL$species) #get names
-gbifIDs_obis_BL <- get_gbifid_(sp_spec_BL$species) #get gbif IDs
+taxize_obis_BL <- tol_resolve(sp_spec_BL$species) #get names from Open tree of life
+gbifIDs_obis_BL <- get_gbifid(sp_spec_BL$species, rows = 1) #get gbif IDs
+#gbifIDs_obis_BL_df <- dplyr::bind_rows(gbifIDs_obis_BL, .id = "query")             ###use with get_gbifid_()
+wormsIDs_obis_BL <- get_wormsid_(sp_spec_BL$species, marine_only = F, accepted = F) #get worms IDs
 
-gbifIDs_obis_BL_df <- data.frame(matrix(ncol = 21, nrow = 0)) %>%
-  `colnames<-`(c("query", "usagekey", "scientificname", "rank", "status", "matchtype", "canonicalname",   
-                 "confidence", "kingdom", "phylum", "order", "family", "genus",           
-                 "species", "kingdomkey", "phylumkey", "orderkey", "familykey", "genuskey",        
-                 "specieskey", "synonym"))
-
-<<<<<<< Updated upstream
-#bind up lists into a dataframe
-#obis_fix_gbifid <- dplyr::bind_rows(obis_fix_gbifid, .id = "query")
-#rownames(obis_fix_gbifid) <- NULL
-
-
-# get_wormsid_ gives back null and length 0 elements
-## first remove with compact and discard then map_dfr
-#obis_worms2 <- obis_worms %>% 
-#  compact() %>%
-#  discard( ~ nrow(.x) == 0) %>%
-#  map_dfr( ~ data.frame(.x), .id = 'query')
-
-
-for (i in 30) {
-  temp1 <- as.data.frame(gbifIDs_obis_BL[i])
-  colnms <- colnames(gbifIDs_obis_BL[[i]])
-  temp2 <- temp1 %>%
-    `colnames<-`(colnms) %>%
-    select((c("usagekey", "scientificname", "rank", "status", "matchtype", "canonicalname",   
-              "confidence", "kingdom", "phylum", "order", "family", "genus",           
-              "species", "kingdomkey", "phylumkey", "orderkey", "familykey", "genuskey",        
-              "specieskey", "synonym"))) %>%
-    mutate(query = names(gbifIDs_obis_BL)[i]) %>%
-    mutate(species = species)
-  gbifIDs_obis_BL_df <- plyr::rbind.fill(gbifIDs_obis_BL_df, temp2)
-  }
-
-gbifIDs_obis_BL[30]
-
-length(gbifIDs_obis_BL)
-str(gbifIDs_obis_BL)
-aa1 <- cbind(gbifIDs_obis_BL) 
-#try get_gbifid_() to get all names
-
-
+#filter for accepted
+dd <- gbifIDs_obis_BL_df %>%
+  filter(status == "ACCEPTED")
 
 a2 <- taxize_obis_BL %>% #get higher taxonomy
-  mutate(gbifIDs = gbifIDs_obis)
-classification <- classification(gbifIDs_obis_BL)
+  mutate(gbifIDs = gbifIDs_obis_BL)
+classification_BL <- classification(gbifIDs_obis_BL)
 c2 <- cbind(classification)                                     #THIS ISN'T WORKING##########################################
+c2 <- dplyr::bind_rows(classification, .id = classification)
+c2 <- unlist(classification)
+
+q1 <- dplyr::bind_rows(classification[1])
+q2 <- classification[1]
+classification[1]
+
+
+
+
+
 d2 <- merge(a2, c2, by.x = "gbifIDs", by.y = "query") %>%
   select(c("gbifIDs", "search_string", "approximate_match", "number_matches", "kingdom", "phylum", "class", "order", 
            "family", "genus", "species")) %>%
@@ -105,6 +79,6 @@ e2 <- speclists %>%
   merge(., d2, by.x = "species", by.y = "search_string") %>%
   select(-c("species")) %>%
   rename(species = species.y)
-write_csv(e2, "./processeddata/species_lists/region/20230410_fish_top500_taxized.csv")
+write_csv(e2, "./processeddata/species_lists/region/20230410_fish_top500.csv")
 
 
