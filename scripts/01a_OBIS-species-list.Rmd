@@ -227,8 +227,8 @@ meow_fish <- meow_nep_checklist %>%
   mutate(taxonRank = tolower(taxonRank)) %>%
   # standardize column names
   janitor::clean_names() %>%
-  mutate(found_taxa = coalesce(accepted_name_usage, subspecies, species)) %>%
-  relocate(found_taxa)
+  mutate(verbatim_species = coalesce(subspecies, species)) %>%
+  relocate(verbatim_species)
   
 
 
@@ -263,8 +263,8 @@ meow_inverts <- meow_nep_checklist %>%
   mutate(taxonRank = tolower(taxonRank)) %>%
   # standardize column names
   janitor::clean_names() %>%
-  mutate(found_taxa = coalesce(accepted_name_usage, subspecies, species)) %>%
-  relocate(found_taxa)
+  mutate(verbatim_species = coalesce(subspecies, species)) %>%
+  relocate(verbatim_species)
 
 
 write_csv(meow_inverts, here(splists, '20230411_obis-invertebrates_meow.csv'))
