@@ -10,6 +10,18 @@ world_map <- rnaturalearth::ne_countries(scale = 'small', returnclass = c("sf"))
 #meow <- sf::read_sf("rawdata/spatial_data/MEOW/meow_ecos.shp")
 meow <- sf::read_sf("rawdata/spatial_data/MEOW/meow_ecos_simple.shp")
 ppow <- sf::read_sf("rawdata/spatial_data/MEOW/ppow_simple_NEP.shp")
+
+m1 <- meow %>%
+  dplyr::select(c('ECOREGION', 'geometry')) %>%
+  rename(region = ECOREGION) %>%
+  mutate(type = 'meow')
+m2 <- ppow %>%
+  dplyr::select(c('PROVINC', 'geometry')) %>%
+  rename(region = PROVINC) %>%
+  mutate(type = 'ppow')
+
+geo <- rbind(m1,m2)
+
 #simplified in QGIS using Simplify function: method = Distance (Douglas-Peuker), Tolerance = 1
 #st_simplify doesn't work great in R across dateline
 #     meow1 <- st_simplify(meow)

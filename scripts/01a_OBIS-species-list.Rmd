@@ -114,11 +114,16 @@ library(sf)
 # basemap
 world_map <- ne_countries(scale = 'small', returnclass = c("sf"))
 
-meow <- read_sf(here(spatial, "meow_ecos_simple.shp")) %>%
-  janitor::clean_names()
-ppow <- read_sf(here(spatial, "ppow_simple_NEP.shp")) %>%
-  janitor::clean_names()
+meow <- read_sf(here(spatial, "meow_ecos_simple.shp")) %>% #simplified in QGIS using Simplify function: method = Distance (Douglas-Peuker), Tolerance = 1
+  dplyr::select(c('ECOREGION', 'geometry')) %>%
+  rename(region = ECOREGION) %>%
+  mutate(type = 'meow')
+ppow <- read_sf(here(spatial, "ppow_simple_NEP.shp")) %>% #simplified in QGIS using Simplify function: method = Distance (Douglas-Peuker), Tolerance = 1
+  dplyr::select(c('PROVINC', 'geometry')) %>%
+  rename(region = PROVINC) %>%
+  mutate(type = 'ppow')
 
+regions <- rbind(meow,ppow)
 
 # Base map
 ## what does kk mean?
@@ -139,7 +144,7 @@ obis_checklist <- function(region_df) {
   # make blank object
   search <- tibble()
   region_geo <- region_df$wkt
-  region_name <- region_df$ecoregion
+  region_name <- region_df$region
   # loop by 
   for (i in 1:length(region_geo)) {
     #region_geo <- region_df$wkt
@@ -186,19 +191,20 @@ kk +
 
 
 #meow
-meow$wkt <- st_as_text(meow$geometry) #create well known text of ecoregions
+regions$wkt <- st_as_text(regions$geometry) #create well known text of ecoregions
 # make sure its all valid?
-st_is_valid(meow$geometry, reason = TRUE)
+st_is_valid(regions$geometry, reason = TRUE)
 
 
-meow_nep <- meow %>% #filter for regions of interest
-  filter(ecoregion %in% c("Aleutian Islands", "Gulf of Alaska", "North American Pacific Fijordland", 
+regions_nep <- regions %>% #filter for regions of interest
+  filter(region %in% c("Aleutian Islands", "Gulf of Alaska", "North American Pacific Fijordland", 
                         "Puget Trough/Georgia Basin", "Oregon, Washington, Vancouver Coast and Shelf",
-                        "Northern California", "Southern California Bight"))
-
+                        "Northern California", "Southern California Bight", "California Current",
+                        "Eastern Tropical Pacific", "North Central Pacific Gyre", "North Pacific Transitional",
+                        "Subarctic Pacific"))
 
 # use function to extract species list by region
-meow_nep_checklist <- obis_checklist(meow_nep)
+regions_nep_checklist <- obis_checklist(regions_nep)
 
 
 ```
@@ -206,7 +212,7 @@ meow_nep_checklist <- obis_checklist(meow_nep)
 ### Fish
 
 ```{r meow-fish}
-meow_fish <- meow_nep_checklist %>%
+nep_fish <- regions_nep_checklist %>%
   # only species level records
   filter(taxonRank %in% c('Species', 'Subspecies')) %>%
   # only fish; polyphyletic so can be complicated
@@ -233,13 +239,13 @@ meow_fish <- meow_nep_checklist %>%
 
 
 
-write_csv(meow_fish, here(splists, '20230411_obis-fish_meow.csv'))
+write_csv(nep_fish, here(splists, '20230412_obis-fish_nep.csv'))
 ```
 
 ### Invertebrates
 
 ```{r invertebrates filter taxonomy}
-meow_inverts <- meow_nep_checklist %>%
+nep_inverts <- regions_nep_checklist %>%
   # only species-level records
   #filter(taxonRank %in% c('Species', 'Subspecies',
   #                            'Tribe', 'Variety', 'Forma',
@@ -267,7 +273,7 @@ meow_inverts <- meow_nep_checklist %>%
   relocate(verbatim_species)
 
 
-write_csv(meow_inverts, here(splists, '20230411_obis-invertebrates_meow.csv'))
+write_csv(nep_inverts, here(splists, '20230412_obis-invertebrates_nep.csv'))
 
 ```
 
