@@ -1,0 +1,134 @@
+---
+title: "top500"
+output: html_document
+date: "2023-04-12"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(worrms)
+library(taxize)
+library(here)
+
+
+# here filepaths
+splists <- here('processeddata', 'species_lists', 'region')
+```
+
+This function pulls from worms using worrms
+```{r worms-function}
+## requires worrms to be loaded
+# input is vector of species names
+# use wm_records_names to extract 
+# this doesn't need the + signs
+
+# right now this breaks if not-found
+search_records_worms <- function(spnames) {
+  search <- tibble()
+  for (i in spnames) {
+    print(paste0('searching for ', i))
+    record <- wm_records_names(i, marine_only = FALSE)
+    message('done')
+    search <- append(search, record)
+  }
+  names(search) <- spnames
+  search_output <- map_dfr(.x = search, ~ data.frame(.x), .id = 'query') %>%
+    janitor::clean_names() %>%
+    select(!(c(url, taxon_rank_id, citation, lsid, modified)))
+  return(search_output)
+}
+```
+
+
+```{r load-in}
+top500_mifish <- read.delim(here("rawdata", "top500_20230405",
+                                   "blast_96_sim_LCA_besthit", "12S_ASV_sequences.length_var.blast.out"), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  separate_wider_delim(taxonomy, delim = ' / ', 
+                       names = c('kingdom', 'phylum', 'class', 'order', 
+                                 'family', 'genus', 'species')) %>%
+  # column to match existing scripts
+  rename(asv = query_id) %>%
+  filter(kingdom == "Eukaryota")
+```
+
+
+
+```{r}
+top500_sp <- top500_mifish %>%
+  filter(class %in% c("Actinopteri", "Chondrichthyes"))  %>% 
+  select(c("species")) %>%
+  distinct() 
+
+# use gbif to resolve the initial round of NCBI dirty names
+top500_ids <- get_gbifid_(top500_sp$species)
+
+# results to dataframe
+top500_ids2 <- map_dfr(.x= top500_ids, ~ data.frame(.x), .id = 'taxa_query') %>%
+  filter(kingdom == "Animalia") %>%
+  # eliminating fuzzy matches for now
+  filter(matchtype == 'EXACT') %>%
+  # strip higher taxonomy from gbif bc it doesn't match worms/bold
+  ## but keep keys!
+  select(taxa_query, canonicalname, rank, status)
+ 
+# update species list with gbif results  
+top500_sp   <- top500_sp %>%
+  left_join(top500_ids2, by = c('species' = 'taxa_query')) %>%
+  rename(ncbi_species = species) %>%
+  mutate(species = coalesce(canonicalname, ncbi_species)) %>%
+  distinct() %>%
+  group_by(species) %>%
+  add_count() %>%
+  ungroup() %>%
+  mutate(remove_me = ifelse((ncbi_species == canonicalname & n > 1 & status != 'ACCEPTED'), 1, 0)) %>%
+  filter(remove_me == 0) %>%
+  select(!(c('remove_me', 'n'))) %>%
+  mutate(worms_query = gsub(" ", "+", species)) %>%
+  rename(query = species,
+         gbif_status = status) 
+
+# generate search for worms, given curl error
+top500_search <- top500_sp %>%
+  select(query, worms_query) %>%
+  distinct()
+  
+  
+
+# worms id
+# we only want to search for species that are in worms, or we'll get errors
+top500_worms <- get_wormsid_(sci_com = top500_search$worms_query, marine_only = FALSE,
+                           accepted = FALSE)
+# get_wormsid_ gives back null and length 0 elements
+## first remove with compact and discard then map_dfr
+top500_worms2 <- top500_worms %>% 
+  compact() %>%
+  discard( ~ nrow(.x) == 0) %>%
+  map_dfr( ~ data.frame(.x), .id = 'worms_query') %>%
+  rename(worms_status = status) %>%
+  # remove unnecessary subspecies
+  ## either TWO plus signs in query (subspecies query, keep subspecies result) OR
+  ## ONE space in results (species query = species result)
+  filter((str_detect(worms_query, regex("(\\+)[a-z]*(\\+)"))) |
+           str_detect(scientificname, regex("^[A-Z,a-z]+(\\s)[a-z]*$"))
+           ) %>%
+  rename(worms_sciname = scientificname,
+         worms_aphiaid = AphiaID) %>%
+  select(!(authority)) %>%
+  distinct()
+  
+
+
+
+# update species list with worms results
+top500_sp <- top500_sp %>%
+  left_join(top500_worms2) 
+
+
+
+```
+
