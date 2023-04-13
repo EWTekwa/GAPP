@@ -127,6 +127,26 @@ top500_worms2 <- top500_worms %>%
 top500_records <- search_records_worms(unique(top500_worms2$worms_sciname))
 
 
+# refine results to be useful
+top500_records2 <- top500_records %>%
+  # only animal hits
+  filter(kingdom == 'Animalia') %>%
+  # generate terrestrial-only and freshwater-only columns
+  mutate(freshwater_only = ifelse((is_marine %in% c(0, NA) ==TRUE) & (is_brackish %in% c(0,NA) == TRUE) & (is_freshwater == 1),  "1", "0")) %>%
+    mutate(terrestrial_only = ifelse((is_marine %in% c(0, NA) ==TRUE) & (is_brackish %in% c(0,NA) == TRUE) & (is_terrestrial == 1),  "1", "0")) %>%
+  distinct() %>%
+  # rename to format
+  rename(worms_aphiaid = valid_aphia_id,
+         original_aphiaid =aphia_id,
+         worms_match = scientificname,
+         worms_sciname = valid_name
+         ) %>%
+  # remove unneeded columns
+  select(!(c(authority, parent_name_usage_id, is_freshwater, 
+             is_terrestrial, is_marine, is_brackish, is_extinct, match_type))) %>%
+  relocate(c(worms_sciname, worms_aphiaid), .before = original_aphiaid) %>%
+  # rank lowercase
+  mutate(rank = tolower(rank))
 
 
 
@@ -138,12 +158,18 @@ top500_records <- search_records_worms(unique(top500_worms2$worms_sciname))
 
 # update species list with worms results
 top500_sp <- top500_sp %>%
-  left_join(top500_worms2) 
+  left_join(top500_records2) 
 
 
 
 
 
 
+```
+
+
+
+```{r}
+write_csv(top500_sp, here('rawdata', 'top500_20230405', '20230413_top500-worrms.csv'))
 ```
 
