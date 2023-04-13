@@ -122,11 +122,26 @@ top500_worms2 <- top500_worms %>%
   distinct()
   
 
+## Add the count removal later
+
+top500_records <- search_records_worms(unique(top500_worms2$worms_sciname))
+
+
+
+
+
+
+
+
+
 
 
 # update species list with worms results
 top500_sp <- top500_sp %>%
   left_join(top500_worms2) 
+
+
+
 
 
 
