@@ -45,11 +45,15 @@ length(unique(fishbase_not_in_FAO$Species)) #removed 379 species
 
 write.csv(fish_by_region, "./processeddata/species_lists/region/20230412_obis-fish_fishbase_NEP.csv")
 
+inverts <- read.csv('./processeddata/species_lists/region/20230412_obis-invertebrates_nep.csv')
+
 spec_inv <- speclists %>%
   filter(!is.na(species)) %>%
   filter(kingdom %in% 'Animalia' & 
            !class %in% c('Insecta', 'Aves', 'Chilopoda',) &
            !order %in% c('Araneae', 'Pseudoscorpionida'))
+
+write.csv(spec_inv, "./processeddata/species_lists/region/20230412_obis-inverts_NEP.csv")
 
 dist_inv <- distribution(species_list = spec_inv$species, server = 'sealifebase')
 
