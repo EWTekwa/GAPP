@@ -4,6 +4,9 @@ output: html_document
 date: "2023-04-14"
 ---
 
+This document
+
+
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(arsenal)
@@ -19,17 +22,19 @@ compare_out <- here('output', 'region_comparison')
 
 ```{r load-in}
 # fish
-region_fish <- read_csv(here(splists, 'region', '20230412_obis-fish_nep.csv')) %>%
-  rename(accepted_name = accepted_name_usage)
+region_fish <- read_csv(here(splists, 'region', '20230412_obis-fish_nep.csv')) 
 compare_fish500 <- read_csv(here('rawdata', 'top500_20230405', '20230413_top500-worrms.csv'))
 compare_fishtully <- read_csv(here(splists, 'from_data', '20230323_gapp-3-tully_12sfish-sp.csv'))
 
 
 # inverts
-region_inverts <- read_csv(here(splists, '20230412_obis-invertebrates_nep.csv'))
+region_inverts <- read_csv(here(splists, 'region', '20230412_obis-invertebrates_nep.csv'))
 
 ```
 # Fish
+
+
+
 
 ## Top 500
 Looking at hte top 500 blast hits
