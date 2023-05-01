@@ -14,6 +14,8 @@ a1 <- fish %>%
   mutate(chr = paste("txid", ncbi_id, "[ORGN]", sep = ""))
 a2 <- toString(a1$chr)
 
+
+
 a3 <- gsub(',', ' or',a2)
 a4 <- paste("(",a3,"AND mitochondrial [WORD] NOT UNVERIFIED [WORD] NOT PREDICTED [WORD] AND 100:20000 [SLEN]")
 a4 #paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced

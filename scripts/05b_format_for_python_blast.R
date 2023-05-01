@@ -3,11 +3,11 @@
 #
 
 
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!require("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
-BiocManager::install("DECIPHER", force = TRUE)
-BiocManager::install("msa", force = TRUE)
+#BiocManager::install("DECIPHER", force = TRUE)
+#BiocManager::install("msa", force = TRUE)
 library(here)
 library(tidyverse)
 library(taxonomizr)
@@ -19,8 +19,7 @@ library(phytools)
 fish <- read.csv("./processeddata/species_lists/region/20230412_obis-fish_fishbase_NEP.csv") %>%
 #  select(c("ncbi_id")) %>%
 #  distinct() %>% 
-  filter(is_marine == "TRUE" | is_brackish == "TRUE" & is_freshwater == "FALSE",
-         region == "North American Pacific Fijordland")
+  filter(region == "North American Pacific Fijordland")
 
 string <- unlist(as.vector(fish))
 
@@ -50,41 +49,58 @@ asv_sequences <- data.frame(asv, sequence)
 #use NCBI_species
 t1 <- merge(ASVs[c("asv", "species")],top500_tax, by.x = "species", by.y = "ncbi_species")
 
-t2 <- merge(t1, asv_sequences, by = "asv", all.x = T)
+t2 <- merge(t1, asv_sequences, by = "asv", all.x = T) %>%
+  filter(!is.na(order))
 unique(t2$order)
 
-unique(fish$order)
+unique(fish$family)
 
 #msaConvert()
 
-Clupeiformes <- t2 %>%
-  filter(order == "Clupeiformes") %>%
+df <- data.frame(matrix(ncol = 2, nrow = 0)) %>% `colnames<-`(c("order", "sequence"))
+
+for (i in unique(t2$order)) {
+  group <- t2 %>%
+    filter(order == i) %>%
+    dplyr::select(c("sequence")) %>%
+    distinct()
+  consensus = ifelse(nrow(group) == 1,
+                     group,
+                     msaConsensusSequence(
+                       msa(
+                           DNAStringSet(group$sequence), 
+                           method = "ClustalW"), 
+                           type = "Biostrings"))
+  df_2 <- data.frame(order = i, sequence = as.character(consensus))
+  
+  df <- rbind(df, df_2)
+}
+
+
+group <- t2 %>%
+  filter(order == "Gadiformes") %>%
   dplyr::select(c("sequence")) %>%
   distinct()
-Clupeiformes_set <- DNAStringSet(Clupeiformes$sequence)
-Clupeiformes_aliC <- msa(Clupeiformes_set, method = "ClustalW") 
-Clupeiformes_aliC
-consensus <- msaConsensusSequence(Clupeiformes_aliM, type = "Biostrings")
+group_set <- DNAStringSet(group$sequence)
+group_aliC <- msa(group_set, method = "ClustalW")
+group_aliC
+consensus <- msaConsensusSequence(group_aliC, type = "Biostrings")
 consensus
+df_2 <- data.frame(order = "Clupeiformes", sequence = as.character(consensus))
+
+df <- rbind(df, df_2)
+
+#writing a fasta file
+Xfasta <- character(nrow(df) * 2)
+Xfasta[c(TRUE, FALSE)] <- paste0(">", df$order)
+Xfasta[c(FALSE, TRUE)] <- df$sequence
+
+writeLines(Xfasta, "rawdata/top500_20230405/top500_consensus.fasta")
 
 
 mitofish <- readDNAStringSet("rawdata/MitoFish/mito-all.fasta")
 mito_align <- msa(mitofish, method = "ClustalW") 
 
-
-
-
-#all data aligned and a consensus provided
-alignment <- msa(fastaFile, method = "ClustalW")
-alignment_muscle <- msa(fastaFile, method = "Muscle")
-
 consensus <- msaConsensusSequence(alignment, type = "Biostrings")
 consensus
-
-#writing a fasta file
-Xfasta <- character(nrow(X) * 2)
-Xfasta[c(TRUE, FALSE)] <- paste0(">", X$column1)
-Xfasta[c(FALSE, TRUE)] <- X$column2
-
-writeLines(Xfasta, "filename.fasta")
 
