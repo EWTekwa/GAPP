@@ -15,7 +15,7 @@ So when using these lists for analysis: `select(accepted_name) %>% distinct()` i
 
 Output includes:
 `accepted_name` -- The most up to date name from WoRMS
-`verbatim_species` -- column coalesced from subspecies and species, includes unaccepted names.
+`verbatim_name` -- column coalesced from subspecies and species, includes unaccepted names.
 `taxonomic_status` -- status of `verbatim_species`
 `taxon_rank` -- level of identification
 taxonomy: species, subspecies, genus, family, order, class, phylum (invertebrates only)
@@ -160,120 +160,34 @@ nep_fish <- regions_nep_checklist %>%
   mutate(taxonRank = tolower(taxonRank)) %>%
   # standardize column names
   janitor::clean_names() %>%
-  mutate(verbatim_species = coalesce(subspecies, species)) %>%
-  relocate(verbatim_species, .after = 'accepted_name_usage') %>%
+  mutate(verbatim_name = coalesce(subspecies, species)) %>%
+  relocate(verbatim_name, .after = 'accepted_name_usage') %>%
   rename(accepted_name = accepted_name_usage)
   
 
 
 
-write_csv(nep_fish, here(splists, '20230412_obis-fish_nep.csv'))
-```
-
-### Invertebrates
-
-```{r invertebrates filter taxonomy}
-nep_inverts <- regions_nep_checklist %>%
-  # only species-level records
-  #filter(taxonRank %in% c('Species', 'Subspecies',
-  #                            'Tribe', 'Variety', 'Forma',
-  #                            'Genus', 'Subgenus', NA)) %>%
-  # only animals
-  filter(kingdom == 'Animalia') %>%
-  # only not-vertebrates, 
-  # but includes non-vertebrate chordates
-  ## c() will also include any NAs in subphylum
-  filter(!(subphylum %in% c('Vertebrata'))) %>%
-  # only records that have accepted taxonomy for now
-  filter(taxonomicStatus == 'accepted') %>%
-  #select only useful columns for now
-  select(acceptedNameUsage, taxonomicStatus, species, subspecies, taxonRank,
-         phylum, class, order, family, genus, 
-         is_marine, is_brackish, is_freshwater,
-         taxonID, ncbi_id, genusid, region) %>%
-  # just in case
-  distinct() %>%
-  # rank to lowercase to match other databases
-  mutate(taxonRank = tolower(taxonRank)) %>%
-  # standardize column names
-  janitor::clean_names() %>%
-  mutate(verbatim_species = coalesce(subspecies, species)) %>%
-  relocate(verbatim_species, .after = 'accepted_name_usage') %>%
-  rename(accepted_name = accepted_name_usage)
-
-
-write_csv(nep_inverts, here(splists, '20230412_obis-invertebrates_nep.csv'))
-
-```
-
-
-
-
-
-# Whole region
-
-```{r scrape-data}
-# Bounding box for region; formatted as a well-known text object
-## (lat long, lat long, lat long, lat long) where each pair is a corner of the bounding box, then closed
-obis_bb <- "POLYGON((-161.261728 34.532973,-116.613291 34.532973, -116.613291 62.729976, -161.261728 62.729976, -161.261728 34.532973))"
-
-
-# occurrence data: all records
-#obisdat <- occurrence(geometry = obis_bb)
-
-# checklist for species/taxonomy lst
-obisdat <- checklist(geometry = obis_bb)
-```
-
-## Fish
-
-```{r fish filter taxonomy}
-obisfish <- obisdat %>%
-  # only species level records
-  filter(taxonRank %in% c('Species', 'Subspecies')) %>%
-  # only fish; polyphyletic so can be complicated
-  # class covers most of it, some sculpins lack class though
-  filter(class %in% c('Actinopteri', 'Elasmobranchii', 'Holocephali',
-                      'Petromyzonti', 'Myxini') |
-           order %in% c('Scorpaeniformes')) %>%
-  # only records that have accepted taxonomy for now
-  filter(taxonomicStatus == 'accepted') %>%
-  #select only useful columns for now
-  select(species, subspecies, taxonRank,
-         class, order, family, genus, 
-         is_marine, is_brackish, is_freshwater,
-         speciesid, taxonID, bold_id, ncbi_id) %>%
-  # just in case
-  distinct() %>%
-  # rank to lowercase to match other databases
-  mutate(taxonRank = tolower(taxonRank)) %>%
-  # standardize column names
-  janitor::clean_names()
-  
-
-
-#write_csv(obisfish, here(splists, '20230329_obis-fish.csv'))
-#obisfish <- read_csv(here(splists, '20230412_obis-fish_nep.csv')) 
+write_csv(nep_fish, here(splists, '20230501_obis-fish_nep.csv'))
 ```
 
 ### Filter to Fishbase-validated list
 
 ```{r}
-obisfish_base <- obisfish %>%
+# use the accepted name to get a species list from fishbase
+obisfish_base <- nep_fish %>%
   mutate(fishbase_name = validate_names(species_list = .$accepted_name))
 
-obisfish_base2 <- obisfish_base %>%
+# make a search for distribution() from rfishbase
+obisfish_base_search <- obisfish_base %>%
   filter(!(is.na(fishbase_name))) %>%
   select(fishbase_name) %>%
   distinct()
 
+# get distribution for fishbase names
+dist_fish <- distribution(species_list = obisfish_base_search$fishbase_name, server = 'fishbase')
 
-
-
-#get distribution for fishbase names
-dist_fish <- distribution(species_list = obisfish_base2$fishbase_name, server = 'fishbase')
-
-#filter for species in region
+# filter for species by FAO region
+# this should help account for errors in OBIS records
 fishbase_in_FAO <- dist_fish %>%
   filter(FAO %in% 'Pacific, Northeast' |
            FAO %in% 'Pacific, Eastern Central' |
@@ -281,10 +195,11 @@ fishbase_in_FAO <- dist_fish %>%
   select(c('Species')) %>%
   distinct()
 
+# filter the obis results by FAO region
 obisfish_base <- obisfish_base %>%
   filter(fishbase_name %in% fishbase_in_FAO$Species)
 
-write.csv(obisfish_base, here(splists, "20230428_obis-fish_fishbase_nep.csv"))
+write.csv(obisfish_base, here(splists, "20230501_obis-fish_fishbase_nep.csv"))
 ```
 
 
@@ -320,6 +235,5 @@ obisinverts <- obisdat %>%
 write_csv(obisinverts, here(splists, '20230329_obis-invertebrates.csv'))
 
 ```
-
 
 
