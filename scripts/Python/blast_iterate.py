@@ -34,7 +34,7 @@ for i in data:
     SearchIO.write(qresults, "results4.tab", "blast-tab") # save as .tab
     with open("results4.tab", "r") as f2:
         data = f2.read()
-    print(data)
+    print(i)
     with open("blastn_all.tab", "a") as f:
         f.write(data)
     print("done")
