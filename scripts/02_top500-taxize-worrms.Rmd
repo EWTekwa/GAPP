@@ -217,6 +217,6 @@ top500_sp_worms <- top500_sp_worms %>%
 
 
 ```{r}
-write_csv(top500_sp_worms, here(splists, '20230501_gapp-1b-pacific_top500-worrms.csv'))
+write_csv(top500_sp_worms, here(splists, '20230501_gapp-1b-pacific_fish-top500-worrms.csv'))
 ```
 

@@ -27,7 +27,7 @@ taxonomy: species, subspecies, genus, family, order, class, phylum (invertebrate
 	Takes top 500 and extracts, cleans species names, and populates with higher taxonomy for downstream analysis. 
 	For fish, first only fish groups are selected, then taxize get_ids_() is run for 'gbif' and 'ncbi'. This removes some of the dirty names. Then the resulting list is run through taxize::get_worms_id_(sci_com, marine_only = FALSE, accepted = FALSE) to get WoRMS IDs to fetch records from worrms. Any unmatched taxa is paired with higher taxonomy for downstream analysis by extracting the genus from the verbatim_name.
 	
-	Output saved in processeddata>species_lists>from_data>[date]_[survey]_[taxa]-top500:
+	Output saved in processeddata>species_lists>from_data>[date]_[survey]_[taxa]-top500-worrms:
 `found_taxa` - single column of found species names coalesced in this order worms > gbif > ncbi > verbatim_name. To be used downstream.
 `verbatim_name` - verbatim from top500
 `worms_name` - sciname from worrms
@@ -44,4 +44,16 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
 
 	
 - 03_species-in-region.Rmd
+	This script uses eulerr and arsenal to generate both proportional venn diagrams (euler plots) and a comparison of an input and whether its in the region.
+	Output of comparisons saved in:
+		processeddata>species_lists>comparisons>[date]_[survey]_[taxa]-[compared list]_compared-region for added binary column:
+			For top 500:
+			Same output as 02 with one additional column:
+			`in_region` -- yes - intersects with our region list, no - does not interesect with region list, NA - unable to be compared
+		processeddata>species_lists>comparisons>[date]_[survey]_[taxa]-[compared list]_out-of-region:
+			`source` -- origin of taxa
+			`found_taxa` -- from found_taxa column in upstream files
+	Output of eulerr saved as .png in:
+		output>region_comparison>[date]_[survey]_[taxa]-[compared list]_region-venn
+	
 	
