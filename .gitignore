@@ -10,3 +10,7 @@ admin/~$Kate_and_Ben_hours.xlsx
 .Rhistory
 *.fasta
 .Rhistory
+testing/blast.xml
+testing/results.tab
+blast-log.txt
+blast-log2.txt

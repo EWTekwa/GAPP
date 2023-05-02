@@ -9,6 +9,7 @@ This script will prepare ... stufff ... for ncbi
 
 
 ```{r setup, include=FALSE}
+
 library(tidyverse)
 library(here)
 
@@ -38,16 +39,46 @@ region_fish_search <- region_fish %>%
   select(ncbi_id, accepted_name) %>%
   distinct() %>%
   # what is chr?
-  mutate(chr = paste("txid", ncbi_id, "[ORGN]", sep = ""))
+  mutate(chr = paste("txid", ncbi_id, "[Orgn]", sep = ""))
 
 region_fish_search_str <- toString(region_fish_search$chr) %>%
   gsub(',', ' or',.) %>%
-  paste("(",.,"AND mitochondrial [WORD] NOT UNVERIFIED [WORD] NOT PREDICTED [WORD] AND 100:20000 [SLEN]")
+  paste("(",.,") AND mitochondrial [WORD] NOT UNVERIFIED [WORD] NOT PREDICTED [WORD] AND 100:20000 [SLEN]")
 
 
 # paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced
 # or save
-write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch.txt'))
+write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch4.txt'))
+
+
+
+```
+
+
+```{r for ncbi-query.py}
+# determine which fish should be searched
+# 
+region_fish_search2 <- region_fish %>%
+  filter(!(is.na(ncbi_id))) %>%
+  #filter() by taxonomy, region, etc if needed
+  # then select levels filtered
+  select(ncbi_id, accepted_name) %>%
+  distinct() %>%
+  # what is chr?
+  mutate(chr = paste("txid", ncbi_id, "[Orgn]", sep = ""))
+
+region_fish_search_str <- toString(region_fish_search2$chr) %>%
+  gsub(' ', '',.)
+
+# paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced
+# or save
+write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch2.txt'))
+
+```
+
+
+```{python}
+print("hello world")
 ```
 
 
