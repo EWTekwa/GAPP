@@ -4,7 +4,9 @@ output: html_document
 date: "2023-04-14"
 ---
 
-This document
+This script takes the region lists from 01 with cleaned species lists to compare.
+
+It will generate a column for in-region yes/no/na for the list. For the most accurate results, use WoRMS taxonomy to compare.
 
 
 ```{r setup, include=FALSE}
@@ -111,42 +113,6 @@ write.csv(top500_update, here(splists, 'comparisons', '20230501_gapp-1b-pacific_
 write.csv(top500_not_in, here(splists, 'comparisons', '20230501_gapp-1b-pacific_fish-top500_out-of-region.csv'))
 
 
-
-# maybe
-# make summary stat table
-region_500_stats <- region_500_diff %>%
-  full_join(region_fish_sp) %>%
-  # label ones found
-  mutate(version = ifelse(is.na(version), 'both', 
-                          ifelse(version == 'eDNA, top 500', 'top500', 'region'))) %>%
-  group_by(version) %>%
-  count() %>%
-  ungroup() %>%
-  pivot_wider(names_from = version, 
-              values_from = n) %>%
-  mutate(total_region = sum(region, both),
-         total_top500 = sum(top500, both)) %>%
-  mutate(percent_region_found = both/total_region) %>%
-  mutate(percent_top500_inregion = both/total_top500)
-
-
-# make summary stat table
-region_500_stats2 <- region_500_diff %>%
-  full_join(region_fish_sp) %>%
-  # label ones found
-  mutate(version = ifelse(is.na(version), 'both', 
-                          ifelse(version == 'eDNA, top 500', 'top500', 'region'))) %>%
-  group_by(version) %>%
-  count() %>%
-  ungroup() %>%
-  mutate(total = n + n[version == 'both']) %>%
-  mutate(percent_found = n[version == 'both']/total) #%>%
-  mutate(percent_top500_inregion = both/total_top500)
-
-
-
-
-
 ```
 
 
@@ -221,6 +187,53 @@ tully_update <- compare_fishtully %>%
 
 write.csv(tully_update, here(splists, 'comparisons', '20230501_gapp-3-tully_fish-mifish_compared-region.csv'))
 write.csv(tully_not_in, here(splists, 'comparisons', '20230501_gapp-3-tully_fish-mifish_out-of-region.csv'))
+
+
+```
+
+
+
+
+# scratch
+
+answer question of how many in region
+
+```{r}
+
+
+# maybe
+# make summary stat table
+region_500_stats <- region_500_diff %>%
+  full_join(region_fish_sp) %>%
+  # label ones found
+  mutate(version = ifelse(is.na(version), 'both', 
+                          ifelse(version == 'eDNA, top 500', 'top500', 'region'))) %>%
+  group_by(version) %>%
+  count() %>%
+  ungroup() %>%
+  pivot_wider(names_from = version, 
+              values_from = n) %>%
+  mutate(total_region = sum(region, both),
+         total_top500 = sum(top500, both)) %>%
+  mutate(percent_region_found = both/total_region) %>%
+  mutate(percent_top500_inregion = both/total_top500)
+
+
+# make summary stat table
+region_500_stats2 <- region_500_diff %>%
+  full_join(region_fish_sp) %>%
+  # label ones found
+  mutate(version = ifelse(is.na(version), 'both', 
+                          ifelse(version == 'eDNA, top 500', 'top500', 'region'))) %>%
+  group_by(version) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(total = n + n[version == 'both']) %>%
+  mutate(percent_found = n[version == 'both']/total) #%>%
+  mutate(percent_top500_inregion = both/total_top500)
+
+
+
 
 
 ```

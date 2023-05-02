@@ -22,6 +22,8 @@ taxonomy: species, subspecies, genus, family, order, class, phylum (invertebrate
 `region` -- region found in, from MEOW or PPOW
 `fishbase_name` -- name validated in fishbase, if applicable
 
+- 01b_GBIF-species-list.Rmd
+	Currently removed from the pipeline.
 
 - 02_top500-taxize-worrms.Rmd
 	Takes top 500 and extracts, cleans species names, and populates with higher taxonomy for downstream analysis. 
@@ -55,5 +57,11 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
 			`found_taxa` -- from found_taxa column in upstream files
 	Output of eulerr saved as .png in:
 		output>region_comparison>[date]_[survey]_[taxa]-[compared list]_region-venn
+		
+
+- 04a_ncbi-search.Rmd
+	update
+	generates search and saves as .txt file
+	Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
 	
 	
