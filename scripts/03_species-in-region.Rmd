@@ -4,7 +4,9 @@ output: html_document
 date: "2023-04-14"
 ---
 
-This document
+This script takes the region lists from 01 with cleaned species lists to compare.
+
+It will generate a column for in-region yes/no/na for the list. For the most accurate results, use WoRMS taxonomy to compare.
 
 
 ```{r setup, include=FALSE}
@@ -22,18 +24,16 @@ compare_out <- here('output', 'region_comparison')
 
 ```{r load-in}
 # fish
-region_fish <- read_csv(here(splists, 'region', '20230412_obis-fish_nep.csv')) 
-compare_fish500 <- read_csv(here('rawdata', 'top500_20230405', '20230413_top500-worrms.csv'))
+region_fish <- read_csv(here(splists, 'region', '20230501_obis-fish_fishbase_nep.csv'))[-1]
+compare_fish500 <- read_csv(here(splists, 'from_data', '20230501_gapp-1b-pacific_fish-top500-worrms.csv'))
 compare_fishtully <- read_csv(here(splists, 'from_data', '20230323_gapp-3-tully_12sfish-sp.csv'))
 
 
 # inverts
-region_inverts <- read_csv(here(splists, 'region', '20230412_obis-invertebrates_nep.csv'))
+#region_inverts <- read_csv(here(splists, 'region', '20230412_obis-invertebrates_nep.csv'))
 
 ```
 # Fish
-
-
 
 
 ## Top 500
@@ -47,7 +47,9 @@ region_fish_sp <- region_fish %>%
 
 # fish to compare from top 500
 compare_fish500_sp <- compare_fish500 %>%
-  mutate(compare_name = coalesce(worms_sciname, canonicalname, ncbi_species)) %>%
+  # only ones that werent coalesced from verbatim_name
+  filter(!(is.na(worms_name) & is.na(gbif_name))) %>%
+  mutate(compare_name = found_taxa) %>%
   select(compare_name) %>%
   distinct()
 
@@ -69,7 +71,7 @@ plot(euler_region_edna,
 
 # save
 png(file = here(compare_out, 
-                '2022314_mifish_region-vs-top500.png'), 
+                '20220501_gapp-1b-pacific_fish-top500_region-venn.png'), 
     width = 600, height = 400, units = 'px')
     plot(euler_region_edna,
      quantities = list(type = 'counts', cex = 1, fontface = 2),
@@ -94,20 +96,109 @@ region_500_diff <- region_500_diff %>%
   select(!(observation)) 
 
 top500_not_in <- region_500_diff %>%
-  filter(version == 'eDNA, top 500')
+  filter(version == 'eDNA, top 500') %>%
+  rename(source = version,
+         found_taxa = compare_name)
 
 # add column to top 500 for in-region
 top500_update <- compare_fish500 %>%
-  mutate(compare_name = coalesce(worms_sciname, canonicalname, ncbi_species)) %>%
+  mutate(compare_name = found_taxa) %>%
   mutate(in_region = ifelse(compare_name %in% compare_fish500_sp$compare_name & 
                               compare_name %in% top500_not_in$compare_name, "no", 
                             ifelse(compare_name %in% compare_fish500_sp$compare_name & 
                                      !(compare_name %in% top500_not_in$compare_name), 'yes',
                                    NA_character_)))
 
-write.csv(top500_update, here('rawdata', 'top500_20230405', '20230413_top500_compared-region.csv'))
-write.csv(top500_not_in, here(splists, 'comparisons', '20230413_mifish_out-of-region-top500.csv'))
+write.csv(top500_update, here(splists, 'comparisons', '20230501_gapp-1b-pacific_fish-top500_compared-region.csv'))
+write.csv(top500_not_in, here(splists, 'comparisons', '20230501_gapp-1b-pacific_fish-top500_out-of-region.csv'))
 
+
+```
+
+
+## Tully
+
+
+```{r fish tully eulerr}
+# tully is already a list of species
+# region species list made in compare top 500
+
+compare_fishtully <- compare_fishtully %>%
+  rename(compare_name = species)
+
+
+venn_region_tully <- list('Region' = region_fish_sp$compare_name,
+                         'Tully' = compare_fishtully$compare_name
+                         )
+
+# run eulerr
+euler_region_tully <- euler(venn_region_tully)
+
+# plot output
+plot(euler_region_tully,
+     quantities = list(type = 'counts', cex = 1, fontface = 2),
+     fills = list(fill = c('#a47148','#688ab5'), alpha = .75),
+     adjust_labels = TRUE,
+     main = 'Unique species')
+
+
+
+# save
+png(file = here(compare_out, 
+                '20230501_gapp-3-tully_fish-mifish_region-venn.png'), 
+    width = 600, height = 400, units = 'px')
+    plot(euler_region_tully,
+     quantities = list(type = 'counts', cex = 1, fontface = 2),
+     fills = list(fill = c('#a47148','#688ab5'), alpha = .75),
+     adjust_labels = TRUE,
+     main = 'Unique species')
+    dev.off()
+```
+
+
+
+```{r fish tully arsenal}
+
+
+# arsenal!
+# in output, first dataframe is X, second is Y
+region_tully_comp <- comparedf(compare_fishtully, region_fish_sp, by = 'compare_name')
+
+#extract differences
+region_tully_diff <- diffs(region_tully_comp, what = c('observations'))
+
+region_tully_diff <- region_tully_diff %>%
+    mutate(version = recode(version, x = 'eDNA, Tully',
+                            y = 'Region List')) %>%
+  select(!(observation)) 
+
+tully_not_in <- region_tully_diff %>%
+  filter(version == 'eDNA, Tully')%>%
+  rename(source = version,
+         found_taxa = compare_name)
+
+# add column to top 500 for in-region
+tully_update <- compare_fishtully %>%
+  mutate(in_region = ifelse(compare_name %in% compare_fishtully$compare_name & 
+                              compare_name %in% tully_not_in$compare_name, "no", 
+                            ifelse(compare_name %in% compare_fishtully$compare_name & 
+                                     !(compare_name %in% tully_not_in$compare_name), 'yes',
+                                   NA_character_)))
+
+write.csv(tully_update, here(splists, 'comparisons', '20230501_gapp-3-tully_fish-mifish_compared-region.csv'))
+write.csv(tully_not_in, here(splists, 'comparisons', '20230501_gapp-3-tully_fish-mifish_out-of-region.csv'))
+
+
+```
+
+
+
+
+# scratch
+
+answer question of how many in region
+
+```{r}
 
 
 # maybe
@@ -143,80 +234,6 @@ region_500_stats2 <- region_500_diff %>%
 
 
 
-
-
-```
-
-
-## Tully
-
-
-```{r fish tully eulerr}
-# tully is already a list of species
-# region species list made in compare top 500
-
-compare_fishtully <- compare_fishtully %>%
-  rename(compare_name = species)
-
-
-venn_region_tully <- list('Region' = region_fish_sp$compare_name,
-                         'Tully' = compare_fishtully$compare_name
-                         )
-
-# run eulerr
-euler_region_tully <- euler(venn_region_tully)
-
-# plot output
-plot(euler_region_tully,
-     quantities = list(type = 'counts', cex = 1, fontface = 2),
-     fills = list(fill = c('#a47148','#688ab5'), alpha = .75),
-     adjust_labels = TRUE,
-     main = 'Unique species')
-
-
-
-# save
-png(file = here(compare_out, 
-                '2022314_mifish_region-vs-tully.png'), 
-    width = 600, height = 400, units = 'px')
-    plot(euler_region_tully,
-     quantities = list(type = 'counts', cex = 1, fontface = 2),
-     fills = list(fill = c('#a47148','#688ab5'), alpha = .75),
-     adjust_labels = TRUE,
-     main = 'Unique species')
-    dev.off()
-```
-
-
-
-```{r fish tully arsenal}
-
-
-# arsenal!
-# in output, first dataframe is X, second is Y
-region_tully_comp <- comparedf(compare_fishtully, region_fish_sp, by = 'compare_name')
-
-#extract differences
-region_tully_diff <- diffs(region_tully_comp, what = c('observations'))
-
-region_tully_diff <- region_tully_diff %>%
-    mutate(version = recode(version, x = 'eDNA, Tully',
-                            y = 'Region List')) %>%
-  select(!(observation)) 
-
-tully_not_in <- region_tully_diff %>%
-  filter(version == 'eDNA, Tully')
-
-# add column to top 500 for in-region
-tully_update <- compare_fishtully %>%
-  mutate(in_region = ifelse(compare_name %in% compare_fishtully$compare_name & 
-                              compare_name %in% tully_not_in$compare_name, "no", 
-                            ifelse(compare_name %in% compare_fishtully$compare_name & 
-                                     !(compare_name %in% tully_not_in$compare_name), 'yes',
-                                   NA_character_)))
-
-write.csv(tully_update, here(splists, 'comparisons', '20230413_mifish_tully_compared-region.csv'))
-write.csv(tully_not_in, here(splists, 'comparisons', '20230413_mifish_out-of-region-tully.csv'))
 
 
 ```
