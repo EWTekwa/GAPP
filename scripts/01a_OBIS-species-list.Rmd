@@ -30,6 +30,7 @@ taxonomy: species, subspecies, genus, family, order, class, phylum (invertebrate
 library(rfishbase)
 library(robis)
 #library(obistools) # for cleaning occurrence data
+library(taxize)
 library(tidyverse)
 library(here)
 # spatial libraries
@@ -172,6 +173,8 @@ write_csv(nep_fish, here(splists, '20230501_obis-fish_nep.csv'))
 
 ### Filter to Fishbase-validated list
 
+Also make sure they all have NCBI ids!
+
 ```{r}
 # use the accepted name to get a species list from fishbase
 obisfish_base <- nep_fish %>%
@@ -198,6 +201,55 @@ fishbase_in_FAO <- dist_fish %>%
 # filter the obis results by FAO region
 obisfish_base <- obisfish_base %>%
   filter(fishbase_name %in% fishbase_in_FAO$Species)
+
+# add NCBI IDs to any missing
+ncbi_add <- obisfish_base %>%
+  filter(is.na(ncbi_id)) %>%
+  select(accepted_name) %>%
+  distinct()
+
+# right now I'm having issues with NCBI so I broke it up
+
+ncbi_add1 <- ncbi_add[1:300,]
+ncbi_add2 <- ncbi_add[301:591,]
+
+
+
+# use gbif/ncbi to resolve the initial round of dirty names
+ncbi_missing <- get_ids_(ncbi_add1$accepted_name, db = "ncbi")
+ncbi_missing2 <- get_ids_(ncbi_add2$accepted_name, db = "ncbi")
+
+
+# results to dataframe
+ncbi_ids2 <- tibble(taxa_query = names(ncbi_missing$ncbi),
+                      ncbi = ncbi_missing$ncbi) %>%
+  # remove from lists
+  unnest_longer(ncbi, keep_empty = TRUE) %>%
+  # remove from next layer of lists
+  unpack(cols = everything(), names_sep = "_")
+
+# results to dataframe
+ncbi_ids3 <- tibble(taxa_query = names(ncbi_add2$accepted_name),
+                      ncbi = ncbi_missing$ncbi) %>%
+  # remove from lists
+  unnest_longer(ncbi, keep_empty = TRUE) %>%
+  # remove from next layer of lists
+  unpack(cols = everything(), names_sep = "_") 
+
+ncbi_ids4 <- tibble(taxa_query = names(ncbi_missing$ncbi),
+                      ncbi = ncbi_missing$ncbi) %>%
+  # remove from lists
+  unnest_longer(ncbi, keep_empty = TRUE) %>%
+  # remove from next layer of lists
+  unpack(cols = everything(), names_sep = "_") 
+
+ncbi_ids <- ncbi_ids2 %>%
+  full_join(ncbi_ids3) %>%
+  full_join(ncbi_ids4) %>%
+  # add this above to initial mapping
+  filter(!(is.na(ncbi_uid))) %>%
+  select(ncbi_uid, ncbi_scientificname)
+
 
 write.csv(obisfish_base, here(splists, "20230501_obis-fish_fishbase_nep.csv"))
 ```

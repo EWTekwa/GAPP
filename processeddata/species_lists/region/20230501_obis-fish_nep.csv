@@ -288,8 +288,8 @@ Paraliparis albeolus,Paraliparis albeolus,accepted,Paraliparis albeolus,NA,speci
 Sebastes phillipsi,Sebastes phillipsi,accepted,Sebastes phillipsi,NA,species,Actinopteri,Perciformes,Sebastidae,Sebastes,TRUE,FALSE,FALSE,274835,394701,Aleutian Islands
 Poromitra cristiceps,Poromitra cristiceps,accepted,Poromitra cristiceps,NA,species,Actinopteri,Beryciformes,Melamphaidae,Poromitra,TRUE,FALSE,FALSE,306617,1828456,Aleutian Islands
 Bajacalifornia megalops,Bajacalifornia megalops,accepted,Bajacalifornia megalops,NA,species,Actinopteri,Alepocephaliformes,Alepocephalidae,Bajacalifornia,TRUE,FALSE,FALSE,126687,492034,Aleutian Islands
-Tarletonbeania crenularis,Tarletonbeania crenularis,accepted,Tarletonbeania crenularis,NA,species,Actinopteri,Myctophiformes,Myctophidae,Tarletonbeania,TRUE,FALSE,FALSE,282927,91660,Aleutian Islands
 Careproctus lycopersicus,Careproctus lycopersicus,accepted,Careproctus lycopersicus,NA,species,Actinopteri,Perciformes,Liparidae,Careproctus,TRUE,FALSE,FALSE,834999,NA,Aleutian Islands
+Tarletonbeania crenularis,Tarletonbeania crenularis,accepted,Tarletonbeania crenularis,NA,species,Actinopteri,Myctophiformes,Myctophidae,Tarletonbeania,TRUE,FALSE,FALSE,282927,91660,Aleutian Islands
 Careproctus abbreviatus,Careproctus abbreviatus,accepted,Careproctus abbreviatus,NA,species,Actinopteri,Perciformes,Liparidae,Careproctus,TRUE,FALSE,FALSE,274402,NA,Aleutian Islands
 Engraulis mordax,Engraulis mordax,accepted,Engraulis mordax,NA,species,Actinopteri,Clupeiformes,Engraulidae,Engraulis,TRUE,FALSE,FALSE,272286,239368,Aleutian Islands
 Sebastes goodei,Sebastes goodei,accepted,Sebastes goodei,NA,species,Actinopteri,Perciformes,Sebastidae,Sebastes,TRUE,TRUE,FALSE,274798,72078,Aleutian Islands
@@ -297,8 +297,8 @@ Lycenchelys crotalinus,Lycenchelys crotalinus,accepted,Lycenchelys crotalinus,NA
 Trachurus symmetricus,Trachurus symmetricus,accepted,Trachurus symmetricus,NA,species,Actinopteri,Carangiformes,Carangidae,Trachurus,TRUE,FALSE,FALSE,273305,271940,Aleutian Islands
 Eumicrotremus derjugini,Eumicrotremus derjugini,accepted,Eumicrotremus derjugini,NA,species,Actinopteri,Perciformes,Cyclopteridae,Eumicrotremus,TRUE,FALSE,FALSE,127215,430039,Aleutian Islands
 Glyptocephalus stelleri,Glyptocephalus stelleri,accepted,Glyptocephalus stelleri,NA,species,Actinopteri,Pleuronectiformes,Pleuronectidae,Glyptocephalus,TRUE,FALSE,FALSE,274286,238840,Aleutian Islands
-Triglops jordani,Triglops jordani,accepted,Triglops jordani,NA,species,Actinopteri,Perciformes,Cottidae,Triglops,TRUE,FALSE,FALSE,274398,NA,Aleutian Islands
 Careproctus phasma,Careproctus phasma,accepted,Careproctus phasma,NA,species,Actinopteri,Perciformes,Liparidae,Careproctus,TRUE,FALSE,FALSE,274460,1311423,Aleutian Islands
+Triglops jordani,Triglops jordani,accepted,Triglops jordani,NA,species,Actinopteri,Perciformes,Cottidae,Triglops,TRUE,FALSE,FALSE,274398,NA,Aleutian Islands
 Icelus spatula,Icelus spatula,accepted,Icelus spatula,NA,species,Actinopteri,Perciformes,Cottidae,Icelus,TRUE,FALSE,FALSE,127200,980331,Aleutian Islands
 Sebastes nigrocinctus,Sebastes nigrocinctus,accepted,Sebastes nigrocinctus,NA,species,Actinopteri,Perciformes,Sebastidae,Sebastes,TRUE,FALSE,FALSE,274825,72089,Aleutian Islands
 Limanda sakhalinensis,Limanda sakhalinensis,accepted,Limanda sakhalinensis,NA,species,Actinopteri,Pleuronectiformes,Pleuronectidae,Limanda,TRUE,FALSE,FALSE,274292,641109,Aleutian Islands
@@ -4984,8 +4984,8 @@ Priacanthus alalaua,Priacanthus alalaua,accepted,Priacanthus alalaua,NA,species,
 Gobiosoma chiquita,Gobiosoma chiquita,accepted,Gobiosoma chiquita,NA,species,Actinopteri,Gobiiformes,Gobiidae,Gobiosoma,TRUE,FALSE,FALSE,276505,317254,Eastern Tropical Pacific
 Bathylagoides nigrigenys,Bathylagoides nigrigenys,accepted,Bathylagoides nigrigenys,NA,species,Actinopteri,Argentiniformes,Bathylagidae,Bathylagoides,TRUE,FALSE,FALSE,712443,NA,Eastern Tropical Pacific
 Carangoides orthogrammus,Carangoides orthogrammus,accepted,Carangoides orthogrammus,NA,species,Actinopteri,Carangiformes,Carangidae,Carangoides,TRUE,FALSE,FALSE,218393,1156093,Eastern Tropical Pacific
-Ginglymostoma cirratum,Ginglymostoma cirratum,accepted,Ginglymostoma cirratum,NA,species,Elasmobranchii,Orectolobiformes,Ginglymostomatidae,Ginglymostoma,TRUE,TRUE,FALSE,105846,7801,Eastern Tropical Pacific
 Cosmocampus arctus,Cosmocampus arctus,accepted,Cosmocampus arctus,NA,species,Actinopteri,Syngnathiformes,Syngnathidae,Cosmocampus,TRUE,FALSE,FALSE,293571,1972140,Eastern Tropical Pacific
+Ginglymostoma cirratum,Ginglymostoma cirratum,accepted,Ginglymostoma cirratum,NA,species,Elasmobranchii,Orectolobiformes,Ginglymostomatidae,Ginglymostoma,TRUE,TRUE,FALSE,105846,7801,Eastern Tropical Pacific
 Gobiomorus maculatus,Gobiomorus maculatus,accepted,Gobiomorus maculatus,NA,species,Actinopteri,Gobiiformes,Eleotridae,Gobiomorus,FALSE,TRUE,TRUE,280897,308072,Eastern Tropical Pacific
 Acanthurus xanthopterus,Acanthurus xanthopterus,accepted,Acanthurus xanthopterus,NA,species,Actinopteri,Acanthuriformes,Acanthuridae,Acanthurus,TRUE,FALSE,FALSE,219634,75014,Eastern Tropical Pacific
 Malacoctenus tetranemus,Malacoctenus tetranemus,accepted,Malacoctenus tetranemus,NA,species,Actinopteri,Blenniiformes,Labrisomidae,Malacoctenus,TRUE,FALSE,FALSE,281502,879509,Eastern Tropical Pacific
@@ -5009,8 +5009,8 @@ Tylosurus crocodilus,Tylosurus crocodilus,accepted,Tylosurus crocodilus,NA,speci
 Carcharhinus galapagensis,Carcharhinus galapagensis,accepted,Carcharhinus galapagensis,NA,species,Elasmobranchii,Carcharhiniformes,Carcharhinidae,Carcharhinus,TRUE,FALSE,FALSE,105790,671159,Eastern Tropical Pacific
 Coralliozetus rosenblatti,Coralliozetus rosenblatti,accepted,Coralliozetus rosenblatti,NA,species,Actinopteri,Blenniiformes,Chaenopsidae,Coralliozetus,TRUE,FALSE,FALSE,280397,642430,Eastern Tropical Pacific
 Gobiesox pinniger,Gobiesox pinniger,accepted,Gobiesox pinniger,NA,species,Actinopteri,Gobiesociformes,Gobiesocidae,Gobiesox,TRUE,FALSE,FALSE,275677,879493,Eastern Tropical Pacific
-Kyphosus lutescens,Kyphosus lutescens,accepted,Kyphosus lutescens,NA,species,Actinopteri,Centrarchiformes,Kyphosidae,Kyphosus,TRUE,FALSE,FALSE,273523,NA,Eastern Tropical Pacific
 Emblemaria walkeri,Emblemaria walkeri,accepted,Emblemaria walkeri,NA,species,Actinopteri,Blenniiformes,Chaenopsidae,Emblemaria,TRUE,FALSE,FALSE,280657,NA,Eastern Tropical Pacific
+Kyphosus lutescens,Kyphosus lutescens,accepted,Kyphosus lutescens,NA,species,Actinopteri,Centrarchiformes,Kyphosidae,Kyphosus,TRUE,FALSE,FALSE,273523,NA,Eastern Tropical Pacific
 Canthidermis maculata,Canthidermis maculata,accepted,Canthidermis maculata,NA,species,Actinopteri,Tetraodontiformes,Balistidae,Canthidermis,TRUE,FALSE,FALSE,127398,303691,Eastern Tropical Pacific
 Malacoctenus margaritae,Malacoctenus margaritae,accepted,Malacoctenus margaritae,NA,species,Actinopteri,Blenniiformes,Labrisomidae,Malacoctenus,TRUE,FALSE,FALSE,281501,NA,Eastern Tropical Pacific
 Thalassoma grammaticum,Thalassoma grammaticum,accepted,Thalassoma grammaticum,NA,species,Actinopteri,Eupercaria incertae sedis,Labridae,Thalassoma,TRUE,FALSE,FALSE,273580,239370,Eastern Tropical Pacific
@@ -5177,10 +5177,10 @@ Cetengraulis mysticetus,Cetengraulis mysticetus,accepted,Cetengraulis mysticetus
 Naucrates ductor,Naucrates ductor,accepted,Naucrates ductor,NA,species,Actinopteri,Carangiformes,Carangidae,Naucrates,TRUE,FALSE,FALSE,126811,875791,Eastern Tropical Pacific
 Callechelys eristigma,Callechelys eristigma,accepted,Callechelys eristigma,NA,species,Actinopteri,Anguilliformes,Ophichthidae,Callechelys,TRUE,FALSE,FALSE,275466,NA,Eastern Tropical Pacific
 Laemonema verecundum,Laemonema verecundum,accepted,Laemonema verecundum,NA,species,Actinopteri,Gadiformes,Moridae,Laemonema,TRUE,FALSE,FALSE,272479,NA,Eastern Tropical Pacific
-Myxodagnus macrognathus,Myxodagnus macrognathus,accepted,Myxodagnus macrognathus,NA,species,Actinopteri,Blenniiformes,Dactyloscopidae,Myxodagnus,TRUE,FALSE,FALSE,281623,NA,Eastern Tropical Pacific
 Physiculus nematopus,Physiculus nematopus,accepted,Physiculus nematopus,NA,species,Actinopteri,Gadiformes,Moridae,Physiculus,TRUE,FALSE,FALSE,272504,2048758,Eastern Tropical Pacific
-Thunnus albacares,Thunnus albacares,accepted,Thunnus albacares,NA,species,Actinopteri,Scombriformes,Scombridae,Thunnus,TRUE,TRUE,FALSE,127027,8236,Eastern Tropical Pacific
+Myxodagnus macrognathus,Myxodagnus macrognathus,accepted,Myxodagnus macrognathus,NA,species,Actinopteri,Blenniiformes,Dactyloscopidae,Myxodagnus,TRUE,FALSE,FALSE,281623,NA,Eastern Tropical Pacific
 Bathycongrus macrurus,Bathycongrus macrurus,accepted,Bathycongrus macrurus,NA,species,Actinopteri,Anguilliformes,Congridae,Bathycongrus,TRUE,FALSE,FALSE,276870,NA,Eastern Tropical Pacific
+Thunnus albacares,Thunnus albacares,accepted,Thunnus albacares,NA,species,Actinopteri,Scombriformes,Scombridae,Thunnus,TRUE,TRUE,FALSE,127027,8236,Eastern Tropical Pacific
 Istiophorus platypterus,Istiophorus platypterus,accepted,Istiophorus platypterus,NA,species,Actinopteri,Carangiformes,Istiophoridae,Istiophorus,TRUE,FALSE,FALSE,158812,13575,Eastern Tropical Pacific
 Paraclinus walkeri,Paraclinus walkeri,accepted,Paraclinus walkeri,NA,species,Actinopteri,Blenniiformes,Labrisomidae,Paraclinus,TRUE,FALSE,FALSE,282037,NA,Eastern Tropical Pacific
 Gobiesox marijeanae,Gobiesox marijeanae,accepted,Gobiesox marijeanae,NA,species,Actinopteri,Gobiesociformes,Gobiesocidae,Gobiesox,TRUE,FALSE,FALSE,275672,NA,Eastern Tropical Pacific
@@ -5256,9 +5256,9 @@ Urotrygon munda,Urotrygon munda,accepted,Urotrygon munda,NA,species,Elasmobranch
 Phthanophaneron harveyi,Phthanophaneron harveyi,accepted,Phthanophaneron harveyi,NA,species,Actinopteri,Trachichthyiformes,Anomalopidae,Phthanophaneron,TRUE,FALSE,FALSE,282246,NA,Eastern Tropical Pacific
 Cyclothone signata,Cyclothone signata,accepted,Cyclothone signata,NA,species,Actinopteri,Stomiiformes,Gonostomatidae,Cyclothone,TRUE,FALSE,FALSE,154831,48453,Eastern Tropical Pacific
 Halichoeres insularis,Halichoeres insularis,accepted,Halichoeres insularis,NA,species,Actinopteri,Eupercaria incertae sedis,Labridae,Halichoeres,TRUE,FALSE,FALSE,275767,870551,Eastern Tropical Pacific
-Mobula mobular,Mobula mobular,accepted,Mobula mobular,NA,species,Elasmobranchii,Myliobatiformes,Myliobatidae,Mobula,TRUE,FALSE,FALSE,105858,1579277,Eastern Tropical Pacific
 Fistularia petimba,Fistularia petimba,accepted,Fistularia petimba,NA,species,Actinopteri,Syngnathiformes,Fistulariidae,Fistularia,TRUE,TRUE,FALSE,159439,206154,Eastern Tropical Pacific
 Malacoctenus mexicanus,Malacoctenus mexicanus,accepted,Malacoctenus mexicanus,NA,species,Actinopteri,Blenniiformes,Labrisomidae,Malacoctenus,TRUE,FALSE,FALSE,712819,NA,Eastern Tropical Pacific
+Mobula mobular,Mobula mobular,accepted,Mobula mobular,NA,species,Elasmobranchii,Myliobatiformes,Myliobatidae,Mobula,TRUE,FALSE,FALSE,105858,1579277,Eastern Tropical Pacific
 Butis koilomatodon,Butis koilomatodon,accepted,Butis koilomatodon,NA,species,Actinopteri,Gobiiformes,Eleotridae,Butis,TRUE,TRUE,TRUE,219352,150320,Eastern Tropical Pacific
 Carcharhinus falciformis,Carcharhinus falciformis,accepted,Carcharhinus falciformis,NA,species,Elasmobranchii,Carcharhiniformes,Carcharhinidae,Carcharhinus,TRUE,FALSE,FALSE,105789,202609,Eastern Tropical Pacific
 Oxuderces dentatus,Oxuderces dentatus,accepted,Oxuderces dentatus,NA,species,Actinopteri,Gobiiformes,Gobiidae,Oxuderces,FALSE,TRUE,TRUE,281951,1109017,Eastern Tropical Pacific
@@ -5271,8 +5271,8 @@ Luvarus imperialis,Luvarus imperialis,accepted,Luvarus imperialis,NA,species,Act
 Dactyloscopus heraldi,Dactyloscopus heraldi,accepted,Dactyloscopus heraldi,NA,species,Actinopteri,Blenniiformes,Dactyloscopidae,Dactyloscopus,TRUE,FALSE,FALSE,712827,NA,Eastern Tropical Pacific
 Lepidopus fitchi,Lepidopus fitchi,accepted,Lepidopus fitchi,NA,species,Actinopteri,Scombriformes,Trichiuridae,Lepidopus,TRUE,FALSE,FALSE,274018,515182,Eastern Tropical Pacific
 Serranus socorroensis,Serranus socorroensis,accepted,Serranus socorroensis,NA,species,Actinopteri,Perciformes,Serranidae,Serranus,TRUE,FALSE,FALSE,273906,NA,Eastern Tropical Pacific
-Synchiropus atrilabiatus,Synchiropus atrilabiatus,accepted,Synchiropus atrilabiatus,NA,species,Actinopteri,Callionymiformes,Callionymidae,Synchiropus,TRUE,FALSE,FALSE,273238,875780,Eastern Tropical Pacific
 Lophiodes spilurus,Lophiodes spilurus,accepted,Lophiodes spilurus,NA,species,Actinopteri,Lophiiformes,Lophiidae,Lophiodes,TRUE,FALSE,FALSE,278534,319430,Eastern Tropical Pacific
+Synchiropus atrilabiatus,Synchiropus atrilabiatus,accepted,Synchiropus atrilabiatus,NA,species,Actinopteri,Callionymiformes,Callionymidae,Synchiropus,TRUE,FALSE,FALSE,273238,875780,Eastern Tropical Pacific
 Hirundichthys albimaculatus,Hirundichthys albimaculatus,accepted,Hirundichthys albimaculatus,NA,species,Actinopteri,Beloniformes,Exocoetidae,Hirundichthys,TRUE,FALSE,FALSE,272169,938391,Eastern Tropical Pacific
 Cyclopsetta panamensis,Cyclopsetta panamensis,accepted,Cyclopsetta panamensis,NA,species,Actinopteri,Pleuronectiformes,Paralichthyidae,Cyclopsetta,TRUE,TRUE,FALSE,275702,1247398,Eastern Tropical Pacific
 Calamus taurinus,Calamus taurinus,accepted,Calamus taurinus,NA,species,Actinopteri,Eupercaria incertae sedis,Sparidae,Calamus,TRUE,FALSE,FALSE,275974,NA,Eastern Tropical Pacific
@@ -5412,8 +5412,8 @@ Serranus huascarii,Serranus huascarii,accepted,Serranus huascarii,NA,species,Act
 Emblemaria piratica,Emblemaria piratica,accepted,Emblemaria piratica,NA,species,Actinopteri,Blenniiformes,Chaenopsidae,Emblemaria,TRUE,FALSE,FALSE,280654,642434,Eastern Tropical Pacific
 Mugilogobius abei,Mugilogobius abei,accepted,Mugilogobius abei,NA,species,Actinopteri,Gobiiformes,Gobiidae,Mugilogobius,TRUE,TRUE,FALSE,277346,88200,Eastern Tropical Pacific
 Ranzania laevis,Ranzania laevis,accepted,Ranzania laevis,NA,species,Actinopteri,Tetraodontiformes,Molidae,Ranzania,TRUE,FALSE,FALSE,127406,215407,Eastern Tropical Pacific
-Seriola dumerili,Seriola dumerili,accepted,Seriola dumerili,NA,species,Actinopteri,Carangiformes,Carangidae,Seriola,TRUE,FALSE,FALSE,126816,41447,Eastern Tropical Pacific
 Pontinus furcirhinus,Pontinus furcirhinus,accepted,Pontinus furcirhinus,NA,species,Actinopteri,Perciformes,Scorpaenidae,Pontinus,TRUE,FALSE,FALSE,274685,72112,Eastern Tropical Pacific
+Seriola dumerili,Seriola dumerili,accepted,Seriola dumerili,NA,species,Actinopteri,Carangiformes,Carangidae,Seriola,TRUE,FALSE,FALSE,126816,41447,Eastern Tropical Pacific
 Cheilopogon hubbsi,Cheilopogon hubbsi,accepted,Cheilopogon hubbsi,NA,species,Actinopteri,Beloniformes,Exocoetidae,Cheilopogon,TRUE,FALSE,FALSE,272154,NA,Eastern Tropical Pacific
 Pachycara suspectum,Pachycara suspectum,accepted,Pachycara suspectum,NA,species,Actinopteri,Perciformes,Zoarcidae,Pachycara,TRUE,FALSE,FALSE,274150,NA,Eastern Tropical Pacific
 Evermannia longipinnis,Evermannia longipinnis,accepted,Evermannia longipinnis,NA,species,Actinopteri,Gobiiformes,Gobiidae,Evermannia,TRUE,FALSE,FALSE,280761,NA,Eastern Tropical Pacific
@@ -5422,27 +5422,27 @@ Abantennarius sanguineus,Antennatus sanguineus,superseded combination,Antennatus
 Acanthogobius flavimanus,Acanthogobius flavimanus,accepted,Acanthogobius flavimanus,NA,species,Actinopteri,Gobiiformes,Gobiidae,Acanthogobius,TRUE,TRUE,TRUE,279475,86203,Eastern Tropical Pacific
 Coryphaenoides armatus,Coryphaenoides armatus,accepted,Coryphaenoides armatus,NA,species,Actinopteri,Gadiformes,Macrouridae,Coryphaenoides,TRUE,FALSE,FALSE,158952,76798,Eastern Tropical Pacific
 Zapteryx exasperata,Zapteryx exasperata,accepted,Zapteryx exasperata,NA,species,Elasmobranchii,Rhinopristiformes,Rhinobatidae,Zapteryx,TRUE,FALSE,FALSE,283213,540279,Eastern Tropical Pacific
-Larimus effulgens,Larimus effulgens,accepted,Larimus effulgens,NA,species,Actinopteri,Eupercaria incertae sedis,Sciaenidae,Larimus,TRUE,FALSE,FALSE,276130,NA,Eastern Tropical Pacific
 Triakis semifasciata,Triakis semifasciata,accepted,Triakis semifasciata,NA,species,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,TRUE,TRUE,FALSE,279060,30493,Eastern Tropical Pacific
 Lobianchia gemellarii,Lobianchia gemellarii,accepted,Lobianchia gemellarii,NA,species,Actinopteri,Myctophiformes,Myctophidae,Lobianchia,TRUE,FALSE,FALSE,158901,123234,Eastern Tropical Pacific
+Larimus effulgens,Larimus effulgens,accepted,Larimus effulgens,NA,species,Actinopteri,Eupercaria incertae sedis,Sciaenidae,Larimus,TRUE,FALSE,FALSE,276130,NA,Eastern Tropical Pacific
 Katsuwonus pelamis,Katsuwonus pelamis,accepted,Katsuwonus pelamis,NA,species,Actinopteri,Scombriformes,Scombridae,Katsuwonus,TRUE,FALSE,FALSE,127018,8226,Eastern Tropical Pacific
 Ambassis gymnocephalus,Ambassis gymnocephalus,accepted,Ambassis gymnocephalus,NA,species,Actinopteri,Ovalentaria incertae sedis,Ambassidae,Ambassis,TRUE,TRUE,TRUE,220044,1045542,Eastern Tropical Pacific
 Gobiopterus chuno,Gobiopterus chuno,accepted,Gobiopterus chuno,NA,species,Actinopteri,Gobiiformes,Gobiidae,Gobiopterus,FALSE,TRUE,TRUE,280901,1365555,Eastern Tropical Pacific
 Lycodes cortezianus,Lycodes cortezianus,accepted,Lycodes cortezianus,NA,species,Actinopteri,Perciformes,Zoarcidae,Lycodes,TRUE,FALSE,FALSE,274097,57818,Eastern Tropical Pacific
-Lipolagus ochotensis,Lipolagus ochotensis,accepted,Lipolagus ochotensis,NA,species,Actinopteri,Argentiniformes,Bathylagidae,Lipolagus,TRUE,FALSE,FALSE,281374,170193,Eastern Tropical Pacific
 Trachinotus goodei,Trachinotus goodei,accepted,Trachinotus goodei,NA,species,Actinopteri,Carangiformes,Carangidae,Trachinotus,TRUE,FALSE,FALSE,159654,173333,Eastern Tropical Pacific
+Lipolagus ochotensis,Lipolagus ochotensis,accepted,Lipolagus ochotensis,NA,species,Actinopteri,Argentiniformes,Bathylagidae,Lipolagus,TRUE,FALSE,FALSE,281374,170193,Eastern Tropical Pacific
 Bathylagoides wesethi,Bathylagoides wesethi,accepted,Bathylagoides wesethi,NA,species,Actinopteri,Argentiniformes,Bathylagidae,Bathylagoides,TRUE,FALSE,FALSE,712444,875769,Eastern Tropical Pacific
 Hippocampus hippocampus,Hippocampus hippocampus,accepted,Hippocampus hippocampus,NA,species,Actinopteri,Syngnathiformes,Syngnathidae,Hippocampus,TRUE,FALSE,FALSE,127380,109283,Eastern Tropical Pacific
 Symbolophorus reversus,Symbolophorus reversus,accepted,Symbolophorus reversus,NA,species,Actinopteri,Myctophiformes,Myctophidae,Symbolophorus,TRUE,FALSE,FALSE,272735,1519995,Eastern Tropical Pacific
 Gobiesox papillifer,Gobiesox papillifer,accepted,Gobiesox papillifer,NA,species,Actinopteri,Gobiesociformes,Gobiesocidae,Gobiesox,TRUE,FALSE,FALSE,275676,NA,Eastern Tropical Pacific
-Scytalichthys miurus,Scytalichthys miurus,accepted,Scytalichthys miurus,NA,species,Actinopteri,Anguilliformes,Ophichthidae,Scytalichthys,TRUE,FALSE,FALSE,282734,NA,Eastern Tropical Pacific
 Gobionellus microdon,Gobionellus microdon,accepted,Gobionellus microdon,NA,species,Actinopteri,Gobiiformes,Gobiidae,Gobionellus,FALSE,TRUE,TRUE,276498,1365552,Eastern Tropical Pacific
-Microgobius brevispinis,Microgobius brevispinis,accepted,Microgobius brevispinis,NA,species,Actinopteri,Gobiiformes,Gobiidae,Microgobius,TRUE,FALSE,FALSE,275710,203320,Eastern Tropical Pacific
+Scytalichthys miurus,Scytalichthys miurus,accepted,Scytalichthys miurus,NA,species,Actinopteri,Anguilliformes,Ophichthidae,Scytalichthys,TRUE,FALSE,FALSE,282734,NA,Eastern Tropical Pacific
 Clupanodon thrissa,Clupanodon thrissa,accepted,Clupanodon thrissa,NA,species,Actinopteri,Clupeiformes,Clupeidae,Clupanodon,TRUE,TRUE,TRUE,280223,403224,Eastern Tropical Pacific
+Microgobius brevispinis,Microgobius brevispinis,accepted,Microgobius brevispinis,NA,species,Actinopteri,Gobiiformes,Gobiidae,Microgobius,TRUE,FALSE,FALSE,275710,203320,Eastern Tropical Pacific
 Bathygobius soporator,Bathygobius soporator,accepted,Bathygobius soporator,NA,species,Actinopteri,Gobiiformes,Gobiidae,Bathygobius,TRUE,TRUE,TRUE,277638,314015,Eastern Tropical Pacific
-Lutjanus colorado,Lutjanus colorado,accepted,Lutjanus colorado,NA,species,Actinopteri,Eupercaria incertae sedis,Lutjanidae,Lutjanus,TRUE,TRUE,FALSE,276529,697225,Eastern Tropical Pacific
 Alphestes afer,Alphestes afer,accepted,Alphestes afer,NA,species,Actinopteri,Perciformes,Serranidae,Alphestes,TRUE,FALSE,FALSE,279567,246622,Eastern Tropical Pacific
 Sphoeroides lispus,Sphoeroides lispus,accepted,Sphoeroides lispus,NA,species,Actinopteri,Tetraodontiformes,Tetraodontidae,Sphoeroides,TRUE,FALSE,FALSE,275278,1329245,Eastern Tropical Pacific
+Lutjanus colorado,Lutjanus colorado,accepted,Lutjanus colorado,NA,species,Actinopteri,Eupercaria incertae sedis,Lutjanidae,Lutjanus,TRUE,TRUE,FALSE,276529,697225,Eastern Tropical Pacific
 Ogilbia robertsoni,Ogilbia robertsoni,accepted,Ogilbia robertsoni,NA,species,Actinopteri,Ophidiiformes,Bythitidae,Ogilbia,TRUE,FALSE,FALSE,281854,NA,Eastern Tropical Pacific
 Clarkichthys bilineatus,Clarkichthys bilineatus,accepted,Clarkichthys bilineatus,NA,species,Actinopteri,Perciformes,Microdesmidae,Clarkichthys,TRUE,FALSE,FALSE,280208,NA,Eastern Tropical Pacific
 Menticirrhus panamensis,Menticirrhus panamensis,accepted,Menticirrhus panamensis,NA,species,Actinopteri,Eupercaria incertae sedis,Sciaenidae,Menticirrhus,TRUE,FALSE,FALSE,276149,NA,Eastern Tropical Pacific
@@ -5460,11 +5460,11 @@ Gymnothorax moringa,Gymnothorax moringa,accepted,Gymnothorax moringa,NA,species,
 Ophioscion scierus,Ophioscion scierus,accepted,Ophioscion scierus,NA,species,Actinopteri,Eupercaria incertae sedis,Sciaenidae,Ophioscion,TRUE,FALSE,FALSE,281905,1642196,Eastern Tropical Pacific
 Odontoscion dentex,Odontoscion dentex,accepted,Odontoscion dentex,NA,species,Actinopteri,Eupercaria incertae sedis,Sciaenidae,Odontoscion,TRUE,FALSE,FALSE,281837,1182782,Eastern Tropical Pacific
 Rhizoprionodon longurio,Rhizoprionodon longurio,accepted,Rhizoprionodon longurio,NA,species,Elasmobranchii,Carcharhiniformes,Carcharhinidae,Rhizoprionodon,TRUE,FALSE,FALSE,271327,1048762,Eastern Tropical Pacific
-Chilara taylori,Chilara taylori,accepted,Chilara taylori,NA,species,Actinopteri,Ophidiiformes,Ophidiidae,Chilara,TRUE,TRUE,FALSE,280146,274688,Eastern Tropical Pacific
 Decodon melasma,Decodon melasma,accepted,Decodon melasma,NA,species,Actinopteri,Eupercaria incertae sedis,Labridae,Decodon,TRUE,FALSE,FALSE,276745,875773,Eastern Tropical Pacific
+Chilara taylori,Chilara taylori,accepted,Chilara taylori,NA,species,Actinopteri,Ophidiiformes,Ophidiidae,Chilara,TRUE,TRUE,FALSE,280146,274688,Eastern Tropical Pacific
 Hemicaranx zelotes,Hemicaranx zelotes,accepted,Hemicaranx zelotes,NA,species,Actinopteri,Carangiformes,Carangidae,Hemicaranx,TRUE,TRUE,FALSE,276354,173325,Eastern Tropical Pacific
-Bathylaco nigricans,Bathylaco nigricans,accepted,Bathylaco nigricans,NA,species,Actinopteri,Alepocephaliformes,Alepocephalidae,Bathylaco,TRUE,FALSE,FALSE,126688,466962,Eastern Tropical Pacific
 Halichoeres aestuaricola,Halichoeres aestuaricola,accepted,Halichoeres aestuaricola,NA,species,Actinopteri,Eupercaria incertae sedis,Labridae,Halichoeres,TRUE,TRUE,FALSE,275748,1984841,Eastern Tropical Pacific
+Bathylaco nigricans,Bathylaco nigricans,accepted,Bathylaco nigricans,NA,species,Actinopteri,Alepocephaliformes,Alepocephalidae,Bathylaco,TRUE,FALSE,FALSE,126688,466962,Eastern Tropical Pacific
 Desmodema polystictum,Desmodema polystictum,accepted,Desmodema polystictum,NA,species,Actinopteri,Lampriformes,Trachipteridae,Desmodema,TRUE,FALSE,FALSE,158922,1263174,Eastern Tropical Pacific
 Trachinotus paitensis,Trachinotus paitensis,accepted,Trachinotus paitensis,NA,species,Actinopteri,Carangiformes,Carangidae,Trachinotus,TRUE,FALSE,FALSE,273296,875781,Eastern Tropical Pacific
 Oligoplites refulgens,Oligoplites refulgens,accepted,Oligoplites refulgens,NA,species,Actinopteri,Carangiformes,Carangidae,Oligoplites,TRUE,TRUE,FALSE,276358,NA,Eastern Tropical Pacific
@@ -5472,8 +5472,8 @@ Caranx vinctus,Caranx vinctus,accepted,Caranx vinctus,NA,species,Actinopteri,Car
 Diplectrum labarum,Diplectrum labarum,accepted,Diplectrum labarum,NA,species,Actinopteri,Perciformes,Serranidae,Diplectrum,TRUE,FALSE,FALSE,276180,NA,Eastern Tropical Pacific
 Opistognathus fossoris,Opistognathus fossoris,accepted,Opistognathus fossoris,NA,species,Actinopteri,Ovalentaria incertae sedis,Opistognathidae,Opistognathus,TRUE,FALSE,FALSE,293664,NA,Eastern Tropical Pacific
 Petrotyx hopkinsi,Petrotyx hopkinsi,accepted,Petrotyx hopkinsi,NA,species,Actinopteri,Ophidiiformes,Ophidiidae,Petrotyx,TRUE,FALSE,FALSE,282224,NA,Eastern Tropical Pacific
-Pomadasys branickii,Pomadasys branickii,accepted,Pomadasys branickii,NA,species,Actinopteri,Eupercaria incertae sedis,Haemulidae,Pomadasys,TRUE,TRUE,FALSE,273503,1010713,Eastern Tropical Pacific
 Opisthopterus dovii,Opisthopterus dovii,accepted,Opisthopterus dovii,NA,species,Actinopteri,Clupeiformes,Pristigasteridae,Opisthopterus,TRUE,TRUE,FALSE,281919,NA,Eastern Tropical Pacific
+Pomadasys branickii,Pomadasys branickii,accepted,Pomadasys branickii,NA,species,Actinopteri,Eupercaria incertae sedis,Haemulidae,Pomadasys,TRUE,TRUE,FALSE,273503,1010713,Eastern Tropical Pacific
 Bathytroctes macrolepis,Bathytroctes macrolepis,accepted,Bathytroctes macrolepis,NA,species,Actinopteri,Alepocephaliformes,Alepocephalidae,Bathytroctes,TRUE,FALSE,FALSE,126691,492030,Eastern Tropical Pacific
 Achirus scutum,Achirus scutum,accepted,Achirus scutum,NA,species,Actinopteri,Pleuronectiformes,Achiridae,Achirus,TRUE,TRUE,FALSE,279495,NA,Eastern Tropical Pacific
 Triphoturus nigrescens,Triphoturus nigrescens,accepted,Triphoturus nigrescens,NA,species,Actinopteri,Myctophiformes,Myctophidae,Triphoturus,TRUE,FALSE,FALSE,217721,123243,Eastern Tropical Pacific
@@ -5562,8 +5562,8 @@ Uraspis secunda,Uraspis secunda,accepted,Uraspis secunda,NA,species,Actinopteri,
 Sphyrna zygaena,Sphyrna zygaena,accepted,Sphyrna zygaena,NA,species,Elasmobranchii,Carcharhiniformes,Sphyrnidae,Sphyrna,TRUE,TRUE,FALSE,105819,195335,Eastern Tropical Pacific
 Sphyrna mokarran,Sphyrna mokarran,accepted,Sphyrna mokarran,NA,species,Elasmobranchii,Carcharhiniformes,Sphyrnidae,Sphyrna,TRUE,TRUE,FALSE,105817,195334,Eastern Tropical Pacific
 Hyporhamphus gilli,Hyporhamphus gilli,accepted,Hyporhamphus gilli,NA,species,Actinopteri,Beloniformes,Hemiramphidae,Hyporhamphus,TRUE,FALSE,FALSE,272181,NA,Eastern Tropical Pacific
-Chiloconger dentatus,Chiloconger dentatus,accepted,Chiloconger dentatus,NA,species,Actinopteri,Anguilliformes,Congridae,Chiloconger,TRUE,FALSE,FALSE,280147,NA,Eastern Tropical Pacific
 Monolene dubiosa,Monolene dubiosa,accepted,Monolene dubiosa,NA,species,Actinopteri,Pleuronectiformes,Bothidae,Monolene,TRUE,FALSE,FALSE,275917,NA,Eastern Tropical Pacific
+Chiloconger dentatus,Chiloconger dentatus,accepted,Chiloconger dentatus,NA,species,Actinopteri,Anguilliformes,Congridae,Chiloconger,TRUE,FALSE,FALSE,280147,NA,Eastern Tropical Pacific
 Syngnathus schlegeli,Syngnathus schlegeli,accepted,Syngnathus schlegeli,NA,species,Actinopteri,Syngnathiformes,Syngnathidae,Syngnathus,TRUE,TRUE,FALSE,275231,103720,Eastern Tropical Pacific
 Symphurus oligomerus,Symphurus oligomerus,accepted,Symphurus oligomerus,NA,species,Actinopteri,Pleuronectiformes,Cynoglossidae,Symphurus,TRUE,FALSE,FALSE,274264,NA,Eastern Tropical Pacific
 Aseraggodes herrei,Aseraggodes herrei,accepted,Aseraggodes herrei,NA,species,Actinopteri,Pleuronectiformes,Soleidae,Aseraggodes,TRUE,FALSE,FALSE,279721,NA,Eastern Tropical Pacific

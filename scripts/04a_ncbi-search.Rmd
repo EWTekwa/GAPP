@@ -72,7 +72,7 @@ region_fish_search_str <- toString(region_fish_search2$chr) %>%
 
 # paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced
 # or save
-write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch2.txt'))
+write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch.txt'))
 
 ```
 
