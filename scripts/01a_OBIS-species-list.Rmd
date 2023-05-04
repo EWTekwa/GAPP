@@ -229,32 +229,43 @@ ncbi_ids2 <- tibble(taxa_query = names(ncbi_missing$ncbi),
   unpack(cols = everything(), names_sep = "_")
 
 # results to dataframe
-ncbi_ids3 <- tibble(taxa_query = names(ncbi_add2$accepted_name),
-                      ncbi = ncbi_missing$ncbi) %>%
+ncbi_ids3 <- tibble(taxa_query = names(ncbi_missing2$ncbi),
+                      ncbi = ncbi_missing2$ncbi) %>%
   # remove from lists
   unnest_longer(ncbi, keep_empty = TRUE) %>%
   # remove from next layer of lists
   unpack(cols = everything(), names_sep = "_") 
 
-ncbi_ids4 <- tibble(taxa_query = names(ncbi_missing$ncbi),
-                      ncbi = ncbi_missing$ncbi) %>%
-  # remove from lists
-  unnest_longer(ncbi, keep_empty = TRUE) %>%
-  # remove from next layer of lists
-  unpack(cols = everything(), names_sep = "_") 
 
+# all unique results
 ncbi_ids <- ncbi_ids2 %>%
   full_join(ncbi_ids3) %>%
-  full_join(ncbi_ids4) %>%
-  # add this above to initial mapping
-  filter(!(is.na(ncbi_uid))) %>%
-  select(ncbi_uid, ncbi_scientificname)
+  distinct() %>%
+  select(taxa_query, ncbi_uid) %>%
+  rename(accepted_name = taxa_query)
+
+# add new IDs to file
+obisfish_base <- obisfish_base %>%
+  left_join(ncbi_ids) %>%
+  mutate(ncbi_id = coalesce(ncbi_id, as.numeric(ncbi_uid))) %>%
+  select(!(c(ncbi_uid)))
 
 
-write.csv(obisfish_base, here(splists, "20230501_obis-fish_fishbase_nep.csv"))
+
+
+write.csv(obisfish_base, here(splists, "20230504_obis-fish_fishbase_nep.csv"))
 ```
 
+Problems for later
+```{r}
+no_ncbi <- obisfish_base %>%
+  filter(is.na(ncbi_id)) %>%
+  select(!(c(region))) %>%
+  distinct()
 
+
+write.csv(no_ncbi, here(splists, "20230504_obis-fish_no-ncbi.csv"))
+```
 
 
 ## Invertebrates
