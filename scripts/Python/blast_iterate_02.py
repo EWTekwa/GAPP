@@ -25,7 +25,7 @@ from Bio import SearchIO
 
 fasta = open("top500_consensus_sub.fasta").read()
 print(fasta)
-with open("entrez_queries_sub.txt", "r") as f2:
+with open("NCBI_IDs_sub.txt", "r") as f2:
     IDstring = f2.read()
 print(IDstring)
 

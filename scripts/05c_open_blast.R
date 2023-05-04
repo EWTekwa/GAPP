@@ -1,14 +1,14 @@
 #figuring out how to open blast files
 
-library(XML)
+#library(XML)
 library(tidyverse)
 
-results <- xmlParse("scripts/python/blast.xml")
-df <- xmlToDataFrame(results)
-list<- xmlToList(results)
-results
+#results <- xmlParse("scripts/python/blast.xml")
+#df <- xmlToDataFrame(results)
+#list<- xmlToList(results)
+#results
 
-#columns are:
+#columns are:             from: https://www.metagenomics.wiki/tools/blast/blastn-output-format-6
   # Entrez query: taxa ID, and other filters
   # Query ID (ASV###)
   # GI and accession numbers
@@ -24,9 +24,13 @@ results
   # Bit Score?
   
   
-t1 <- read_delim("scripts/Python/blastn_all_sub.tab",
+t1 <- read_delim("scripts/Python/blastn_all.tab",
                  col_names = FALSE, delim = "\t")  %>%
   `colnames<-`(c("query", "consensus_group", "ID", "percent_identity", "align_length", "mismatch", 
                  "gapopen", "qstart", "qend", "sstart", "send", "e_value", "bit_score")) %>%
-  separate(col = ID, into = c("del", "gi", "del2", "accession", "del3"), sep = "\\|") %>%
-  dplyr::select(-c("del", "del2", "del3"))
+  separate(col = ID, into = c("del1", "gi", "del2", "accession", "del3"), sep = "\\|") %>%
+  dplyr::select(-c("del1", "del2", "del3")) %>%
+  mutate(ncbi_id = parse_number(query))
+
+#take this and match back to top 500 NCBI IDs to give a Y/N solution
+
