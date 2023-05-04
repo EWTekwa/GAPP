@@ -17,8 +17,8 @@ library(phytools)
 
 #fish
 fish <- read.csv("./processeddata/species_lists/region/20230412_obis-fish_fishbase_NEP.csv") %>%
-#  select(c("ncbi_id")) %>%
-#  distinct() %>% 
+ # select(c("ncbi_id")) %>%
+  distinct() %>% 
   filter(region == "North American Pacific Fijordland")
 
 string <- unlist(as.vector(fish))
@@ -63,7 +63,8 @@ for (i in unique(t2$order)) {
   group <- t2 %>%
     filter(order == i) %>%
     dplyr::select(c("sequence")) %>%
-    distinct()
+    distinct() %>%
+    filter(nchar(sequence) < 190) #something is up here - primers not removed? error in sequencing? - filter out oddities anyways
   consensus = ifelse(nrow(group) == 1,
                      group,
                      msaConsensusSequence(
@@ -75,12 +76,20 @@ for (i in unique(t2$order)) {
   
   df <- rbind(df, df_2)
 }
+#writing a fasta file
+Xfasta <- character(nrow(df) * 2)
+Xfasta[c(TRUE, FALSE)] <- paste0(">", df$order)
+Xfasta[c(FALSE, TRUE)] <- df$sequence
+
+writeLines(Xfasta, "rawdata/top500_20230405/top500_consensus.fasta")
 
 
+#alignments and consensus for specific groups
 group <- t2 %>%
-  filter(order == "Gadiformes") %>%
+  filter(order == "Clupeiformes") %>%
   dplyr::select(c("sequence")) %>%
-  distinct()
+  distinct() %>%
+  filter(nchar(sequence) < 180)
 group_set <- DNAStringSet(group$sequence)
 group_aliC <- msa(group_set, method = "ClustalW")
 group_aliC
@@ -90,17 +99,13 @@ df_2 <- data.frame(order = "Clupeiformes", sequence = as.character(consensus))
 
 df <- rbind(df, df_2)
 
-#writing a fasta file
-Xfasta <- character(nrow(df) * 2)
-Xfasta[c(TRUE, FALSE)] <- paste0(">", df$order)
-Xfasta[c(FALSE, TRUE)] <- df$sequence
-
-writeLines(Xfasta, "rawdata/top500_20230405/top500_consensus.fasta")
 
 
-mitofish <- readDNAStringSet("rawdata/MitoFish/mito-all.fasta")
-mito_align <- msa(mitofish, method = "ClustalW") 
 
-consensus <- msaConsensusSequence(alignment, type = "Biostrings")
-consensus
+
+#mitofish <- readDNAStringSet("rawdata/MitoFish/mito-all.fasta")
+#mito_align <- msa(mitofish, method = "ClustalW") 
+
+#consensus <- msaConsensusSequence(alignment, type = "Biostrings")
+#consensus
 

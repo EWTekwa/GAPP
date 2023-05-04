@@ -6,23 +6,40 @@ library(taxonomizr)
 library(Biostrings)
 
 #fish
-fish <- read.csv("./processeddata/species_lists/region/20230412_obis-fish_fishbase_NEP.csv") %>%
-  select(c("ncbi_id")) %>%
+fish <- read.csv("./processeddata/species_lists/region/20230501_obis-fish_fishbase_NEP.csv") %>%
+  dplyr::select(-c("X", "region")) %>%
+ # dplyr::select(c("ncbi_id")) %>%
   distinct()
 
-a1 <- fish %>%
+with_NCBI_IDs <- filter(fish, !is.na(ncbi_id))
+without_NCBI_IDs <- filter(fish, is.na(ncbi_id)) #many of these do have NCBI IDs
+
+fish_1 <- fish %>%
+  dplyr::select(c("ncbi_id")) %>%
+  distinct() %>%
+  filter(!is.na(ncbi_id))
+
+a1 <- fish_1 %>%
   mutate(chr = paste("txid", ncbi_id, "[ORGN]", sep = ""))
 a2 <- toString(a1$chr)
+#b1<- as.character(a1$chr)
+#write_lines(b1, "./processeddata/species_lists/region/ncbi_IDs.txt")
+write_file(a2, "./processeddata/species_lists/region/ncbi_IDs.txt")
 
+
+b2 <- fish_1 %>%
+  mutate(chr = paste("txid", ncbi_id, "[ORGN]", " AND mitochondrial[WORD] NOT UNVERIFIED[WORD] NOT PREDICTED[WORD]", sep = ""))
+b3 <- toString(b2$chr)
+write_lines(b3, "./processeddata/species_lists/region/entrez_queries.txt")
 
 
 a3 <- gsub(',', ' or',a2)
-a4 <- paste("(",a3,"AND mitochondrial [WORD] NOT UNVERIFIED [WORD] NOT PREDICTED [WORD] AND 100:20000 [SLEN]")
+a4 <- paste("(",a3," AND mitochondrial [WORD] NOT UNVERIFIED [WORD] NOT PREDICTED [WORD] AND 100:20000 [SLEN]")
 a4 #paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced
 
 
 
-
+################
 
 #messing around
 #test datasets on few sspecies

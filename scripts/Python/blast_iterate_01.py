@@ -15,9 +15,16 @@ from Bio import SearchIO
 
 fasta = open("top500_consensus.fasta").read()
 print(fasta)
-with open("ncbi_IDs.txt", "r") as f2:
-        IDs = f2.read()
+with open("ncbi_IDs_sub.txt", "r") as f2:
+    IDstring = f2.read()
+print(IDstring)
+
+IDs = IDstring.split(sep= ", ")
 print(IDs)
+
+#with open('ncbi_IDs.txt') as csvfile:
+#    IDs = f2.read()
+
 
 for i in IDs:
     blastn_cline = NCBIWWW.qblast("blastn", 
@@ -31,6 +38,7 @@ for i in IDs:
         save_file.write(blast_results)
     print("3")
     qresults = SearchIO.parse("blast1.xml", "blast-xml")  # read XML file and parse
+    print("4")
     SearchIO.write(qresults, "results4.tab", "blast-tab") # save as .tab
     with open("results4.tab", "r") as f2:
         data = f2.read()

@@ -8,29 +8,27 @@ Entrez.email = "benmillardmartin@gmail.com"
 
 print(os.getcwd())
 
-sequence_data = open("12S_ASV_sequences.length_var_subset.fasta").read() 
-print(sequence_data) 
-print(type(sequence_data))
+fasta = open("top500_consensus.fasta").read()
 
 
 print("data in")
 result_handle = NCBIWWW.qblast("blastn", 
                                "nt",
-                               sequence_data, 
+                               fasta, 
                                hitlist_size = 20, 
                                format_type = 'XML',
-                               entrez_query = "txid7742 [ORGN]")
+                               entrez_query = "txid3193[ORGN]")
 
 # plants (taxid:3193) Arthropoda (taxid:6656) bacteria (taxid:2) vertebrates (taxid:7742)
 
 print(result_handle)
-with open('blast.xml', 'w') as save_file: 
+with open('blast_a.xml', 'w') as save_file: 
   blast_results = result_handle.read() 
   save_file.write(blast_results)
 print("done")
 
 #writing tab delimited blast results
 from Bio import SearchIO
-qresults = SearchIO.parse("blast.xml", "blast-xml")  # read XML file
-SearchIO.write(qresults, "results.tab", "blast-tab")  # write to tabular file
-(3, 4, 239, 277, 277)
+qresults = SearchIO.parse("blast_a.xml", "blast-xml")  # read XML file
+SearchIO.write(qresults, "results_a.tab", "blast-tab")  # write to tabular file
+
