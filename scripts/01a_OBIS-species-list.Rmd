@@ -265,6 +265,53 @@ no_ncbi <- obisfish_base %>%
 
 
 write.csv(no_ncbi, here(splists, "20230504_obis-fish_no-ncbi.csv"))
+
+
+no_ncbi_plot <- no_ncbi %>%
+  select(accepted_name, family) %>%
+  count(family)
+
+# visualize missing
+
+ggplot(no_ncbi_plot, 
+       aes(x = reorder(family, -n), y = n)) +
+  #geom_col(fill = 'darkslategray3') +
+  geom_col(fill = 'darkslategray4') +
+  labs(y = '# Species', 
+       title = 'Families with species missing NCBI UIDs',
+       x = NULL) + 
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 9),
+        axis.text.y = element_text(size = 10),
+        axis.title.y = element_text(size = 10))
+
+ggsave(here('output', 'region_comparison', '20230504_familes-not-in-ncbi.png'), 
+       last_plot(), 
+       device = 'png',
+       width = 17, height = 5,
+       units = 'in')
+
+
+no_ncbi_plot10 <- no_ncbi_plot %>%
+  filter(n >= 10)
+
+ggplot(no_ncbi_plot10, 
+       aes(x = reorder(family, -n), y = n)) +
+  #geom_col(fill = 'darkslategray3') +
+  geom_col(fill = 'darkslategray4') +
+  labs(y = '# Species', 
+       title = 'Families with species missing NCBI UIDs',
+       x = NULL) + 
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 9),
+        axis.text.y = element_text(size = 10),
+        axis.title.y = element_text(size = 10))
+
+ggsave(here('output', 'region_comparison', '20230504_familes-not-in-ncbi_10.png'), 
+       last_plot(), 
+       device = 'png',
+       width = 6, height = 5,
+       units = 'in')
 ```
 
 
