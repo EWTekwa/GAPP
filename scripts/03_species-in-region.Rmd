@@ -238,3 +238,9 @@ region_500_stats2 <- region_500_diff %>%
 
 ```
 
+```{r}
+region_fish_sp2 <- region_fish %>%
+  select(!(c(region))) %>%
+  distinct(accepted_name, .keep_all = TRUE) 
+```
+
