@@ -6,7 +6,7 @@ library(taxonomizr)
 library(Biostrings)
 
 #fish
-fish <- read.csv("./processeddata/species_lists/region/20230501_obis-fish_fishbase_NEP.csv") %>%
+fish <- read.csv("./processeddata/species_lists/20230504_obis-fish_fishbase_NEP.csv") %>%
   dplyr::select(-c("X", "region")) %>%
  # dplyr::select(c("ncbi_id")) %>%
   distinct()
@@ -22,15 +22,14 @@ fish_1 <- fish %>%
 a1 <- fish_1 %>%
   mutate(chr = paste("txid", ncbi_id, "[ORGN]", sep = ""))
 a2 <- toString(a1$chr)
-#b1<- as.character(a1$chr)
-#write_lines(b1, "./processeddata/species_lists/region/ncbi_IDs.txt")
-write_file(a2, "./processeddata/species_lists/region/ncbi_IDs.txt")
+
+write_file(a2, "./scripts/Python/ncbi_IDs.txt")
 
 
 b2 <- fish_1 %>%
   mutate(chr = paste("txid", ncbi_id, "[ORGN]", " AND mitochondrial[WORD] NOT UNVERIFIED[WORD] NOT PREDICTED[WORD]", sep = ""))
 b3 <- toString(b2$chr)
-write_lines(b3, "./processeddata/species_lists/region/entrez_queries.txt")
+write_lines(b3, "./scripts/Python/entrez_queries.txt")
 
 
 a3 <- gsub(',', ' or',a2)
