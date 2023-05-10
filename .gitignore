@@ -6,6 +6,8 @@ scripts/0132390-230224095556074.zip
 scripts/0133151-230224095556074.zip
 rawdata/spatial_data/MEOWandPPOW/01_Data/WCMC-036-MEOW-PPOW-2007-2012.shp
 
+/processeddata/crabs/mitofish_test/
+
 admin/~$Kate_and_Ben_hours.xlsx
 .Rhistory
 *.fasta
@@ -15,3 +17,7 @@ testing/results.tab
 blast-log.txt
 blast-log2.txt
 obitools-log.txt
+processeddata/crabs/nucl_gb.accession2taxid
+processeddata/crabs/names.dmp
+processeddata/crabs/images.dmp
+processeddata/crabs/nodes.dmp

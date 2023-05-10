@@ -70,4 +70,23 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
  - obitools
  note; to use obitools and ecoPCR; copy the obi and ecopcr|ecofind|ecogrep to usr/local/bin (or equivalent) so that the command is available without needing to use the virtual environment. Or place the data into the virtual environment containing obi in bin to activate. scripts are written with the assumption that you have installed obi then copied it to usr/local/bin
  
- - crabs; clone from https://github.com/gjeunen/reference_database_creator/tree/main, add path to crabs command
+ - crabs; 
+ clone from https://github.com/gjeunen/reference_database_creator/tree/main, add path to crabs command, also requires vsearch, cutadapt, muscle, and the python packages argparse, biopython, tqdm, numpy, matplotlib, pandas.
+ 
+ step 1; databases
+ 	crabs can search multiple databases
+ 	At this step you need to download a taxonomy file too
+ 
+ step 2: in house import
+ 	you can import your own files
+ 
+ step 3: merge dbs
+ step 4: in silico pcr
+ step 5: reassign taxonomy
+ step 6: visualize
+ step 7: export
+ 
+ 
+ 
+ 
+ 
