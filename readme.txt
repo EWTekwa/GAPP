@@ -64,4 +64,10 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
 	generates search and saves as .txt file
 	Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
 	
-	
+ - blast iterate
+ 
+ 
+ - obitools
+ note; to use obitools and ecoPCR; copy the obi and ecopcr|ecofind|ecogrep to usr/local/bin (or equivalent) so that the command is available without needing to use the virtual environment. Or place the data into the virtual environment containing obi in bin to activate. scripts are written with the assumption that you have installed obi then copied it to usr/local/bin
+ 
+ - crabs; clone from https://github.com/gjeunen/reference_database_creator/tree/main, add path to crabs command
