@@ -60,18 +60,39 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
 		
 
 - 04a_ncbi-search.Rmd
-	update
-	generates search and saves as .txt file
-	Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
+	Generates region species list in Genus_species txt format
+		Output saved in processeddata>specieslists>region>[date]_[group]sp.txt
+	generates NCBI search and saves as .txt file
+		Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
 	
- - blast iterate
+	
+ - 05 blast iterate
  
  
- - obitools
- note; to use obitools and ecoPCR; copy the obi and ecopcr|ecofind|ecogrep to usr/local/bin (or equivalent) so that the command is available without needing to use the virtual environment. Or place the data into the virtual environment containing obi in bin to activate. scripts are written with the assumption that you have installed obi then copied it to usr/local/bin
  
- - crabs; 
- clone from https://github.com/gjeunen/reference_database_creator/tree/main, add path to crabs command, also requires vsearch, cutadapt, muscle, and the python packages argparse, biopython, tqdm, numpy, matplotlib, pandas.
+ - 06 crabs; 
+ To get CRABS working: clone from https://github.com/gjeunen/reference_database_creator/tree/main, add path to crabs command, also requires vsearch, cutadapt, muscle, and the python packages argparse, biopython, tqdm, numpy, matplotlib, pandas. May need to `brew install wget` on mac.
+ Citation: https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13741
+ 
+ To work through 06:
+ - 06a_format-for-crabs.py 
+ 	Takes our custom NCBI output and reformats the header to be read in properly by CRABS
+ 
+ - 06b_crabs_mitofish-custom-ncbi_pcr.sh
+ 	Prepares taxonomy
+ 	Loads in mitofish
+ 	Loads in our custom NCBI results
+ 	Merges the databases
+ 	Runs in silico silico pcr on the merged results
+ 	PCA to catch trimmed sequences
+ 
+ - 06c_format-for-taxonomy.py
+ 	reads in in-silico-pcr results
+ 	updates headers from custom db to match crabs taxonomy file
+ 	
+ - 06d_crabs_dereplicate-filter.sh
+ 
+ Overview of CRABS (remove later when our workflow is updated):
  
  step 1; databases
  	crabs can search multiple databases
@@ -81,10 +102,48 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
  	you can import your own files
  
  step 3: merge dbs
+ 	if download + custom or multiple downloads
+ 
  step 4: in silico pcr
+ 	can also do pga; pairwise global alignment
+ 	
  step 5: reassign taxonomy
- step 6: visualize
- step 7: export
+ 	Uses taxonomy files downloaded from step 1 plus --missing for custom lineages
+ 	
+ step 6: dereplicate
+	removes duplicate sequences/species
+		strict: only unique sequences
+		single_species: one sequence per species
+		uniq_species: all unique sequences for each species
+		
+ step 7: filter/clean
+	removes based on parameters:
+	minimum length: '--minlen'
+	maximum length: '--maxlen'
+	number of ambiguous bases: '--maxns'
+	environmental sequences: '--enviro' discard yes/no
+	unspecified species name: '--species' discard yes/no
+	missing taxonomic information: '--nans'	 # of unspecified taxonomic levels
+		
+ step 8: visualize
+ 	diversity = barplot of #sp and # sequences by taxonomic rank in database
+ 	amplicon length = frequency plot of length
+ 	db completeness = provide a txt with species names (include underscore), it gives you:
+ 		name of the species of interest
+ 		if species is present in the reference database (indicated by a 1 or 0)
+ 		number of species in the reference database that share the same genus
+ 		number of species in the genus according to the NCBI taxonomy
+ 		percentage of species in the genus present in the reference database
+ 		number of species in the reference database that share the same family
+ 		number of species in the family according to the NCBI taxonomy
+ 		percentage of species in the family present in the reference database
+ 		list of species sharing the same genus in the reference database
+ 		list of species sharing the same family in the reference database
+ 	primer_efficiency = barplot showing % basepair occurrences on each site of binder and fasta of sequences that contributed to plot
+ 	
+ 	
+ step 9: export
+ 	This step is if you want ot use the DB for eDNA blasting
  
  
  

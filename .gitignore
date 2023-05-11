@@ -21,3 +21,8 @@ processeddata/crabs/nucl_gb.accession2taxid
 processeddata/crabs/names.dmp
 processeddata/crabs/images.dmp
 processeddata/crabs/nodes.dmp
+processeddata/species_lists/ncbi/20230511_mitofishdb_tax.tsv
+processeddata/crabs/mitofish_nep/nodes.dmp
+processeddata/crabs/mitofish_nep/names.dmp
+processeddata/crabs/mitofish_nep/nucl_gb.accession2taxid
+processeddata/crabs/mitofish_nep/mito-all

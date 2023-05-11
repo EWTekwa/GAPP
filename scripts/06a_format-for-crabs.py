@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-this is a basic template for a python script bc I'm lazy
-I also do the same thing a lot. Anyway, notes go here
+This updates our output from 05 to read into crabs
 
 Any license info also goes here
 Author: "Kate Sheridan"
@@ -65,6 +64,9 @@ def namefunction(foo):
 if __name__ == "__main__":
 
     print("hello world")
+    # read in fasta from ncbi
+    # adjust fasta headers
+    
 
 
 # write code here

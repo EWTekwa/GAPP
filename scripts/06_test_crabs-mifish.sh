@@ -38,6 +38,9 @@ crabs pga --input mitofishdb.fasta --output pgaout.fasta --database pcrout.fasta
 # --missing for custom names, same format as lineage input
 crabs assign_tax --input pgaout.fasta --output taxassigned.tsv --acc2tax nucl_gb.accession2taxid --taxid nodes.dmp --name names.dmp
 
+# taxonomy to whole mitofish database
+#crabs assign_tax --input mitofishdb.fasta --output mitofishdb_tax.tsv --acc2tax nucl_gb.accession2taxid --taxid nodes.dmp --name names.dmp
+
 # 6 dereplicate
 # options:
 # strict: only unique sequences
