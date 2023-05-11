@@ -81,6 +81,8 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
  To work through 06:
  - 06a_format-for-crabs.py 
  	Takes our custom NCBI output and reformats the header to be read in properly by CRABS
+ 	The header of NCBI output has decimals in the accession number, this removes them.
+ 	output: [date]_[fastaname]_crabs-ready.fasta
  
  - 06b_crabs_mitofish-custom-ncbi_pcr.sh
  	Prepares taxonomy
@@ -94,6 +96,7 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
  	reads in in-silico-pcr results
  	updates headers from custom db to match crabs taxonomy file
  		note this is due to a 'bug' in crabs to report as a github issue later
+ 	output: [date]_pgaout.fasta <- can be modified to reflect naming convention of project
  	
  - 06d_crabs_dereplicate-filter.sh
 

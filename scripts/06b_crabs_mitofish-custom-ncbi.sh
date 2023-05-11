@@ -66,9 +66,9 @@ crabs visualization --method amplicon_length --input dbcleaned.tsv --level order
 # db_completeness
 # you have to provide the species names in a txt
 # gives you summary stats for sp of interest; assesses reference database but also all of NCBI
-crabs visualization --method db_completeness --input dbcleaned.tsv --output mifishcomplete.tsv --species species.txt --taxid nodes.dmp --name names.dmp
+crabs visualization --method db_completeness --input mitofish_dbcleaned.tsv --output mifishcompleteness.tsv --species 20230511_fishsp.txt --taxid nodes.dmp --name names.dmp
 
 # primer_efficiency
 # makes a bar graph with proportion base pair occurrences
-# generates a fasta with sequences that contributed to graph
-crabs visualization --method primer_efficiency --input dbcleaned.tsv --fwd GTCGGTAAAACTCGTGCCAGC --rev CATAGTGGGGTATCTAATCCCAGTTTG --fwd_name mifish_miya_f --rev_name mifish_miya_r --raw_file dbimport.fasta --tax_group Actinopteri --output fish_bind.fasta
+# generates a tsv with sequences that contributed to graph
+crabs visualization --method primer_efficiency --input mitofish_dbcleaned.tsv --fwd GTCGGTAAAACTCGTGCCAGC --rev CATAGTGGGGTATCTAATCCCAGTTTG --fwd_name mifish_miya_f --rev_name mifish_miya_r --raw_file mitofishdb.fasta --tax_group Gobiidae --output Gobiidae_bind.tsv

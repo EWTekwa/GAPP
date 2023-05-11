@@ -14,9 +14,9 @@ insert copyright, license, additional credits etc if necessary
 # module import
 # built-in
 import os
+import re
 
 # common libraries
-import csv
 from pyprojroot import here  # like here in R
 
 # less-known libraries
@@ -34,43 +34,31 @@ logging.basicConfig(filename=LOG_FILENAME,
                     format=' %(asctime)s - %(levelname)s - %(message)s')
 logging.info('Debut!')
 
-
-# set up classes
-
-
-class classname(object):
-
-    def __init__(self, foo1, foo2):
-        self.foo1 = foo1
-        self.foo2 = foo2
-
 # set up functions
-
-
-def namefunction(foo):
-    with open(foo) as f:
-        for line in f:
-            if line.startswith('@'):
-                pass
-            else:
-                fields = line.strip().split()
-                name = fields[0]
-                tlen = fields[8]
-                yield classname(name, tlen)
+def extractMitofish(crabs_output, ready_out_path):
+    with open(crabs_output, 'r') as f:
+        with open(ready_out_path + '20230511_test_crabs-ready.fasta', 'w') as out:
+            for line in f:
+                if line.startswith('>'):
+                    # extract ID
+                    accn = line[1:-1]
+                    # modify ID
+                    accn_mod = re.sub('\.[1-9]', '', line)
+                    #logging.info(accn_mod)
+                    # writes accnmod newline then sequence then newline
+                    out.write(accn_mod)
+                else:
+                    out.write(line)
 
 # basic-body
 
-
 if __name__ == "__main__":
 
-    print("hello world")
-    # read in fasta from ncbi
+    # read in fasta from crabs: pga results
     # adjust fasta headers
-    
-
-
-# write code here
-# don't forget logging.debug('message' or object) periodically
+    ncbi_database = ("processeddata/crabs/20230504_test.fasta")
+    crabsready_out_path = ("./processeddata/crabs/")
+    extractMitofish(ncbi_database, crabsready_out_path)
 
 
 # end

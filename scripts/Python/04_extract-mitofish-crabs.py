@@ -66,9 +66,7 @@ def extractMitofish(crabs_output, outfile_path):
 
 if __name__ == "__main__":
 
-    print("hello world")
-    # read in fasta from crabs
-    # adjust fasta headers
+    # read in mitofish output from crabs, extract species
     crabs_mitofish = ("processeddata/species_lists/ncbi/20230511_mitofishdb_tax.tsv")
     mitofish_out_path = ("./processeddata/species_lists/ncbi/")
     extractMitofish(crabs_mitofish, mitofish_out_path)

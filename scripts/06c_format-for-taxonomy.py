@@ -37,28 +37,32 @@ logging.info('Debut!')
 
 
 # set up functions
-
-
-def updateTaxonomy(crabs_output):
+def removeCrabs(crabs_output, ready_out_path):
     with open(crabs_output, 'r') as f:
-        for line in f:
-            if line.startswith('>'):
-                #modify line
-                logging.info('line')
-            else:
-                pass)
+        with open(ready_out_path + '20230511_pgaout.fasta', 'w') as out:
+            for line in f:
+                # save sequence
+                seq = next(f)
+                if line.startswith('>'):
+                    # extract ID
+                    accn = line[1:-1]
+                    # modify ID
+                    accn_mod = line.replace('CRABS:', '')
+                    #logging.info(accn_mod)
+                    # writes accnmod newline then sequence then newline
+                    out.write(accn_mod + seq)
+                else:
+                    pass
 
 # basic-body
 
 if __name__ == "__main__":
 
-    print("hello world")
-    # read in fasta from crabs
+    # read in fasta from crabs: pga results
     # adjust fasta headers
-    crabs_fasta = "path/to/fasta"
-    updateTaxonomy(crabs_fasta)
-
-
+    crabs_mitofish = ("processeddata/crabs/pgaout.fasta")
+    crabsready_out_path = ("./processeddata/crabs/")
+    removeCrabs(crabs_mitofish, crabsready_out_path)
 
 # end
 logging.info('Fin!')
