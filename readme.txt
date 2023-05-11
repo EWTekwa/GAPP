@@ -64,6 +64,10 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
 		Output saved in processeddata>specieslists>region>[date]_[group]sp.txt
 	generates NCBI search and saves as .txt file
 		Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
+	generates NCBI search filtered by presence in mitofish
+		output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch-nomitofish.txt
+		
+		Note 04_extract-mitofish-crabs.py in scripts>python for the origin of the mitofish list
 	
 	
  - 05 blast iterate
@@ -84,13 +88,18 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
  	Loads in our custom NCBI results
  	Merges the databases
  	Runs in silico silico pcr on the merged results
- 	PCA to catch trimmed sequences
+ 	PGA/pairwise global alignment to catch trimmed sequences
  
  - 06c_format-for-taxonomy.py
  	reads in in-silico-pcr results
  	updates headers from custom db to match crabs taxonomy file
+ 		note this is due to a 'bug' in crabs to report as a github issue later
  	
  - 06d_crabs_dereplicate-filter.sh
+
+
+
+
  
  Overview of CRABS (remove later when our workflow is updated):
  
