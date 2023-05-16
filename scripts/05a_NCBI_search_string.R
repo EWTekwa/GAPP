@@ -6,7 +6,7 @@ library(taxonomizr)
 library(Biostrings)
 
 #fish
-fish <- read.csv("./processeddata/species_lists/20230504_obis-fish_fishbase_NEP.csv") %>%
+fish <- read.csv("./processeddata/species_lists/region/20230504_obis-fish_fishbase_NEP.csv") %>%
   dplyr::select(-c("X", "region")) %>%
  # dplyr::select(c("ncbi_id")) %>%
   distinct()
@@ -17,7 +17,10 @@ without_NCBI_IDs <- filter(fish, is.na(ncbi_id)) #many of these do have NCBI IDs
 fish_1 <- fish %>%
   dplyr::select(c("ncbi_id")) %>%
   distinct() %>%
-  filter(!is.na(ncbi_id))
+  filter(!is.na(ncbi_id))# %>%
+#  .[1:30,] %>%
+#  as.data.frame() %>%                to make a subset for testing
+#  `colnames<-`("ncbi_id")
 
 a1 <- fish_1 %>%
   mutate(chr = paste("txid", ncbi_id, "[ORGN]", sep = ""))
@@ -25,6 +28,8 @@ a2 <- toString(a1$chr)
 
 write_file(a2, "./scripts/Python/ncbi_IDs.txt")
 
+
+######other stuff ###########
 
 b2 <- fish_1 %>%
   mutate(chr = paste("txid", ncbi_id, "[ORGN]", " AND mitochondrial[WORD] NOT UNVERIFIED[WORD] NOT PREDICTED[WORD]", sep = ""))

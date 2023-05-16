@@ -25,7 +25,7 @@ from Bio import SearchIO
 
 fasta = open("top500_consensus.fasta").read()
 print(fasta)
-with open("NCBI_IDs_2.txt", "r") as f2:
+with open("NCBI_IDs.txt", "r") as f2:
     IDstring = f2.read()
 print(IDstring)
 
@@ -40,7 +40,7 @@ for i in IDs:
     blastn_cline = NCBIWWW.qblast("blastn", 
                                "nt",
                                fasta, 
-                               hitlist_size = 1, 
+                               hitlist_size = 5, 
                                format_type = 'XML',
                                entrez_query= i)
     with open('blast1.xml', 'w') as save_file: 
@@ -52,7 +52,7 @@ for i in IDs:
     SearchIO.write(qresults, "results.tab", "blast-tab") # save as .tab
 
     infile = open("results.tab")
-    outfile = open("results1.tab", "w")
+    outfile = open("results2.tab", "w")
     for line in infile:
         col = i + "\t" + line
         columns = col.split("\t")
@@ -60,14 +60,17 @@ for i in IDs:
         print(col)
         outfile.write("\t".join(columns)+"\n")
 
-    with open("results1.tab", "r") as f2:
+    with open("results2.tab", "r") as f2:
         data = f2.read()
 
     print(i)
-    with open("blastn_all_2.tab", "a") as f:
+    with open("blastn_all.tab", "a") as f:
         f.write(data)
     print("done")
 print("complete")
+
+#for some reason (can't figure it out yet) the last blast result in a block does not append
+#it doesn't matter if it is a subset of tax IDs or if the connection fails
 
 
 
