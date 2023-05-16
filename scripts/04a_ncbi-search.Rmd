@@ -20,6 +20,10 @@ splists <- here('processeddata', 'species_lists')
 # fish
 region_fish <- read_csv(here(splists, 'region', '20230501_obis-fish_fishbase_nep.csv'))[-1] 
 
+# list of fish in mitofish
+mitofish_fish <- read_csv(here(splists, 'ncbi', '20230511_mitofish-species.csv')) %>%
+  distinct(uid, .keep_all = TRUE)
+
 #region_inverts <- read_csv()
 ```
 
@@ -28,34 +32,26 @@ region_fish <- read_csv(here(splists, 'region', '20230501_obis-fish_fishbase_nep
 
 ## Fish
 
-Ben's script
-```{r}
-# determine which fish should be searched
-# 
-region_fish_search <- region_fish %>%
-  filter(!(is.na(ncbi_id))) %>%
-  #filter() by taxonomy, region, etc if needed
-  # then select levels filtered
-  select(ncbi_id, accepted_name) %>%
+We need to generate a few outputs for future steps.
+
+- A species list in the format "Genus_species" each on a new line
+- A list of taxid's in a format that can be taken by an NCBI Entrez search or BLAST.
+
+```{r generate species list}
+fishlist <- region_fish %>%
+  select(accepted_name) %>%
   distinct() %>%
-  # what is chr?
-  mutate(chr = paste("txid", ncbi_id, "[Orgn]", sep = ""))
+  # turn into genus_species format
+  mutate(accepted_name = str_replace_all(accepted_name, " ", "_"))
 
-region_fish_search_str <- toString(region_fish_search$chr) %>%
-  gsub(',', ' or',.) %>%
-  paste("(",.,") AND mitochondrial [WORD] NOT UNVERIFIED [WORD] NOT PREDICTED [WORD] AND 100:20000 [SLEN]")
-
-
-# paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced
-# or save
-write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch4.txt'))
-
-
-
+# write delim will just write the txt file, 
+# col_names = FALSE to remove anything that isn't a species name
+write_delim(fishlist, here(splists, 'region', '20230511_fishsp.txt'), 
+            col_names = FALSE)
 ```
 
-
-```{r for ncbi-query.py}
+This contains all species in our region
+```{r full ncbi-query}
 # determine which fish should be searched
 # 
 region_fish_search2 <- region_fish %>%
@@ -76,10 +72,33 @@ write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region
 
 ```
 
+This filters the species in our region by presence in mitofish before writing
+Mitofish list generated from extracting accessions and UIDs from the mitofish database pulled from CRABS.
+```{r filtered mitofish ncbi}
 
-```{python}
-print("hello world")
+# determine which fish should be searched
+# 
+region_nomitofish <- region_fish %>%
+  filter(!(is.na(ncbi_id))) %>%
+  #filter() by taxonomy, region, etc if needed
+  filter(!(ncbi_id %in% mitofish_fish$uid)) %>%
+  # then select levels filtered
+  select(ncbi_id, accepted_name) %>%
+  distinct() %>%
+  # what is chr?
+  mutate(chr = paste("txid", ncbi_id, "[Orgn]", sep = ""))
+
+region_fish_search_str <- toString(region_nomitofish$chr) %>%
+  gsub(' ', '',.)
+
+# paste into search here: https://www.ncbi.nlm.nih.gov/nuccore/advanced
+# or save
+write_file(region_fish_search_str, file = here(splists, 'ncbi', '20230501_region-fish-ncbisearch-nomitofish.txt'))
+
 ```
+
+
+
 
 
 # scratch

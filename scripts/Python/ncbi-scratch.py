@@ -122,3 +122,7 @@ print("hello world")
 
 # end
 logging.info('Fin!')
+
+
+# if we need ncbi?
+#crabs db_download --source ncbi --database nucleotide --query '16S[All Fields] AND txid83392[ORGN]' --output testing.fasta --keep_original yes --email kate.sheridan@mail.mcgill.ca --batchsize 5000

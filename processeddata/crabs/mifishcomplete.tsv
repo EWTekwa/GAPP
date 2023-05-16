@@ -1,0 +1,7 @@
+species	species_in_ref_DB	genus_num_ref_DB	genus_num_ncbi	Completeness_genus	family_num_ref_DB	family_num_ncbi	Completeness_family	genus_list_ref_DB	family_list_ref_DB
+Erromyzon_kalotaenia	0	0	2	0.0	0	49	0.0	[]	[]
+Squalidus_multimaculatus	0	0	13	0.0	0	23	0.0	[]	[]
+Oncorhynchus_masou	0	0	12	0.0	0	100	0.0	[]	[]
+Rhinogobius_estrellae	0	0	48	0.0	0	263	0.0	[]	[]
+Howella_parini	1	1	5	20.0	1	6	16.666666666666664	['Howella_parini']	['Howella_parini']
+Neoclinus_bryope	1	1	7	14.285714285714285	1	81	1.2345679012345678	['Neoclinus_bryope']	['Neoclinus_bryope']

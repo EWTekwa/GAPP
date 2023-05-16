@@ -60,8 +60,104 @@ taxonomy - kingdom, phylum, class, order, family, genus -- from WoRMS
 		
 
 - 04a_ncbi-search.Rmd
-	update
-	generates search and saves as .txt file
-	Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
+	Generates region species list in Genus_species txt format
+		Output saved in processeddata>specieslists>region>[date]_[group]sp.txt
+	generates NCBI search and saves as .txt file
+		Output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch.txt
+	generates NCBI search filtered by presence in mitofish
+		output saved in processeddata>specieslists>ncbi>[date]_[parameters]-ncbisearch-nomitofish.txt
+		
+		Note 04_extract-mitofish-crabs.py in scripts>python for the origin of the mitofish list
 	
 	
+ - 05 blast iterate
+ 
+ 
+ 
+ - 06 crabs; 
+ To get CRABS working: clone from https://github.com/gjeunen/reference_database_creator/tree/main, add path to crabs command, also requires vsearch, cutadapt, muscle, and the python packages argparse, biopython, tqdm, numpy, matplotlib, pandas. May need to `brew install wget` on mac.
+ Citation: https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13741
+ 
+ To work through 06:
+ - 06a_format-for-crabs.py 
+ 	Takes our custom NCBI output and reformats the header to be read in properly by CRABS
+ 	The header of NCBI output has decimals in the accession number, this removes them.
+ 	output: [date]_[fastaname]_crabs-ready.fasta
+ 
+ - 06b_crabs_mitofish-custom-ncbi_pcr.sh
+ 	Prepares taxonomy
+ 	Loads in mitofish
+ 	Loads in our custom NCBI results
+ 	Merges the databases
+ 	Runs in silico silico pcr on the merged results
+ 	PGA/pairwise global alignment to catch trimmed sequences
+ 
+ - 06c_format-for-taxonomy.py
+ 	reads in in-silico-pcr results
+ 	updates headers from custom db to match crabs taxonomy file
+ 		note this is due to a 'bug' in crabs to report as a github issue later
+ 	output: [date]_pgaout.fasta <- can be modified to reflect naming convention of project
+ 	
+ - 06d_crabs_dereplicate-filter.sh
+
+
+
+
+ 
+ Overview of CRABS (remove later when our workflow is updated):
+ 
+ step 1; databases
+ 	crabs can search multiple databases
+ 	At this step you need to download a taxonomy file too
+ 
+ step 2: in house import
+ 	you can import your own files
+ 
+ step 3: merge dbs
+ 	if download + custom or multiple downloads
+ 
+ step 4: in silico pcr
+ 	can also do pga; pairwise global alignment
+ 	
+ step 5: reassign taxonomy
+ 	Uses taxonomy files downloaded from step 1 plus --missing for custom lineages
+ 	
+ step 6: dereplicate
+	removes duplicate sequences/species
+		strict: only unique sequences
+		single_species: one sequence per species
+		uniq_species: all unique sequences for each species
+		
+ step 7: filter/clean
+	removes based on parameters:
+	minimum length: '--minlen'
+	maximum length: '--maxlen'
+	number of ambiguous bases: '--maxns'
+	environmental sequences: '--enviro' discard yes/no
+	unspecified species name: '--species' discard yes/no
+	missing taxonomic information: '--nans'	 # of unspecified taxonomic levels
+		
+ step 8: visualize
+ 	diversity = barplot of #sp and # sequences by taxonomic rank in database
+ 	amplicon length = frequency plot of length
+ 	db completeness = provide a txt with species names (include underscore), it gives you:
+ 		name of the species of interest
+ 		if species is present in the reference database (indicated by a 1 or 0)
+ 		number of species in the reference database that share the same genus
+ 		number of species in the genus according to the NCBI taxonomy
+ 		percentage of species in the genus present in the reference database
+ 		number of species in the reference database that share the same family
+ 		number of species in the family according to the NCBI taxonomy
+ 		percentage of species in the family present in the reference database
+ 		list of species sharing the same genus in the reference database
+ 		list of species sharing the same family in the reference database
+ 	primer_efficiency = barplot showing % basepair occurrences on each site of binder and fasta of sequences that contributed to plot
+ 	
+ 	
+ step 9: export
+ 	This step is if you want ot use the DB for eDNA blasting
+ 
+ 
+ 
+ 
+ 

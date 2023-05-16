@@ -31,7 +31,7 @@ from pyprojroot import here  # like here in R
 # I'm mostly using the debug options for development
 import logging
 
-LOG_FILENAME = 'blast-log2.txt'
+LOG_FILENAME = 'obitools-log.txt'
 
 logging.basicConfig(filename=LOG_FILENAME,
                     level=logging.DEBUG,
