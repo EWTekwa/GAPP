@@ -1,4 +1,7 @@
 #!/bin/bash
+# starts in project root
+# move to folder for data download/processing
+cd processeddata/crabs/mitofish_nep
 
 # this picks up after fixing fasta headers
 
@@ -33,7 +36,7 @@ crabs seq_cleanup --input dereplicated.tsv --output dbcleaned.tsv --discard disc
 crabs visualization --method diversity --input mitofish_dbcleaned.tsv --level order
 
 # length of sequences, frequency plot
-crabs visualization --method amplicon_length --input dbcleaned.tsv --level order
+crabs visualization --method amplicon_length --input mitofish_dbcleaned.tsv --level order
 
 # db_completeness
 # you have to provide the species names in a txt
@@ -43,4 +46,4 @@ crabs visualization --method db_completeness --input mitofish_dbcleaned.tsv --ou
 # primer_efficiency
 # makes a bar graph with proportion base pair occurrences
 # generates a tsv with sequences that contributed to graph
-crabs visualization --method primer_efficiency --input mitofish_dbcleaned.tsv --fwd GTCGGTAAAACTCGTGCCAGC --rev CATAGTGGGGTATCTAATCCCAGTTTG --fwd_name mifish_miya_f --rev_name mifish_miya_r --raw_file mitofishdb.fasta --tax_group Gobiidae --output Gobiidae_bind.tsv
+crabs visualization --method primer_efficiency --input mitofish_dbcleaned.tsv --fwd GTCGGTAAAACTCGTGCCAGC --rev CATAGTGGGGTATCTAATCCCAGTTTG --fwd_name mifish_miya_f --rev_name mifish_miya_r --raw_file mitofishdb.fasta --tax_group Cottidae --output primer_affinity/Cottidae_bind.tsv
