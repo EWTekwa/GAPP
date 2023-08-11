@@ -94,7 +94,7 @@ sp_1a_coi <- taxonomy_1a_coi %>%
   filter(str_detect(species, ' ') == TRUE)
   
   
-write_csv(sp_1a_coi, here('processeddata', 'splists', '20230323_gapp-1a-atlantic_coi-sp.csv'))
+write_csv(sp_1a_coi, here('processeddata', 'species_lists', '20230323_gapp-1a-atlantic_coi-sp.csv'))
 
 
 ```
@@ -131,7 +131,7 @@ sp_1b_12s <- taxonomy_1b_12s %>%
 
 
 
-write_csv(sp_1b_12s, here('processeddata', 'splists', '20230323_gapp-1b-pacific_12sfish-sp.csv'))
+write_csv(sp_1b_12s, here('processeddata', 'species_lists', '20230323_gapp-1b-pacific_12sfish-sp.csv'))
 
 ```
 
@@ -203,7 +203,7 @@ sp_1b_coi <- taxonomy_1b_coi %>%
   filter(str_detect(species, ' ') == TRUE)
   
   
-write_csv(sp_1b_coi, here('processeddata', 'splists', '20230323_gapp-1b-pacific_coi-sp.csv'))
+write_csv(sp_1b_coi, here('processeddata', 'species_lists', '20230323_gapp-1b-pacific_coi-sp.csv'))
 
 
 ```
@@ -289,7 +289,7 @@ sp_2_coi <- taxonomy_2_coi %>%
   filter(str_detect(species, ' ') == TRUE)
   
   
-write_csv(sp_2_coi, here('processeddata', 'splists', '20230323_gapp-2-calvert_coi-sp.csv'))
+write_csv(sp_2_coi, here('processeddata', 'species_lists', '20230323_gapp-2-calvert_coi-sp.csv'))
 
 
 ```
@@ -325,7 +325,7 @@ sp_3_12s <- taxonomy_3_12s %>%
 unique(taxonomy_3_12s$class)
 
 
-write_csv(sp_3_12s, here('processeddata', 'splists', '20230323_gapp-3-tully_12sfish-sp.csv'))
+write_csv(sp_3_12s, here('processeddata', 'species_lists', '20230323_gapp-3-tully_12sfish-sp.csv'))
 
 ```
 
@@ -406,7 +406,56 @@ sp_3_coi <- taxonomy_3_coi %>%
   filter(str_detect(species, ' ') == TRUE)
   
   
-write_csv(sp_3_coi, here('processeddata', 'splists', '20230323_gapp-3-tully_coi-sp.csv'))
+write_csv(sp_3_coi, here('processeddata', 'species_lists', '20230323_gapp-3-tully_coi-sp.csv'))
 
 
 ```
+
+
+
+# Update species lists
+
+```{r combine}
+taxonomy_1a_coi <- taxonomy_1a_coi %>%
+  mutate(survey = 'depth transect atlantic') %>%
+  mutate(marker = 'coi')
+
+taxonomy_1b_12s <- taxonomy_1b_12s %>%
+  mutate(survey = 'depth transect vector pacific') %>%
+  mutate(marker = '12s')
+
+taxonomy_1b_coi <- taxonomy_1b_coi %>%
+  mutate(survey = 'depth transect vector pacific') %>%
+  mutate(marker = 'coi')
+
+taxonomy_2_coi <- taxonomy_2_coi %>%
+  mutate(survey = 'calvert') %>%
+  mutate(marker = 'coi')
+
+taxonomy_3_12s <- taxonomy_3_12s %>%
+  mutate(survey = 'tully') %>%
+  mutate(marker = '12s')
+
+taxonomy_3_coi <- taxonomy_3_coi %>%
+  mutate(survey = 'tully') %>%
+  mutate(marker = 'coi')
+
+
+all_surveys <- taxonomy_1a_coi %>%
+  bind_rows(taxonomy_1b_12s) %>%
+  bind_rows(taxonomy_1b_coi) %>%
+  bind_rows(taxonomy_2_coi) %>%
+  bind_rows(taxonomy_3_coi) %>%
+  bind_rows(taxonomy_3_12s) %>%
+  filter(kingdom == 'Eukaryota') %>%
+  filter(phylum %in% c('Chordata', "Ctenophora", "Echinodermata", 
+                       "Porifera", "Annelida", "Arthropoda", "Cnidaria",
+                       "Nematoda",  "Chaetognatha", "Nemertea", "Rotifera",
+                       "Sipuncula", "Phoronida", "Bryozoa", "Platyhelminthes", "Hemichordata"))
+
+write_csv(all_surveys, here('processeddata', 'species_lists', '20230323_all-surveys_animals.csv'))
+
+unique(all_surveys$phylum)
+
+```
+
