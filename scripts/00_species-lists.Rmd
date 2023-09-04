@@ -459,3 +459,119 @@ unique(all_surveys$phylum)
 
 ```
 
+```{r species-in-top-500}
+top500_mifish <- read.delim(here("rawdata", "top500_20230405",
+                                   "blast_96_sim_LCA_besthit", "12S_ASV_sequences.length_var.blast.out"), 
+                           h = TRUE, fill = TRUE) %>% 
+  # standardize names and remove overhanging x
+  janitor::clean_names() %>%
+  rename_with(., ~str_remove_all(string = .,
+                 pattern = "x_")) %>%
+  separate_wider_delim(taxonomy, delim = ' / ', 
+                       names = c('kingdom', 'phylum', 'class', 'order', 
+                                 'family', 'genus', 'species')) %>%
+  # column to match existing scripts
+  rename(asv = query_id)
+
+
+top500_notfish <- top500_mifish %>%
+  select(!(c(asv, subject, identity_percentage,
+             coverage, evalue, bitscore, source))) %>%
+  distinct() %>%
+  filter(!(class %in% c("Actinopteri", "Chondrichthyes"))) %>%
+  #add_count(species) %>%
+  # Clean 'species'
+  mutate(species = str_remove_all(species, "[[:digit:]]")) %>%
+  mutate(species = str_remove_all(species, "-")) %>%
+  mutate(species = str_remove_all(species, "_")) %>%
+  mutate(species = str_remove_all(species, "/")) %>%
+  mutate(species = str_remove_all(species, "=|#")) %>%
+  mutate(species = str_remove_all(species, "\\+")) %>%
+  mutate(species = str_remove_all(species, "\\(")) %>%
+  mutate(species = str_remove_all(species, "\\)")) %>%
+  mutate(species = str_remove_all(species, " clone | isolate ")) %>%
+  # remove sp. from the end
+  mutate(species = str_remove_all(species, "(sp\\.)$")) %>%
+  mutate(species = str_remove_all(species, "( sp)$")) %>%
+  mutate(species = str_remove_all(species, "(sp\\. )")) %>%
+  mutate(species = trimws(species)) %>%
+  # remove end of line whitespace
+  mutate(species = str_remove_all(species, "(\\.)")) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  # trim and four more (in case of 'words')
+  mutate(species = trimws(species)) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  # hanging single lowercase
+  mutate(species = str_remove_all(species, "( [a-z]{1})$")) %>%
+  # remove any final odd things
+  mutate(species = str_remove_all(species, "MFTa|DGba|DGbf|BTAi|CCBw|EcFYyyy|TSTBDca|IMFcl|VNCBb|SuiyoBathy| Asnod|LIQUID|PLATE| plate|MAFCa|ASIJul|KOVDTChl|LESlike|ANGSq| Parf| THAFd|PJOPDCyano| Golos|VGSb| Gutdb|CtaxPhil|NTBLa|AWSc|HBPUBa|VSGb")) %>%
+  mutate(species = str_remove_all(species, "enrichment culture| pv gladioli| nom nud|deepsea mussel NZ| canine oral taxon|Gigantidas vrijenhoeki |environmental sample|Maorithyas hadalis |Mytilidae morphotype BC| var minima| Ustrain|unidentified |uncultured| subdivision|Thyasira HH|( clone)$|McMurdo|Uncultured ")) %>%
+  mutate(species = str_remove_all(species, "DGGE gel band|DGGE band")) %>%
+  mutate(species = str_remove_all(species, "( of ).*")) %>%
+  mutate(species = str_remove_all(species, "( in:).*")) %>%
+  mutate(species = str_remove_all(species, "( pv ).*")) %>%
+  mutate(species = str_remove_all(species, " Fx|cfCal| Nc| Fuc| Ss| Get| Eyj| BWPh| xplvp| Bp| FXe| cv|( Ar)$| Sc| Ter| Devo| Hg| Hal| Ryu| Cs| Hel|( tb)$| HAestis| HAestIs|( Ps)$| P<gv>| odomo| Os| Sb| BSw| Mst| Fun|( dw)$| Cpac|( Sm)$| ABf| BSi| Dwab|( Se)$|ACa|ACb|ACc| Rb| Pch|( Ak)$|( Ch)$|( Kiy)$|( Ru)$|( Rud)$|MSwo|HaHa| kgm| BRa| AVa|( Pla)$|( Poly)$|( bac)$|( Bac)$| BSs|ADPe|( Oh)$|( Zo)$|( Sw)$|( Js)$|( Myt)$|( Och)$|( Sym)$|( ac)$|( Aw)$|( Ac)$| MLa| MLb| MLc|( Us)$|( Bio)$|( Sup)$| mtII | MLe| aff |Spedv|BGred|MMb|( Ua)$|( Yz)$|( Po)$|( Lz)$|( Tri)$|( Yd)$|( St)$|( Ant)$|ANTa|ANTb|( delici)$|( Lep)$|kpjf|Spegb|( Spong)$|( Ra)$|( Rs)$|( Phen)$|zdth|( Car)$")) %>%
+  mutate(species = trimws(species)) %>%
+  mutate(species = str_remove_all(species, "( bacterium)$")) %>%
+  mutate(species = str_remove_all(species, ":")) %>%
+  # remove four characters worth of capital letters from the end
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{2})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = str_remove_all(species, "([A-Z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  mutate(species = str_remove_all(species, "( sp)$")) %>%
+  mutate(species = str_remove_all(species, "( bacterium)$")) %>%
+  mutate(species = str_remove_all(species, "( [a-z]{1})$")) %>%
+  mutate(species = trimws(species)) %>%
+  filter(!(species == "")) %>%
+  # Get 10 of each 'species'
+  group_by(species) %>%
+  mutate(sp_num = 1:n()) %>%
+  ungroup() %>%
+  filter(sp_num <= 10) %>%
+  # retain fewer records for genera with MANY records
+  add_count(genus, name= "gen_num") %>%
+  filter(gen_num >= 75 & sp_num <= 3|gen_num <= 74 & sp_num <=10) %>%
+  # identify bacteria, plants to remove
+  mutate(extra_organism = ifelse((kingdom %in% c('Bacteria', 'Archaea', 'Heunggongvirae',
+                                                'Fungi', 'Viridiplantae') & sp_num >=4) |
+                                   phylum %in% c('Bacillariophyta', 'Foraminifera',
+                                                 'Rhodophyta', 'Euglenozoa', 'unknown phylum',
+                                                 'Oomycota') & sp_num >=4, 'y', 'n')) %>%
+  filter(extra_organism == 'n') %>%
+  select(!extra_organism) %>%
+  add_count(family, name = 'family_count') %>%
+  mutate(extra_organism = ifelse(((kingdom %in% c('Bacteria', 'Archaea', 'Heunggongvirae',
+                                                'Fungi', 'Viridiplantae') & 
+                                    sp_num >=3 & 
+                                    family_count >= 45) |
+                                   (phylum %in% c('Bacillariophyta', 'Foraminifera',
+                                                 'Rhodophyta', 'Euglenozoa', 'unknown phylum',
+                                                 'Oomycota') & sp_num >=3 &
+                                   family_count >= 45)), 'y', 'n')) %>%
+  filter(extra_organism == 'n') %>%
+  select(!c(family_count, gen_num, extra_organism)) %>%
+  add_count(class, name = 'class_count') %>%  
+  mutate(extra_organism = ifelse(((kingdom %in% c('Bacteria', 'Archaea', 'Heunggongvirae',
+                                                'Fungi', 'Viridiplantae') & 
+                                    sp_num >=2 & 
+                                    class_count >= 100) |
+                                   (phylum %in% c('Bacillariophyta', 'Foraminifera',
+                                                 'Rhodophyta', 'Euglenozoa', 'unknown phylum',
+                                                 'Oomycota') & sp_num >=2 &
+                                   class_count >= 100)), 'y', 'n')) %>%
+  filter(extra_organism == 'n')
+
+write_csv(top500_notfish, here('processeddata', 'species_lists', '20230904_12s_top-500_not-fish.csv'))
+
+```
+
